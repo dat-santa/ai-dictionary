@@ -4,7 +4,7 @@
 
 ![AI cổ điển và Generative AI](../../assets/diagrams/vi/generative-ai.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy so sánh nhà phê bình ẩm thực và đầu bếp. AI cổ điển giống nhà phê bình: nếm thử món ăn rồi gắn nhãn (*"hơi mặn"* hoặc *"5 sao"*). Còn generative AI giống đầu bếp: bạn yêu cầu *"làm giúp bữa tối chay nhanh gọn với cà chua"*, nó tự nấu ra một món mới từ đầu.
 

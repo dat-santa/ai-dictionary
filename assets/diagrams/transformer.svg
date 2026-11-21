@@ -44,7 +44,7 @@
 
   <!-- Step 3: Stacked Transformer Blocks -->
   <rect x="460" y="122" width="235" height="236" rx="16" fill="#ede9fe" class="stroke-main" />
-  <text class="box-title" x="577" y="152" text-anchor="middle">3. Transformer Blocks (×N)</text>
+  <text class="box-title" x="577" y="152" text-anchor="middle">3. Transformer (×N)</text>
   <rect x="480" y="170" width="195" height="72" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.8" />
   <text class="box-title" x="577" y="198" text-anchor="middle">Self-Attention</text>
   <text class="box-sub" x="577" y="220" text-anchor="middle">Tokens share context</text>

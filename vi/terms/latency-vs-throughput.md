@@ -4,7 +4,7 @@
 
 ![Độ trễ Latency và Thông lượng Throughput](../../assets/diagrams/vi/latency-vs-throughput.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy so sánh ca-nô cao tốc và phà lớn. Ca-nô có **latency** cực thấp — chở 1 khách ra đảo mất 3 phút. Phà lớn đi mất 10 phút mỗi chuyến (latency cao hơn), nhưng chở một lượt 500 khách — **throughput** khổng lồ.
 

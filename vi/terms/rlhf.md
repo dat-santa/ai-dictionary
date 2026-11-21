@@ -4,7 +4,7 @@
 
 ![Quy trình RLHF căn chỉnh theo đánh giá con người](../../assets/diagrams/vi/rlhf.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Một [LLM](llm.md) mới tiền huấn luyện xong chỉ biết viết tiếp văn bản mạng — bạn hỏi một câu, nó có thể in tiếp năm câu hỏi nữa thay vì trả lời.
 

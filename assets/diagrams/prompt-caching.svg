@@ -46,7 +46,7 @@
   <text class="mono" x="812" y="330" text-anchor="middle" fill="#065f46">Latency: 0.3s</text>
   <text class="box-sub" x="812" y="354" text-anchor="middle" fill="#065f46" font-weight="700">50–90% cheaper!</text>
 
-  <rect x="135" y="415" width="690" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="80" y="415" width="800" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="444" text-anchor="middle">Golden rule: Always place static instructions &amp; docs FIRST, dynamic timestamps/user inputs LAST</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>

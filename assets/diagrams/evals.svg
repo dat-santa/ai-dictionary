@@ -26,7 +26,7 @@
   <text class="box-sub" x="140" y="234" text-anchor="middle">+ edge cases +</text>
   <text class="box-sub" x="140" y="254" text-anchor="middle">expected answers</text>
   <rect x="65" y="274" width="150" height="42" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
-  <text class="mono" x="140" y="300" text-anchor="middle">cases.jsonl (n=100)</text>
+  <text class="mono" x="140" y="300" text-anchor="middle">cases.jsonl (100)</text>
 
   <line class="arrow" x1="235" y1="242" x2="275" y2="242" />
   <polyline class="arrow" points="265,234 276,242 265,250" />

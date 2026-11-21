@@ -4,7 +4,7 @@
 
 ![Quy trình Function Calling giữa App và LLM](../../assets/diagrams/vi/function-calling.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy hình dung một đầu bếp (LLM) không được phép tự bước vào kho lạnh. Bạn đưa cho họ danh sách các việc nhân viên phụ bếp làm được (`get_weather`, `query_order`). Khi khách hỏi *"Thời tiết Hà Nội hôm nay?"*, đầu bếp đưa lại tờ giấy ghi chuẩn: `get_weather(city="Hanoi")`.
 

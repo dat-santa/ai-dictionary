@@ -41,7 +41,7 @@
   <text class="mono" x="535" y="302" font-weight="700" fill="#065f46">Final Answer: 72 requests/sec ✓</text>
   <text class="box-sub" x="535" y="336" fill="#065f46" font-weight="700">Each step sits in context to guide the next</text>
 
-  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="100" y="420" width="760" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="449" text-anchor="middle">Trade-off: Higher accuracy on math, logic &amp; debugging — at the cost of extra output tokens</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>

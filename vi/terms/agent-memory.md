@@ -4,7 +4,7 @@
 
 ![Bộ nhớ ngắn hạn và dài hạn của Agent](../../assets/diagrams/vi/agent-memory.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 API của LLM giống một cố vấn giỏi nhưng mất sạch trí nhớ sau mỗi cuộc gọi. Trí nhớ ngắn hạn là tờ giấy nháp trên bàn trong cuộc gọi hiện tại (tin nhắn gần đây và biến tạm trong [context window](context-window.md) hoặc Redis).
 

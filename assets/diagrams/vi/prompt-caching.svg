@@ -44,7 +44,7 @@
   <text class="mono" x="812" y="330" text-anchor="middle" fill="#065f46">Độ trễ: 0.3 giây</text>
   <text class="box-sub" x="812" y="354" text-anchor="middle" fill="#065f46" font-weight="700">Rẻ hơn 50–90%!</text>
 
-  <rect x="135" y="415" width="690" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="80" y="415" width="800" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="444" text-anchor="middle">Nguyên tắc vàng: Luôn đặt luật tĩnh &amp; tài liệu LÊN TRƯỚC, ngày giờ động &amp; câu hỏi XUỐNG CUỐI</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>

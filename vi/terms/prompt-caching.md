@@ -4,7 +4,7 @@
 
 ![Prompt Caching tái sử dụng bộ nhớ phần đầu](../../assets/diagrams/vi/prompt-caching.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giả sử trợ lý lập trình của bạn gửi kèm [system prompt](system-prompt.md) và tài liệu dự án dài 10.000 [token](token.md) trong mọi tin nhắn. Nếu không cache, mô hình phải đọc lại từ đầu cả 10.000 token đó ở mỗi lượt hỏi.
 

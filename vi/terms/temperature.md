@@ -4,7 +4,7 @@
 
 ![Tham số Temperature trong LLM](../../assets/diagrams/vi/temperature.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng một vòng quay may mắn mà ô `"Paris"` chiếm 90% diện tích và `"Lyon"` chiếm 10%. Ở `temperature = 0`, mô hình ngừng quay và luôn chọn thẳng ô lớn nhất (`"Paris"`).
 

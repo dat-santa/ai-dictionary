@@ -56,7 +56,7 @@
   <text class="mono" x="792" y="288" text-anchor="middle">WHERE active = true;</text>
   <text class="box-sub" x="792" y="328" text-anchor="middle">No chatty filler!</text>
 
-  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="80" y="420" width="800" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="449" text-anchor="middle">Pitfall: Never store secrets (API keys, passwords) in a System Prompt — users can extract them</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>

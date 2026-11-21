@@ -4,7 +4,7 @@
 
 ![Hiện tượng Shadow AI tại nơi làm việc](../../assets/diagrams/vi/shadow-ai.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Nếu công ty cấm dùng lưu trữ đám mây nhưng không cấp giải pháp thay thế, nhân viên vẫn cần gửi file nặng — thế là họ tự dùng email cá nhân hoặc web chia sẻ file miễn phí.
 

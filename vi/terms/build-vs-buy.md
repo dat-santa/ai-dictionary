@@ -4,7 +4,7 @@
 
 ![So sánh Tự xây và Mua sẵn công cụ AI](../../assets/diagrams/vi/build-vs-buy.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Một công ty đang mở rộng cần xe giao hàng. Mua hoặc thuê xe có sẵn giúp bạn chạy được ngay ngày mai với chi phí dễ đoán. Tự thiết kế và sản xuất xe từ đầu chỉ hợp lý nếu bản thân chiếc xe là sản phẩm cốt lõi của bạn.
 

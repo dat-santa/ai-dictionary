@@ -4,7 +4,7 @@
 
 ![Lượng tử hóa mô hình từ FP16 xuống INT4](../../assets/diagrams/vi/quantization.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ tới việc lưu ảnh RAW máy cơ thành file JPEG chất lượng cao. Thay vì lưu các số thập phân siêu dài kiểu `0.38492017` cho từng tham số, quantization làm tròn trọng số về thang số nguyên 4-bit hoặc 8-bit gọn hơn.
 

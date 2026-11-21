@@ -4,7 +4,7 @@
 
 ![Cách AI Agent hoạt động](../../assets/diagrams/vi/ai-agent.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Một chatbot thông thường giống như người tư vấn qua điện thoại: bạn hỏi *"Tối nay ăn gì?"*, nó gợi ý 3 quán rồi bạn tự lo phần còn lại.
 

@@ -30,7 +30,7 @@
   <text class="wt-low" x="300" y="192" text-anchor="middle">0.02</text>
 
   <rect x="65" y="220" width="85" height="56" rx="10" fill="#f1f5f9" class="stroke-main" />
-  <text class="tok" x="107" y="254" text-anchor="middle">Đứng</text>
+  <text class="tok" x="107" y="254" text-anchor="middle">Ngồi</text>
 
   <rect x="170" y="220" width="110" height="56" rx="10" fill="#ede9fe" stroke="#6366f1" stroke-width="3" />
   <text class="tok" x="225" y="254" text-anchor="middle">bờ</text>

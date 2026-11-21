@@ -69,9 +69,9 @@ ai-dictionary/
 
 <Định nghĩa ngắn gọn 1-2 câu, không dùng từ chuyên ngành khó hiểu.>
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
-<Một tình huống quen thuộc trong cuộc sống hằng ngày.>
+<Một tình huống thực tế dễ hình dung trong đời sống hoặc công việc.>
 
 ## Đừng nhầm với
 

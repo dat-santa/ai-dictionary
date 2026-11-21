@@ -33,7 +33,7 @@
   <rect x="264" y="228" width="175" height="86" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5" />
   <text class="mono" x="351" y="252" text-anchor="middle">Lấy Top 50 ứng viên</text>
   <text class="box-sub" x="351" y="274" text-anchor="middle">Độ phủ cao, xếp hạng thô</text>
-  <text class="box-sub" x="351" y="294" text-anchor="middle">(Đoạn #14 có thể chuẩn nhất!)</text>
+  <text class="box-sub" x="351" y="294" text-anchor="middle">(#14 có thể chuẩn nhất!)</text>
 
   <line class="arrow" x1="459" y1="242" x2="497" y2="242" />
   <polyline class="arrow" points="487,234 498,242 487,250" />

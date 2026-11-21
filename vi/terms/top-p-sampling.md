@@ -4,7 +4,7 @@
 
 ![Lấy mẫu Top-p](../../assets/diagrams/vi/top-p-sampling.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giả sử bạn gõ *"Tôi uống một ly..."* và mô hình xếp hạng `"cà phê"` (45%), `"trà"` (30%), `"nước"` (15%), `"nước ép"` (7%) cùng hàng nghìn từ lạ như `"dung nham"` (0.01%).
 

@@ -4,7 +4,7 @@
 
 ![Structured Outputs ép chuẩn JSON Schema](../../assets/diagrams/vi/structured-outputs.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Việc nhắn nhủ mô hình *"Làm ơn chỉ trả về JSON"* giống như đưa tờ giấy trắng — sớm muộn nó cũng viết thêm `"Đây là JSON của bạn:"`, bọc dấu \`\`\`json hoặc trả `"28"` dạng chuỗi thay vì số nguyên, làm `JSON.parse()` văng lỗi.
 

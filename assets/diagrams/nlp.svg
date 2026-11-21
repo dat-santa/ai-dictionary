@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="NLP: Teaching Computers Human Language">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 26px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13.5px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .warn { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #991b1b; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+  <text class="title" x="480" y="56" text-anchor="middle">NLP: Teaching Computers Human Language</text>
+  <text class="subtitle" x="480" y="84" text-anchor="middle">Natural Language Processing covers every way AI reads, translates, and writes.</text>
+  <rect x="60" y="128" width="405" height="118" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="262" y="166" text-anchor="middle">Classification</text>
+  <text class="box-sub" x="262" y="196" text-anchor="middle">Spam filters &amp; sorting</text>
+  <text class="box-sub" x="262" y="220" text-anchor="middle">support tickets by topic</text>
+  <rect x="495" y="128" width="405" height="118" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="697" y="166" text-anchor="middle">Translation</text>
+  <text class="box-sub" x="697" y="196" text-anchor="middle">Turning menus, docs, and</text>
+  <text class="box-sub" x="697" y="220" text-anchor="middle">speech across languages</text>
+  <rect x="60" y="268" width="405" height="118" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="262" y="306" text-anchor="middle">Extraction</text>
+  <text class="box-sub" x="262" y="336" text-anchor="middle">Pulling dates, names, and</text>
+  <text class="box-sub" x="262" y="360" text-anchor="middle">totals out of invoices</text>
+  <rect x="495" y="268" width="405" height="118" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="697" y="306" text-anchor="middle">Generation (LLMs)</text>
+  <text class="box-sub" x="697" y="336" text-anchor="middle">Drafting emails, summaries,</text>
+  <text class="box-sub" x="697" y="360" text-anchor="middle">and full conversations</text>
+  <rect x="80" y="418" width="800" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="447" text-anchor="middle">NLP is the 70-year field; modern LLMs unified most NLP tasks into one engine</text>
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

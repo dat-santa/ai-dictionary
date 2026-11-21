@@ -4,7 +4,7 @@
 
 ![Quy trình Human-in-the-Loop](../../assets/diagrams/vi/human-in-the-loop.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ đến chế độ lái tự động trên máy bay. Hệ thống tự động giữ máy bay bay ổn định suốt nhiều giờ, nhưng phi công vẫn ngồi trong buồng lái để theo dõi thông số, xử lý thời tiết xấu và quyết định lúc hạ cánh.
 

@@ -4,7 +4,7 @@
 
 ![Kiến trúc Transformer](../../assets/diagrams/vi/transformer.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Các mô hình đời cũ (RNN) đọc chữ giống như người nhìn qua lỗ khóa, trượt từng từ một trên trang giấy — vừa chậm vừa dễ quên mất đầu câu nếu đoạn văn dài.
 

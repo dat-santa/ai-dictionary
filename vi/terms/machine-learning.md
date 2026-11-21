@@ -4,7 +4,7 @@
 
 ![Cách Machine Learning hoạt động](../../assets/diagrams/vi/machine-learning.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng bạn dạy một em bé phân biệt chó và mèo. Bạn không hề viết sách quy tắc kiểu *"nếu tai nhọn và mũi ngắn thì là mèo"*. Bạn chỉ chỉ vào hàng trăm tấm ảnh và nói *"đây là mèo"*, *"đây là chó"*. Chẳng bao lâu sau, em bé tự nhận ra một chú mèo lạ chưa từng thấy bao giờ.
 

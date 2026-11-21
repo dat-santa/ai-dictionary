@@ -4,7 +4,7 @@
 
 ![Bảo mật dữ liệu giữa bản miễn phí và bản doanh nghiệp](../../assets/diagrams/vi/data-privacy.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Viết bảng lương khách hàng lên tấm bảng trắng ở quán cà phê công cộng rất khác với việc khóa nó trong két sắt văn phòng.
 

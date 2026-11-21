@@ -4,7 +4,7 @@
 
 ![Đo lường AI ROI: Giá trị và Tổng chi phí](../../assets/diagrams/vi/ai-roi.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giả sử một công cụ chăm sóc khách hàng tốn 500 USD/tháng và mất 40 giờ cài đặt. Nếu nó chỉ giúp đội ngũ tiết kiệm 2 giờ mỗi tháng, bài toán kinh tế rõ ràng không có lãi.
 

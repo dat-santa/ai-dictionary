@@ -4,7 +4,7 @@
 
 ![System Prompt và User Prompt trong payload API](../../assets/diagrams/vi/system-prompt.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy xem system prompt như cuốn sổ tay nội quy đưa riêng cho nhân viên hỗ trợ trước giờ mở cửa: *"Trả lời ngắn gọn, chỉ xuất câu lệnh PostgreSQL hợp lệ và tuyệt đối không đoán tên bảng."*
 

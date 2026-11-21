@@ -42,7 +42,7 @@
 
   <text class="box-sub" x="702" y="362" text-anchor="middle" font-weight="700">Quan trọng cho: Chạy evals, xử lý lô, job ban đêm</text>
 
-  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="95" y="420" width="770" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="449" text-anchor="middle">Đánh đổi: Gộp batch lớn tăng throughput và giảm chi phí, nhưng độ trễ mỗi người tăng nhẹ</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>

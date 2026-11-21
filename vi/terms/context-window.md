@@ -4,7 +4,7 @@
 
 ![Ví dụ bàn làm việc về Context Window](../../assets/diagrams/vi/context-window.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy hình dung context window giống như mặt bàn làm việc của AI. Hướng dẫn ban đầu, file PDF bạn gửi lên và các tin nhắn gần đây đều được trải trên mặt bàn đó.
 

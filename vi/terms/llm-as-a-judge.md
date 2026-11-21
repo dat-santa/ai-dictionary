@@ -4,7 +4,7 @@
 
 ![Dùng LLM-as-a-Judge chấm điểm tự động](../../assets/diagrams/vi/llm-as-a-judge.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Code kiểm tra được JSON có hợp lệ không, nhưng regex bó tay trước câu hỏi *"Thư trả lời có lịch sự và trích đúng chính sách trang 4 không?"*. Thuê người chấm 2.000 câu sau mỗi pull request thì mất nhiều ngày.
 

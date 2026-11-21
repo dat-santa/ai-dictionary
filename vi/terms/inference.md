@@ -4,7 +4,7 @@
 
 ![Giai đoạn Training và Inference](../../assets/diagrams/vi/inference.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Training giống 4 năm học đại học — đắt đỏ, kéo dài và chỉ làm ít lần. Inference giống việc đi làm hằng ngày, vận dụng kiến thức đã học để giải quyết câu hỏi mới.
 

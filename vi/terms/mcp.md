@@ -4,7 +4,7 @@
 
 ![Chuẩn kết nối MCP Model Context Protocol](../../assets/diagrams/vi/mcp.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Trước khi có USB-C, mỗi hãng điện thoại và laptop đòi một đầu sạc riêng. Trước khi có MCP, muốn nối 5 app AI tới 10 công cụ nội bộ (GitHub, Postgres, Slack, Notion) bạn phải viết 50 đoạn code nối riêng lẻ.
 

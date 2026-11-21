@@ -29,7 +29,7 @@
   <text class="box-sub" x="700" y="260" text-anchor="middle">✓ Đổi mô hình AI bất kỳ lúc nào</text>
   <text class="box-sub" x="700" y="290" text-anchor="middle">✓ Chủ động đàm phán giá &amp; tốc độ</text>
 
-  <rect x="195" y="410" width="570" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="130" y="410" width="700" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="440" text-anchor="middle">Giữ quyền sở hữu dữ liệu &amp; prompt — coi mô hình AI như động cơ thay thế được</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>

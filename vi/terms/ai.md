@@ -4,7 +4,7 @@
 
 ![Phần mềm truyền thống và AI](../../assets/diagrams/vi/ai.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ tới sự khác biệt giữa máy bán nước tự động và một người pha chế. Máy bán nước làm theo quy tắc cố định: bạn bấm `B4`, máy nhả chai nước. Còn người pha chế nghe bạn nói *"cho ly gì mát mát, ít ngọt"* và tự biết cách pha dựa trên kinh nghiệm.
 

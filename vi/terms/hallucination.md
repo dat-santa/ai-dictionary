@@ -4,7 +4,7 @@
 
 ![Hiện tượng AI Hallucination](../../assets/diagrams/vi/hallucination.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng bạn hỏi đường một người mới quen rất khéo ăn nói ở thành phố họ không rành. Thay vì thừa nhận *"Mình không chắc lắm"*, họ tự nghĩ ra một tên đường nghe rất hợp lý rồi chỉ tay đầy tự tin.
 

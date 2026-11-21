@@ -4,7 +4,7 @@
 
 ![Tìm kiếm lai Hybrid Search BM25 và Vector](../../assets/diagrams/vi/hybrid-search.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giả sử người dùng tra tài liệu kỹ thuật với cụm `"Lỗi E-402 rớt thanh toán"`. Tìm kiếm vector hiểu `"rớt thanh toán"` gần nghĩa với `"timeout cổng trả tiền"`, nhưng có thể xếp sai trang vì `"E-402"` là mã tự đặt. Ngược lại, tìm kiếm từ khóa (`BM25`) bắt dính `"E-402"` ngay lập tức.
 

@@ -4,7 +4,7 @@
 
 ![Vòng lặp ReAct Thought Action Observation](../../assets/diagrams/vi/react-pattern.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ tới lúc bạn debug một lỗi trên production. Bạn không đoán mò cách sửa ngay từ dòng đầu — bạn nghĩ (*"Kiểm tra log lỗi trước"*), hành động (`tail -n 50 app.log`), quan sát (`NullPointerException ở dòng 42`), rồi mới nghĩ bước sửa tiếp theo.
 

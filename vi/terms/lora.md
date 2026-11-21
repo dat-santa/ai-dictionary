@@ -4,7 +4,7 @@
 
 ![Tinh chỉnh nhẹ bằng LoRA](../../assets/diagrams/vi/lora.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Thay vì tháo tung cả động cơ 7 tỷ tham số để lắp thêm kỹ năng mới (đòi hỏi cụm GPU đắt đỏ), LoRA gắn thêm hai ma trận gọn nhẹ (`A × B`) chỉ chiếm khoảng ~0.5% tổng số tham số.
 

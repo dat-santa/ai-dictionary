@@ -4,7 +4,7 @@
 
 ![Cách LLM hoạt động](../../assets/diagrams/vi/llm.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ đến tính năng gợi ý từ trên bàn phím điện thoại, nhưng phóng đại lên gấp hàng triệu lần. Khi bạn gõ *"Bầu trời hôm nay..."*, điện thoại đoán tiếp *"xanh ngắt"* hoặc *"nhiều mây"*.
 

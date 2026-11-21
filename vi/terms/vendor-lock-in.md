@@ -4,7 +4,7 @@
 
 ![So sánh Phụ thuộc nhà cung cấp và Thiết lập linh hoạt](../../assets/diagrams/vi/vendor-lock-in.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ đến việc mua máy pha cà phê chỉ dùng được viên nén độc quyền của một hãng. Lúc đầu máy rất rẻ, nhưng khi cả văn phòng đã quen dùng, bạn buộc phải chấp nhận mọi mức giá viên nén mà hãng đó đưa ra.
 

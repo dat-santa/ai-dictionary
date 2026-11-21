@@ -4,7 +4,7 @@
 
 ![Hàng rào bảo vệ AI Guardrails](../../assets/diagrams/vi/guardrails.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ đến lan can thép dọc đường đèo. Lan can không lái xe thay bạn, nhưng nếu xe lỡ chệch hướng về phía vực, nó sẽ giữ xe an toàn trên mặt đường.
 

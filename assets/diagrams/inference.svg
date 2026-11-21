@@ -24,7 +24,7 @@
   <text class="card-title" x="220" y="162" text-anchor="middle">Training (Done Once / Rarely)</text>
   <rect x="78" y="182" width="284" height="72" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5" />
   <text class="box-title" x="220" y="208" text-anchor="middle">Updates Billions of Weights</text>
-  <text class="box-sub" x="220" y="232" text-anchor="middle">Forward + Backward pass + Gradient descent</text>
+  <text class="box-sub" x="220" y="232" text-anchor="middle">Forward + Backward + Gradients</text>
   <text class="box-sub" x="220" y="286" text-anchor="middle">• Takes weeks/months on GPU clusters</text>
   <text class="box-sub" x="220" y="310" text-anchor="middle">• Costs millions of dollars</text>
   <text class="box-sub" x="220" y="334" text-anchor="middle">• Output: Fixed model checkpoint</text>

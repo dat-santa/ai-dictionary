@@ -4,7 +4,7 @@
 
 ![Đo góc tương đồng Cosine Similarity](../../assets/diagrams/vi/cosine-similarity.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giả sử một vector đại diện cho câu ngắn `"đặt lại mật khẩu"` và vector kia đại diện cho bài hướng dẫn dài 500 chữ về *"xử lý khi quên đăng nhập"*. Độ dài hai mũi tên chênh nhau nhiều, nhưng cả hai cùng chỉ gần về một hướng (góc `14°`, cosine `0.97`).
 

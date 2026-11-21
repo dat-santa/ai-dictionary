@@ -48,7 +48,7 @@
   <text class="box-title" x="772" y="190" text-anchor="middle">Structured Verdict</text>
   <rect x="658" y="208" width="229" height="130" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
   <text class="mono" x="672" y="232">{</text>
-  <text class="mono" x="672" y="254">  "reason": "Cites policy p.4",</text>
+  <text class="mono" x="672" y="254">  "reason": "Cites p.4",</text>
   <text class="mono" x="672" y="276">  "hallucinated": false,</text>
   <text class="mono" x="672" y="298">  "score": 5</text>
   <text class="mono" x="672" y="320">}</text>

@@ -44,7 +44,7 @@
 
   <text class="box-sub" x="702" y="362" text-anchor="middle" font-weight="700">Matters most for: Bulk indexing, evals, overnight jobs</text>
 
-  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <rect x="70" y="420" width="820" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
   <text class="badge" x="480" y="449" text-anchor="middle">Classic trade-off: Larger batches boost throughput &amp; lower cost, but slightly raise per-user latency</text>
 
   <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>

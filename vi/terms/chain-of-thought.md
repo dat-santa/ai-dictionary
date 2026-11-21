@@ -4,7 +4,7 @@
 
 ![Suy luận từng bước Chain of Thought](../../assets/diagrams/vi/chain-of-thought.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Nếu ai đó hỏi *"15 × 4 + 12 bằng bao nhiêu?"* và bắt bạn hô ngay một con số trong 1 giây, bạn rất dễ tính nhẩm nhầm. Ghi ra nháp *"Bước 1: 15 × 4 = 60. Bước 2: 60 + 12 = 72"* giúp tránh sai sót ngớ ngẩn.
 

@@ -4,7 +4,7 @@
 
 ![Điều phối hệ thống AI Orchestration](../../assets/diagrams/vi/orchestration.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Ép một prompt duy nhất tự phân loại ý định, tìm tài liệu, xuất JSON và gửi email giống như bắt một nhạc công chơi cùng lúc năm nhạc cụ.
 

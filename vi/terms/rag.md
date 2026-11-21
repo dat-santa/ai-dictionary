@@ -4,7 +4,7 @@
 
 ![Cách RAG hoạt động như thi mở sách](../../assets/diagrams/vi/rag.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy so sánh giữa thi đóng sách và thi mở sách. Một [LLM](llm.md) thông thường giống như thí sinh thi đóng sách: nếu quên chính sách hoàn tiền của công ty bạn, nó có thể đoán bừa và gây ra [hallucination](hallucination.md).
 

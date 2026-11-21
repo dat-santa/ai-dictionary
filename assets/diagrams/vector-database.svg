@@ -23,7 +23,7 @@
   <rect x="45" y="145" width="195" height="190" rx="14" fill="#dbeafe" class="stroke-main" />
   <text class="box-title" x="142" y="182" text-anchor="middle">1. Query + Filter</text>
   <rect x="62" y="202" width="161" height="52" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
-  <text class="mono" x="142" y="224" text-anchor="middle">q_vec: [0.41, -0.2...]</text>
+  <text class="mono" x="142" y="224" text-anchor="middle">q: [0.41, -0.2...]</text>
   <text class="box-sub" x="142" y="244" text-anchor="middle">Embedded question</text>
   <rect x="62" y="266" width="161" height="48" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
   <text class="mono" x="142" y="287" text-anchor="middle">WHERE org="acme"</text>

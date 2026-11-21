@@ -52,6 +52,36 @@ Cuốn từ điển trên [datsanta.com/books/tu-dien-ai](https://datsanta.com/b
 - [RAG](vi/terms/rag.md)
 - [Fine-tuning](vi/terms/fine-tuning.md)
 - [AI Agent](vi/terms/ai-agent.md)
+- [Neural Network (Mạng nơ-ron)](vi/terms/neural-network.md)
+- [Deep Learning (Học sâu)](vi/terms/deep-learning.md)
+- [Training Data (Dữ liệu huấn luyện)](vi/terms/training-data.md)
+- [Dataset (Tập dữ liệu)](vi/terms/dataset.md)
+- [Parameters (Tham số mô hình)](vi/terms/parameters.md)
+- [Foundation Model (Mô hình nền tảng)](vi/terms/foundation-model.md)
+- [Chatbot](vi/terms/chatbot.md)
+- [Copilot (Trợ lý đồng hành)](vi/terms/copilot.md)
+- [Multimodal AI (AI đa phương thức)](vi/terms/multimodal-ai.md)
+- [Prompt Engineering (Kỹ năng viết Prompt)](vi/terms/prompt-engineering.md)
+- [Zero-shot](vi/terms/zero-shot.md)
+- [Reasoning Model (Mô hình suy luận)](vi/terms/reasoning-model.md)
+- [Computer Vision (Thị giác máy tính)](vi/terms/computer-vision.md)
+- [NLP (Xử lý ngôn ngữ tự nhiên)](vi/terms/nlp.md)
+- [Diffusion Model (Mô hình khuếch tán)](vi/terms/diffusion-model.md)
+- [Text-to-Image (Chuyển chữ thành ảnh)](vi/terms/text-to-image.md)
+- [Speech-to-Text (Chuyển giọng nói thành chữ)](vi/terms/speech-to-text.md)
+- [Text-to-Speech (Chuyển chữ thành giọng nói)](vi/terms/text-to-speech.md)
+- [AI Bias (Thiên kiến AI)](vi/terms/ai-bias.md)
+- [Deepfake](vi/terms/deepfake.md)
+- [AI Alignment (Căn chỉnh AI)](vi/terms/ai-alignment.md)
+- [Jailbreak (Vượt rào AI)](vi/terms/jailbreak.md)
+- [Knowledge Cutoff (Mốc giới hạn kiến thức)](vi/terms/knowledge-cutoff.md)
+- [AI Watermark (Dấu nhận diện AI)](vi/terms/ai-watermark.md)
+- [Open-Source AI (AI mã nguồn mở)](vi/terms/open-source-ai.md)
+- [Local AI (AI chạy tại máy)](vi/terms/local-ai.md)
+- [Cloud AI (AI đám mây)](vi/terms/cloud-ai.md)
+- [Benchmark (Bài kiểm tra chuẩn)](vi/terms/benchmark.md)
+- [AGI (Trí tuệ nhân tạo tổng quát)](vi/terms/agi.md)
+- [AI Literacy (Năng lực hiểu biết AI)](vi/terms/ai-literacy.md)
 
 **Phần 2: AI cho Kinh doanh (Nền tảng cần biết cho Business)**
 
@@ -102,7 +132,7 @@ Cuốn từ điển trên [datsanta.com/books/tu-dien-ai](https://datsanta.com/b
 ## Cấu trúc mỗi thuật ngữ
 
 1. **Định nghĩa ngắn gọn**: một hoặc hai câu, không dùng từ chuyên ngành khó hiểu.
-2. **Ví dụ đời thường**: một tình huống quen thuộc trong cuộc sống hằng ngày.
+2. **Ví dụ thực tế**: một tình huống cụ thể trong đời sống hoặc công việc.
 3. **Đừng nhầm với**: những thuật ngữ na ná mà người đọc hay lẫn lộn.
 4. **Thuật ngữ liên quan**: liên kết tới các khái niệm kế cận.
 

@@ -49,7 +49,7 @@ A short, concrete example from daily life.
 - [Neighbouring term](neighbouring-term.md)
 ```
 
-*(For Vietnamese entries, use the headings: `## Ví dụ đời thường`, `## Đừng nhầm với`, `## Thuật ngữ liên quan`.)*
+*(For Vietnamese entries, use the headings: `## Ví dụ thực tế`, `## Đừng nhầm với`, `## Thuật ngữ liên quan`.)*
 
 ---
 

@@ -4,7 +4,7 @@
 
 ![Prompt mơ hồ và Prompt rõ ràng](../../assets/diagrams/vi/prompt.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Giao tiếp với AI giống như giao việc cho một trợ lý mới. Nếu bạn chỉ nói *"Viết giúp email cho sếp"*, kết quả nhận về sẽ rất chung chung và sáo rỗng. Nhưng nếu bạn nói *"Viết email ngắn dưới 80 chữ, giọng lịch sự, xin sếp nghỉ phép ngày thứ Sáu để dự đám cưới gia đình"*, bạn sẽ có ngay bản nháp gửi đi được luôn.
 

@@ -4,7 +4,7 @@
 
 ![3 trụ cột của AI Governance](../../assets/diagrams/vi/ai-governance.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ đến luật giao thông, dây an toàn và bằng lái xe. Chúng không sinh ra để cấm xe chạy — mà để mọi người đi nhanh hơn mà không đâm vào nhau.
 

@@ -4,7 +4,7 @@
 
 ![So sánh HTTP chờ toàn bộ và Streaming SSE](../../assets/diagrams/vi/streaming.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy so sánh việc tải trọn bộ phim rồi mới xem khung hình đầu tiên với việc xem trực tuyến trên Netflix. Nếu gọi HTTP chặn chờ (`stream: false`), người dùng phải nhìn vòng xoay tải suốt 5 giây đến khi sinh đủ 200 token.
 

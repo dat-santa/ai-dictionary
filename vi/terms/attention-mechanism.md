@@ -4,9 +4,9 @@
 
 ![Cơ chế Attention phân giải ngữ cảnh](../../assets/diagrams/vi/attention-mechanism.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
-Khi đọc câu *"Đứng bờ cạnh con sông đầy bùn đất"*, não bạn lập tức nối chữ *"bờ"* với *"sông"* chứ không nghĩ sang *"bờ vai"* hay *"bờ rào"*.
+Khi đọc câu *"Ngồi trên bờ cạnh con sông đầy bùn"*, não bạn lập tức nối chữ *"bờ"* với *"sông"* chứ không nghĩ sang *"bờ vai"* hay *"bờ rào"*.
 
 Self-attention làm điều này bằng toán học thông qua 3 ma trận **Query, Key, Value**. Token `"bờ"` phát ra Query; `"sông"` khớp với Key tương ứng và nhận trọng số cao (`0.78`), trộn trực tiếp ngữ cảnh sông nước vào biểu diễn của chữ `"bờ"`.
 

@@ -4,7 +4,7 @@
 
 ![Quy trình AI Workflow tự động](../../assets/diagrams/vi/ai-workflow.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Việc copy từng email khách hàng dán vào ChatGPT, chờ trả lời rồi copy ngược lại vào phần mềm hỗ trợ giống như xách nước bằng xô.
 

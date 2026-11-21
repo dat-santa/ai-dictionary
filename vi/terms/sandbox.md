@@ -4,7 +4,7 @@
 
 ![Môi trường cách ly Sandbox chạy code AI](../../assets/diagrams/vi/sandbox.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Để LLM viết code Python hay Bash rồi gọi thẳng `exec()` trên backend production chẳng khác nào đưa chìa khóa database và file `.env` cho người lạ.
 

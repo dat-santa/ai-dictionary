@@ -4,7 +4,7 @@
 
 ![Cách Fine-tuning hoạt động](../../assets/diagrams/vi/fine-tuning.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ tới một bác sĩ đa khoa mới tốt nghiệp bắt đầu học chuyên khoa tim mạch. Họ đã nắm vững kiến thức y khoa nền tảng, nên bạn không cần dạy lại từ đầu — chỉ cần cho thực hành chuyên sâu vào một lĩnh vực cụ thể.
 

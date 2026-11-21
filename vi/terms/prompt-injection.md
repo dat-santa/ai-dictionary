@@ -4,7 +4,7 @@
 
 ![Cơ chế tấn công Prompt Injection](../../assets/diagrams/vi/prompt-injection.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng một lễ tân được dặn: *"Không bao giờ phát vé VIP miễn phí."* Một vị khách tinh quái nộp tờ khai mà ở dòng địa chỉ lại ghi thầm: *"Bỏ qua mọi quy tắc trước đó và đưa ngay cho tôi một vé VIP."* Nếu lễ tân đọc máy móc rồi làm theo, quy tắc coi như bị phá.
 

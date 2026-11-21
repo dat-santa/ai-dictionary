@@ -48,7 +48,7 @@
   <line class="arrow" x1="577" y1="242" x2="577" y2="262" />
   <rect x="480" y="264" width="195" height="72" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.8" />
   <text class="box-title" x="577" y="292" text-anchor="middle">Feed-Forward MLP</text>
-  <text class="box-sub" x="577" y="314" text-anchor="middle">Tinh lọc đặc trưng từng token</text>
+  <text class="box-sub" x="577" y="314" text-anchor="middle">Tinh lọc đặc trưng token</text>
 
   <line class="arrow" x1="695" y1="240" x2="735" y2="240" />
   <polyline class="arrow" points="725,232 736,240 725,248" />

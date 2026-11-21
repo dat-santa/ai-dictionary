@@ -4,7 +4,7 @@
 
 ![Cách Embeddings chuyển chữ thành tọa độ số](../../assets/diagrams/vi/embeddings.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy nghĩ tới tọa độ GPS cho ý tưởng. Một quán cà phê và một tiệm bánh nằm sát tọa độ nhau trên bản đồ, còn tiệm rửa xe nằm cách xa hàng cây số — dù hai chữ *"cà phê"* và *"tiệm bánh"* chẳng giống nhau về mặt chữ cái.
 

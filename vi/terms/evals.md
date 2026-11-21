@@ -4,7 +4,7 @@
 
 ![Quy trình kiểm thử tự động Evals cho LLM](../../assets/diagrams/vi/evals.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Lập trình viên không bao giờ sửa code backend, test bằng mắt 1 ca rồi deploy thẳng — vậy mà nhiều nhóm sửa [prompt](prompt.md) xong chỉ thử 3 câu ("vibe check") là đẩy lên chạy thật.
 

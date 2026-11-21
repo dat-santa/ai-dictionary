@@ -4,7 +4,7 @@
 
 ![So sánh Zero-shot và Few-shot Prompting](../../assets/diagrams/vi/few-shot-prompting.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Nếu bạn chỉ dặn thực tập sinh *"Phân loại giúp các ticket lỗi này"* (zero-shot), mỗi lúc họ sẽ ghi một kiểu. Nhưng nếu đưa sẵn 3 thẻ mẫu — `"Thanh toán chậm" → [PERF | P2]`, `"Sai tổng tiền" → [BILL | P1]`, `"Sai chính tả" → [UI | P3]` — họ sẽ làm đúng chuẩn ngay lập tức.
 

@@ -4,7 +4,7 @@
 
 ![Chia nhỏ tài liệu Chunking cho RAG](../../assets/diagrams/vi/chunking.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Nếu bạn xay nhuyễn cả cuốn sách dạy nấu ăn thành đúng 1 vector, khi tìm `"nước sốt mì Ý"` kết quả sẽ rất nhiễu. Hãy cắt sách thành từng công thức riêng dài 300–800 [token](token.md), mỗi truy vấn sẽ trúng phóc đúng món bạn cần.
 

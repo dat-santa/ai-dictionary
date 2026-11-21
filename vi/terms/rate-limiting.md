@@ -4,7 +4,7 @@
 
 ![Giới hạn tần suất Rate Limiting RPM và TPM](../../assets/diagrams/vi/rate-limiting.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng trạm thu phí cao tốc có 2 luật: tối đa số xe qua trạm mỗi phút (`RPM`) và tối đa tổng tải trọng mỗi phút (`TPM`). Nếu bạn bắn 50 prompt khổng lồ dài 20.000 token cùng lúc, bạn sẽ đụng trần `TPM` rất lâu trước khi chạm ngưỡng `RPM`.
 

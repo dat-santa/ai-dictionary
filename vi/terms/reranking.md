@@ -4,7 +4,7 @@
 
 ![Tìm kiếm 2 vòng với Reranking](../../assets/diagrams/vi/reranking.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy hình dung quy trình tuyển dụng. Vòng 1 (tìm nhanh qua [vector search](vector-database.md) hoặc [hybrid search](hybrid-search.md)) quét 10.000 hồ sơ trong 15ms để nhặt ra 50 ứng viên tiềm năng.
 

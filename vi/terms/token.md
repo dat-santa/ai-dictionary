@@ -4,7 +4,7 @@
 
 ![Cách AI tách văn bản thành các token](../../assets/diagrams/vi/token.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Bạn có thể hình dung token giống như những mảnh Lego ghép thành chữ. Một từ ngắn như `"cat"` là 1 mảnh Lego, còn từ dài như `"Unbelievable!"` sẽ bị tách thành 4 mảnh nhỏ: `Un` + `believ` + `able` + `!`.
 

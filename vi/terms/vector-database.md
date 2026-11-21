@@ -4,7 +4,7 @@
 
 ![Cơ sở dữ liệu Vector Database](../../assets/diagrams/vi/vector-database.svg)
 
-## Ví dụ đời thường
+## Ví dụ thực tế
 
 Hãy tưởng tượng một thư viện sắp sách lên kệ 3D theo chủ đề thay vì xếp theo chữ cái A–Z. Thay vì đi bộ qua từng cuốn sách để dò (quét toàn bộ rất chậm), chỉ mục đồ thị `HNSW` giống như thang máy tốc hành nhảy thẳng tới đúng khu vực cần tìm.
 
