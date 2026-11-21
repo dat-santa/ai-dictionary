@@ -42,12 +42,19 @@ Want the complete edition (**Beginner + Educator + Coder + Business**)?
 
 > Work in progress. Terms are added section by section.
 
-**Section 1: The basics**
+**Section 1: The basics (Must-read for beginners)**
 
 - [AI](terms/ai.md)
-- [LLM](terms/llm.md)
+- [Machine Learning](terms/machine-learning.md)
 - [Generative AI](terms/generative-ai.md)
+- [LLM](terms/llm.md)
 - [Token](terms/token.md)
+- [Prompt](terms/prompt.md)
+- [Context Window](terms/context-window.md)
+- [Hallucination](terms/hallucination.md)
+- [RAG](terms/rag.md)
+- [Fine-tuning](terms/fine-tuning.md)
+- [AI Agent](terms/ai-agent.md)
 
 ## Each term follows one template
 

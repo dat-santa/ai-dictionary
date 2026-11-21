@@ -17,6 +17,6 @@ Các công cụ AI đo độ dài hội thoại và tính chi phí dựa trên s
 
 ## Thuật ngữ liên quan
 
-- **LLM** *(sắp ra mắt)*
-- **Context window** *(sắp ra mắt)*
-- **Prompt** *(sắp ra mắt)*
+- [LLM](llm.md)
+- [Context window](context-window.md)
+- [Prompt](prompt.md)

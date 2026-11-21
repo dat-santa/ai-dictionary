@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Traditional AI vs Generative AI">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 21px; font-weight: 700; fill: #1e293b; }
+      .box-text { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; font-weight: 600; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Classic AI vs. Generative AI</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Classic AI sorts and predicts. Generative AI creates brand-new content.</text>
+
+  <!-- Left Card: Classic AI -->
+  <rect x="65" y="135" width="390" height="325" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <text class="card-title" x="260" y="176" text-anchor="middle">Classic AI (Analyzes)</text>
+
+  <rect x="115" y="202" width="290" height="64" rx="12" fill="#dbeafe" class="stroke-main" />
+  <text class="box-text" x="260" y="232" text-anchor="middle">Existing Email or Photo</text>
+  <text class="box-sub" x="260" y="252" text-anchor="middle">Input to inspect</text>
+
+  <line class="arrow" x1="260" y1="266" x2="260" y2="314" />
+  <polyline class="arrow" points="252,304 260,315 268,304" />
+
+  <rect x="115" y="320" width="290" height="90" rx="12" fill="#fef3c7" class="stroke-main" />
+  <text class="box-text" x="260" y="356" text-anchor="middle">Label / Score</text>
+  <text class="box-sub" x="260" y="382" text-anchor="middle">"Spam" or "Not Spam"</text>
+
+  <!-- Right Card: Generative AI -->
+  <rect x="505" y="135" width="390" height="325" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <text class="card-title" x="700" y="176" text-anchor="middle">Generative AI (Creates)</text>
+
+  <rect x="555" y="202" width="290" height="64" rx="12" fill="#ede9fe" class="stroke-main" />
+  <text class="box-text" x="700" y="232" text-anchor="middle">Short Prompt</text>
+  <text class="box-sub" x="700" y="252" text-anchor="middle">"Write a polite reply..."</text>
+
+  <line class="arrow" x1="700" y1="266" x2="700" y2="314" />
+  <polyline class="arrow" points="692,304 700,315 708,304" />
+
+  <rect x="555" y="320" width="290" height="90" rx="12" fill="#d1fae5" class="stroke-main" />
+  <text class="box-text" x="700" y="356" text-anchor="middle">Brand-New Content</text>
+  <text class="box-sub" x="700" y="382" text-anchor="middle">Text, images, code, audio</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

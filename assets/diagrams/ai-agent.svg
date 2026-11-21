@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="How an AI Agent works">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">How an AI Agent Works</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">A chatbot only replies with text. An AI agent plans steps and uses tools to get work done.</text>
+
+  <!-- Step 1: Goal -->
+  <rect x="55" y="175" width="175" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="142" y="220" text-anchor="middle">1. Goal</text>
+  <text class="box-sub" x="142" y="248" text-anchor="middle">"Book my flight</text>
+  <text class="box-sub" x="142" y="266" text-anchor="middle">for next Monday"</text>
+
+  <line class="arrow" x1="230" y1="232" x2="275" y2="232" />
+  <polyline class="arrow" points="265,224 276,232 265,240" />
+
+  <!-- Step 2: Plan -->
+  <rect x="280" y="175" width="175" height="115" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="367" y="220" text-anchor="middle">2. Plan</text>
+  <text class="box-sub" x="367" y="248" text-anchor="middle">Breaks task into</text>
+  <text class="box-sub" x="367" y="266" text-anchor="middle">small steps</text>
+
+  <line class="arrow" x1="455" y1="232" x2="500" y2="232" />
+  <polyline class="arrow" points="490,224 501,232 490,240" />
+
+  <!-- Step 3: Use Tools -->
+  <rect x="505" y="175" width="185" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="597" y="220" text-anchor="middle">3. Use Tools</text>
+  <text class="box-sub" x="597" y="248" text-anchor="middle">Calendar, web search,</text>
+  <text class="box-sub" x="597" y="266" text-anchor="middle">email, booking app</text>
+
+  <line class="arrow" x1="690" y1="232" x2="735" y2="232" />
+  <polyline class="arrow" points="725,224 736,232 725,240" />
+
+  <!-- Step 4: Result -->
+  <rect x="740" y="175" width="165" height="115" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="822" y="220" text-anchor="middle">4. Done</text>
+  <text class="box-sub" x="822" y="248" text-anchor="middle">Checks result &amp;</text>
+  <text class="box-sub" x="822" y="266" text-anchor="middle">reports back</text>
+
+  <!-- Loop arrow from step 3 back to step 2 -->
+  <path class="arrow" d="M 597 290 L 597 328 L 367 328 L 367 294" />
+  <polyline class="arrow" points="359,304 367,293 375,304" />
+  <text class="box-sub" x="482" y="320" text-anchor="middle">Repeats until goal is complete</text>
+
+  <rect x="215" y="385" width="530" height="46" rx="23" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="413" text-anchor="middle">Chatbot = Talks with you   •   AI Agent = Acts for you</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

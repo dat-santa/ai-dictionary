@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="AI Hallucination">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .warn-text { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #991b1b; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">What is AI Hallucination?</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">When AI doesn't know a fact, it still guesses words that sound natural — and sounds 100% sure.</text>
+
+  <!-- Step 1 -->
+  <rect x="65" y="160" width="235" height="130" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="182" y="205" text-anchor="middle">1. Your Question</text>
+  <text class="box-sub" x="182" y="236" text-anchor="middle">Asks about an obscure</text>
+  <text class="box-sub" x="182" y="258" text-anchor="middle">fact or missing data</text>
+
+  <line class="arrow" x1="300" y1="225" x2="360" y2="225" />
+  <polyline class="arrow" points="350,217 361,225 350,233" />
+
+  <!-- Step 2 -->
+  <rect x="366" y="160" width="228" height="130" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="480" y="205" text-anchor="middle">2. Word Guesser</text>
+  <text class="box-sub" x="480" y="236" text-anchor="middle">Picks smooth-sounding</text>
+  <text class="box-sub" x="480" y="258" text-anchor="middle">words, not verified truth</text>
+
+  <line class="arrow" x1="594" y1="225" x2="654" y2="225" />
+  <polyline class="arrow" points="644,217 655,225 644,233" />
+
+  <!-- Step 3 -->
+  <rect x="660" y="160" width="235" height="130" rx="14" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="777" y="205" text-anchor="middle">3. Hallucination</text>
+  <text class="box-sub" x="777" y="236" text-anchor="middle">Fake quote, wrong date,</text>
+  <text class="box-sub" x="777" y="258" text-anchor="middle">or made-up link</text>
+
+  <!-- Warning Pill -->
+  <rect x="190" y="365" width="580" height="50" rx="25" fill="#fee2e2" stroke="#ef4444" stroke-width="1.8" />
+  <text class="warn-text" x="480" y="395" text-anchor="middle">Rule of thumb: Always double-check facts, numbers, and legal/medical info.</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

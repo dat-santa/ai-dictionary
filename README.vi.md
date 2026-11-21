@@ -38,12 +38,19 @@ Muốn tìm hiểu sâu hơn với sách, khóa học và lộ trình thực hà
 
 > Đang cập nhật. Các thuật ngữ sẽ được bổ sung theo từng phần.
 
-**Phần 1: Cơ bản**
+**Phần 1: Cơ bản (Nền tảng cần biết cho người mới)**
 
 - [AI](vi/terms/ai.md)
-- [LLM](vi/terms/llm.md)
+- [Machine Learning](vi/terms/machine-learning.md)
 - [Generative AI](vi/terms/generative-ai.md)
+- [LLM](vi/terms/llm.md)
 - [Token](vi/terms/token.md)
+- [Prompt](vi/terms/prompt.md)
+- [Context Window](vi/terms/context-window.md)
+- [Hallucination](vi/terms/hallucination.md)
+- [RAG](vi/terms/rag.md)
+- [Fine-tuning](vi/terms/fine-tuning.md)
+- [AI Agent](vi/terms/ai-agent.md)
 
 ## Cấu trúc mỗi thuật ngữ
 

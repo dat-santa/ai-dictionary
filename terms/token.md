@@ -17,6 +17,6 @@ AI tools measure length and pricing in tokens — much like a taxi meter counts 
 
 ## Related terms
 
-- **LLM** *(coming soon)*
-- **Context window** *(coming soon)*
-- **Prompt** *(coming soon)*
+- [LLM](llm.md)
+- [Context window](context-window.md)
+- [Prompt](prompt.md)
