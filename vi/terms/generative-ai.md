@@ -2,7 +2,7 @@
 
 **Generative AI** là dạng AI có khả năng tạo ra nội dung mới hoàn toàn — như văn bản, hình ảnh, code, âm thanh hoặc video — dựa trên một câu lệnh ngắn từ bạn. Nếu AI thế hệ cũ chủ yếu phân loại dữ liệu có sẵn, thì generative AI trực tiếp sáng tạo ra sản phẩm mới.
 
-![AI cổ điển và Generative AI](../../assets/diagrams/generative-ai.svg)
+![AI cổ điển và Generative AI](../../assets/diagrams/vi/generative-ai.svg)
 
 ## Ví dụ đời thường
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Hiện tượng Shadow AI tại nơi làm việc">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Shadow AI (AI ngầm) là gì?</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Khi nhân viên tự dùng công cụ AI cá nhân chưa được duyệt mà quản lý không biết.</text>
+
+  <rect x="65" y="165" width="235" height="135" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="182" y="212" text-anchor="middle">1. Nhân viên</text>
+  <text class="box-sub" x="182" y="242" text-anchor="middle">Muốn làm việc nhanh hơn</text>
+  <text class="box-sub" x="182" y="264" text-anchor="middle">(chưa có AI chính thức)</text>
+
+  <line class="arrow" x1="300" y1="232" x2="360" y2="232" />
+  <polyline class="arrow" points="350,224 361,232 350,240" />
+
+  <rect x="366" y="165" width="228" height="135" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="480" y="212" text-anchor="middle">2. App AI cá nhân</text>
+  <text class="box-sub" x="480" y="242" text-anchor="middle">Dán tài liệu công ty</text>
+  <text class="box-sub" x="480" y="264" text-anchor="middle">vào các tool miễn phí lạ</text>
+
+  <line class="arrow" x1="594" y1="232" x2="654" y2="232" />
+  <polyline class="arrow" points="644,224 655,232 644,240" />
+
+  <rect x="660" y="165" width="235" height="135" rx="14" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="777" y="212" text-anchor="middle">3. Rủi ro ngầm</text>
+  <text class="box-sub" x="777" y="242" text-anchor="middle">Lộ dữ liệu, vi phạm quy</text>
+  <text class="box-sub" x="777" y="264" text-anchor="middle">định, không thể kiểm soát</text>
+
+  <rect x="190" y="370" width="580" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="400" text-anchor="middle">Cách xử lý: Cấp công cụ AI an toàn thay vì cấm đoán hoàn toàn</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

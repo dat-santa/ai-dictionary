@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Build vs Buy AI tools">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 21px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #334155; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Build vs. Buy</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Should your company buy an existing AI tool or build a custom one?</text>
+
+  <!-- Left: Buy -->
+  <rect x="70" y="140" width="380" height="230" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="card-title" x="260" y="184" text-anchor="middle">Buy (Off-the-Shelf)</text>
+  <text class="box-sub" x="260" y="226" text-anchor="middle">✓ Ready today, low upfront cost</text>
+  <text class="box-sub" x="260" y="256" text-anchor="middle">✓ Vendor handles updates &amp; bugs</text>
+  <text class="box-sub" x="260" y="286" text-anchor="middle">✗ Less custom fit</text>
+  <text class="box-sub" x="260" y="324" text-anchor="middle" font-weight="700">Best for: Common tasks (writing, support)</text>
+
+  <!-- Right: Build -->
+  <rect x="510" y="140" width="380" height="230" rx="16" fill="#ede9fe" class="stroke-main" />
+  <text class="card-title" x="700" y="184" text-anchor="middle">Build (Custom)</text>
+  <text class="box-sub" x="700" y="226" text-anchor="middle">✓ Tailored to your unique data</text>
+  <text class="box-sub" x="700" y="256" text-anchor="middle">✓ Can become a competitive edge</text>
+  <text class="box-sub" x="700" y="286" text-anchor="middle">✗ Needs engineers, time &amp; budget</text>
+  <text class="box-sub" x="700" y="324" text-anchor="middle" font-weight="700">Best for: Core business differentiators</text>
+
+  <rect x="195" y="410" width="570" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="440" text-anchor="middle">Rule of thumb: Buy for common needs, build only what sets you apart</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

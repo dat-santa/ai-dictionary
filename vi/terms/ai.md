@@ -2,7 +2,7 @@
 
 **AI** là phần mềm được xây dựng để làm những việc thường đòi hỏi tư duy của con người — như hiểu ngôn ngữ, nhận diện hình ảnh hoặc ra quyết định. Thay vì chạy theo các quy tắc cứng nhắc được lập trình sẵn, AI hiện đại học quy luật từ hàng loạt ví dụ.
 
-![Phần mềm truyền thống và AI](../../assets/diagrams/ai.svg)
+![Phần mềm truyền thống và AI](../../assets/diagrams/vi/ai.svg)
 
 ## Ví dụ đời thường
 

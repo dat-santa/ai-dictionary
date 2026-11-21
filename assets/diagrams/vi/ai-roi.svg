@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Đo lường AI ROI: Giá trị và Tổng chi phí">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Đo lường AI ROI</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Hiệu quả AI thực chất là so sánh lợi ích thật với toàn bộ chi phí ẩn.</text>
+
+  <rect x="75" y="145" width="350" height="225" rx="16" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="250" y="188" text-anchor="middle">Tổng chi phí</text>
+  <text class="box-sub" x="250" y="226" text-anchor="middle">• Phí phần mềm &amp; API</text>
+  <text class="box-sub" x="250" y="254" text-anchor="middle">• Cài đặt &amp; dọn dẹp dữ liệu</text>
+  <text class="box-sub" x="250" y="282" text-anchor="middle">• Thời gian đào tạo nhân sự</text>
+  <text class="box-sub" x="250" y="310" text-anchor="middle">• Công người kiểm duyệt lại</text>
+
+  <text x="480" y="268" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#475569">vs.</text>
+
+  <rect x="535" y="145" width="350" height="225" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="710" y="188" text-anchor="middle">Giá trị kinh doanh thật</text>
+  <text class="box-sub" x="710" y="226" text-anchor="middle">• Số giờ tiết kiệm mỗi tuần</text>
+  <text class="box-sub" x="710" y="254" text-anchor="middle">• Giảm sai sót tốn kém</text>
+  <text class="box-sub" x="710" y="282" text-anchor="middle">• Phản hồi khách nhanh hơn</text>
+  <text class="box-sub" x="710" y="310" text-anchor="middle">• Doanh thu tăng thêm</text>
+
+  <rect x="190" y="410" width="580" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="440" text-anchor="middle">ROI dương = Giá trị mang lại vượt rõ tổng chi phí &amp; công sức</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

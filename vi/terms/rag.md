@@ -2,7 +2,7 @@
 
 **RAG** là kỹ thuật giúp AI tra cứu tài liệu thực tế của bạn trước khi trả lời câu hỏi. Thay vì chỉ dựa vào trí nhớ có sẵn, AI tìm đúng thông tin gốc rồi mới viết câu trả lời.
 
-![Cách RAG hoạt động như thi mở sách](../../assets/diagrams/rag.svg)
+![Cách RAG hoạt động như thi mở sách](../../assets/diagrams/vi/rag.svg)
 
 ## Ví dụ đời thường
 

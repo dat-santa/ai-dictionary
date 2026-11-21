@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Bảo mật dữ liệu giữa bản miễn phí và bản doanh nghiệp">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Bảo mật dữ liệu trong công cụ AI</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Gói miễn phí có thể học từ đoạn chat của bạn. Gói doanh nghiệp giữ dữ liệu riêng tư.</text>
+
+  <rect x="70" y="150" width="230" height="100" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="185" y="194" text-anchor="middle">Bí mật công ty</text>
+  <text class="box-sub" x="185" y="218" text-anchor="middle">Danh sách khách, hợp đồng</text>
+
+  <line class="arrow" x1="300" y1="200" x2="365" y2="200" />
+  <polyline class="arrow" points="355,192 366,200 355,208" />
+
+  <rect x="371" y="150" width="220" height="100" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="481" y="194" text-anchor="middle">Tài khoản AI Free</text>
+  <text class="box-sub" x="481" y="218" text-anchor="middle">Cài đặt mặc định</text>
+
+  <line class="arrow" x1="591" y1="200" x2="656" y2="200" />
+  <polyline class="arrow" points="646,192 657,200 646,208" />
+
+  <rect x="662" y="150" width="228" height="100" rx="14" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="776" y="194" text-anchor="middle">Rủi ro: Dùng để train</text>
+  <text class="box-sub" x="776" y="218" text-anchor="middle">Dữ liệu ra khỏi tầm kiểm soát</text>
+
+  <rect x="70" y="310" width="230" height="100" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="185" y="354" text-anchor="middle">Bí mật công ty</text>
+  <text class="box-sub" x="185" y="378" text-anchor="middle">Danh sách khách, hợp đồng</text>
+
+  <line class="arrow" x1="300" y1="360" x2="365" y2="360" />
+  <polyline class="arrow" points="355,352 366,360 355,368" />
+
+  <rect x="371" y="310" width="220" height="100" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="481" y="354" text-anchor="middle">Gói Business / API</text>
+  <text class="box-sub" x="481" y="378" text-anchor="middle">Cam kết không huấn luyện</text>
+
+  <line class="arrow" x1="591" y1="360" x2="656" y2="360" />
+  <polyline class="arrow" points="646,352 657,360 646,368" />
+
+  <rect x="662" y="310" width="228" height="100" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="776" y="354" text-anchor="middle">Dữ liệu được bảo vệ</text>
+  <text class="box-sub" x="776" y="378" text-anchor="middle">Không dùng train mô hình chung</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

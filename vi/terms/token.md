@@ -2,7 +2,7 @@
 
 **Token** là đơn vị nhỏ nhất của văn bản mà AI đọc vào hoặc viết ra. Một token có thể là cả một từ ngắn, một phần của từ dài, hoặc chỉ là một dấu câu.
 
-![Cách AI tách văn bản thành các token](../../assets/diagrams/token.svg)
+![Cách AI tách văn bản thành các token](../../assets/diagrams/vi/token.svg)
 
 ## Ví dụ đời thường
 

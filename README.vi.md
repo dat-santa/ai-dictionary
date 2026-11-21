@@ -20,7 +20,7 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 |---|---|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | Đã có |
 | **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | Sắp ra mắt |
-| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | Sắp ra mắt |
+| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | Đã có |
 
 ## Cách đọc
 
@@ -28,11 +28,12 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - **Đọc trên GitHub:** Xem [Mục lục](#mục-lục) bên dưới, phân nhóm theo chủ đề hoặc nhảy thẳng tới thuật ngữ bạn cần.
 - Các thuật ngữ liên kết chéo với nhau để bạn có thể đọc nối tiếp từ ý tưởng này sang ý tưởng khác.
 
-## Bản đầy đủ
+## Bản Free & Bản Pro
 
-Cấp độ **Beginner** hoàn toàn miễn phí và mở trên GitHub cũng như tại [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
+Cuốn từ điển trên [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai) được chia sẵn thành các chương **Free** và **Pro**:
 
-Muốn tìm hiểu sâu hơn với sách, khóa học và lộ trình thực hành AI? Xem thêm tại [datsanta.com](https://datsanta.com).
+- **Chương Free (Beginner):** Mở miễn phí cho cộng đồng — đọc trực tiếp trên web hoặc trên GitHub.
+- **Chương Pro (Coder, Business):** Đi sâu theo từng vai trò (kỹ thuật, kinh doanh), mở khóa và đọc trọn bộ tại [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
 
 ## Mục lục
 
@@ -51,6 +52,19 @@ Muốn tìm hiểu sâu hơn với sách, khóa học và lộ trình thực hà
 - [RAG](vi/terms/rag.md)
 - [Fine-tuning](vi/terms/fine-tuning.md)
 - [AI Agent](vi/terms/ai-agent.md)
+
+**Phần 2: AI cho Kinh doanh (Nền tảng cần biết cho Business)**
+
+- [AI ROI](vi/terms/ai-roi.md)
+- [Human-in-the-Loop (HITL)](vi/terms/human-in-the-loop.md)
+- [Build vs. Buy](vi/terms/build-vs-buy.md)
+- [Data Privacy](vi/terms/data-privacy.md)
+- [Shadow AI](vi/terms/shadow-ai.md)
+- [AI Governance](vi/terms/ai-governance.md)
+- [AI Workflow](vi/terms/ai-workflow.md)
+- [Guardrails](vi/terms/guardrails.md)
+- [Prompt Injection](vi/terms/prompt-injection.md)
+- [Vendor Lock-in](vi/terms/vendor-lock-in.md)
 
 ## Cấu trúc mỗi thuật ngữ
 

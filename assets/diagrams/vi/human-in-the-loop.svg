@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Quy trình Human-in-the-Loop">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Human-in-the-Loop (HITL)</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">AI làm phần nặng nhọc, nhưng con người luôn kiểm tra và duyệt trước khi gửi đi.</text>
+
+  <rect x="55" y="180" width="180" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="145" y="225" text-anchor="middle">1. Đầu việc</text>
+  <text class="box-sub" x="145" y="253" text-anchor="middle">Email hoàn tiền</text>
+  <text class="box-sub" x="145" y="271" text-anchor="middle">hoặc tóm tắt hợp đồng</text>
+
+  <line class="arrow" x1="235" y1="237" x2="278" y2="237" />
+  <polyline class="arrow" points="268,229 279,237 268,245" />
+
+  <rect x="284" y="180" width="185" height="115" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="376" y="225" text-anchor="middle">2. AI làm nháp</text>
+  <text class="box-sub" x="376" y="253" text-anchor="middle">Chuẩn bị sẵn 90%</text>
+  <text class="box-sub" x="376" y="271" text-anchor="middle">chỉ trong vài giây</text>
+
+  <line class="arrow" x1="469" y1="237" x2="512" y2="237" />
+  <polyline class="arrow" points="502,229 513,237 502,245" />
+
+  <rect x="518" y="180" width="190" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="613" y="225" text-anchor="middle">3. Người kiểm tra</text>
+  <text class="box-sub" x="613" y="253" text-anchor="middle">Rà số liệu, giọng điệu</text>
+  <text class="box-sub" x="613" y="271" text-anchor="middle">&amp; mức độ rủi ro</text>
+
+  <line class="arrow" x1="708" y1="237" x2="751" y2="237" />
+  <polyline class="arrow" points="741,229 752,237 741,245" />
+
+  <rect x="757" y="180" width="148" height="115" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="831" y="225" text-anchor="middle">4. Phê duyệt</text>
+  <text class="box-sub" x="831" y="253" text-anchor="middle">Gửi an toàn tới</text>
+  <text class="box-sub" x="831" y="271" text-anchor="middle">khách hàng</text>
+
+  <rect x="200" y="370" width="560" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="400" text-anchor="middle">Tốc độ của AI + Phán đoán của con người = An toàn cho kinh doanh</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

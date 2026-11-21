@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Ví dụ bàn làm việc về Context Window">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .dashed { stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 6 6; fill: #f8fafc; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Context Window = Mặt bàn làm việc của AI</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">AI chỉ "nhìn thấy" những gì đặt vừa trên bàn. Bàn đầy thì tờ cũ sẽ rơi xuống.</text>
+
+  <rect x="210" y="135" width="540" height="250" rx="18" fill="#f8fafc" stroke="#1e293b" stroke-width="3" />
+  <text class="box-title" x="480" y="168" text-anchor="middle">Mặt bàn AI (Giới hạn token cố định)</text>
+
+  <rect x="235" y="192" width="150" height="160" rx="12" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="310" y="254" text-anchor="middle">Hướng dẫn</text>
+  <text class="box-sub" x="310" y="280" text-anchor="middle">Vai trò &amp; quy tắc</text>
+
+  <rect x="405" y="192" width="150" height="160" rx="12" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="480" y="254" text-anchor="middle">Tài liệu</text>
+  <text class="box-sub" x="480" y="280" text-anchor="middle">PDF, code, ghi chú</text>
+
+  <rect x="575" y="192" width="150" height="160" rx="12" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="650" y="254" text-anchor="middle">Chat gần đây</text>
+  <text class="box-sub" x="650" y="280" text-anchor="middle">Tin nhắn của bạn</text>
+
+  <rect x="45" y="210" width="135" height="110" rx="12" class="dashed" />
+  <text class="box-title" x="112" y="255" text-anchor="middle" fill="#64748b">Chat cũ</text>
+  <text class="box-sub" x="112" y="280" text-anchor="middle">Bị quên khi</text>
+  <text class="box-sub" x="112" y="298" text-anchor="middle">mặt bàn đã đầy</text>
+
+  <rect x="780" y="210" width="135" height="110" rx="12" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="847" y="255" text-anchor="middle">Prompt mới</text>
+  <text class="box-sub" x="847" y="280" text-anchor="middle">Đẩy tin nhắn</text>
+  <text class="box-sub" x="847" y="298" text-anchor="middle">cũ ra ngoài</text>
+
+  <rect x="195" y="422" width="570" height="46" rx="23" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="450" text-anchor="middle">Context window càng lớn = AI nhớ được tài liệu &amp; hội thoại càng dài</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

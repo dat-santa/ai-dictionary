@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Prompt mơ hồ và Prompt rõ ràng">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .label { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #475569; letter-spacing: 0.04em; text-transform: uppercase; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Prompt là gì?</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Prompt là câu lệnh bạn đưa cho AI. Đầu vào càng rõ, kết quả càng sát nhu cầu.</text>
+
+  <text class="label" x="70" y="150">Prompt mơ hồ</text>
+  <rect x="70" y="168" width="380" height="92" rx="14" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="260" y="208" text-anchor="middle">"Viết giúp email cho sếp."</text>
+  <text class="box-sub" x="260" y="234" text-anchor="middle">Thiếu ngữ cảnh, giọng điệu, mục tiêu</text>
+
+  <line class="arrow" x1="450" y1="214" x2="540" y2="214" />
+  <polyline class="arrow" points="530,206 541,214 530,222" />
+
+  <rect x="546" y="168" width="344" height="92" rx="14" fill="#f1f5f9" class="stroke-main" />
+  <text class="box-title" x="718" y="208" text-anchor="middle">Kết quả chung chung</text>
+  <text class="box-sub" x="718" y="234" text-anchor="middle">Sáo rỗng, phải sửa lại nhiều</text>
+
+  <text class="label" x="70" y="316">Prompt rõ ràng (Ngữ cảnh + Mục tiêu + Giọng văn)</text>
+  <rect x="70" y="334" width="380" height="112" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="260" y="372" text-anchor="middle">"Xin sếp nghỉ phép thứ Sáu</text>
+  <text class="box-title" x="260" y="396" text-anchor="middle">để dự đám cưới gia đình."</text>
+  <text class="box-sub" x="260" y="424" text-anchor="middle">Ngắn gọn, lịch sự, dưới 80 chữ</text>
+
+  <line class="arrow" x1="450" y1="390" x2="540" y2="390" />
+  <polyline class="arrow" points="530,382 541,390 530,398" />
+
+  <rect x="546" y="334" width="344" height="112" rx="14" fill="#d1fae5" class="stroke-main" />
+  <text class="box-title" x="718" y="378" text-anchor="middle">Bản nháp gửi được ngay</text>
+  <text class="box-sub" x="718" y="406" text-anchor="middle">Đúng ý, tự nhiên, tiết kiệm thời gian</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

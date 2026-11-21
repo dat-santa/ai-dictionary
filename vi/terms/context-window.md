@@ -2,7 +2,7 @@
 
 **Context window** là lượng văn bản tối đa (tính bằng [token](token.md)) mà AI có thể "nhớ" cùng lúc trong một cuộc trò chuyện. Mọi thông tin vượt quá giới hạn này sẽ bị đẩy ra ngoài và AI không còn thấy nữa.
 
-![Ví dụ bàn làm việc về Context Window](../../assets/diagrams/context-window.svg)
+![Ví dụ bàn làm việc về Context Window](../../assets/diagrams/vi/context-window.svg)
 
 ## Ví dụ đời thường
 

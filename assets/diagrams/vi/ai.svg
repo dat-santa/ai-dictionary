@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Phần mềm truyền thống và AI">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .label { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #475569; letter-spacing: 0.04em; text-transform: uppercase; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Phần mềm truyền thống vs. AI</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Code thông thường chạy theo luật cứng. AI tự học quy luật từ hàng loạt ví dụ.</text>
+
+  <text class="label" x="70" y="152">Phần mềm truyền thống</text>
+  <rect x="70" y="170" width="220" height="86" rx="14" fill="#f1f5f9" class="stroke-main" />
+  <text class="box-title" x="180" y="208" text-anchor="middle">Luật con người viết</text>
+  <text class="box-sub" x="180" y="232" text-anchor="middle">"Nếu X, thì làm Y"</text>
+
+  <line class="arrow" x1="290" y1="213" x2="360" y2="213" />
+  <polyline class="arrow" points="350,205 361,213 350,221" />
+
+  <rect x="366" y="170" width="220" height="86" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="476" y="208" text-anchor="middle">Chương trình</text>
+  <text class="box-sub" x="476" y="232" text-anchor="middle">Làm đúng từng bước</text>
+
+  <line class="arrow" x1="586" y1="213" x2="656" y2="213" />
+  <polyline class="arrow" points="646,205 657,213 646,221" />
+
+  <rect x="662" y="170" width="228" height="86" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="776" y="208" text-anchor="middle">Kết quả cố định</text>
+  <text class="box-sub" x="776" y="232" text-anchor="middle">Cùng đầu vào = cùng kết quả</text>
+
+  <text class="label" x="70" y="318">Trí tuệ nhân tạo (AI)</text>
+  <rect x="70" y="336" width="220" height="86" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="180" y="374" text-anchor="middle">Rất nhiều ví dụ</text>
+  <text class="box-sub" x="180" y="398" text-anchor="middle">Văn bản, ảnh, dữ liệu</text>
+
+  <line class="arrow" x1="290" y1="379" x2="360" y2="379" />
+  <polyline class="arrow" points="350,371 361,379 350,387" />
+
+  <rect x="366" y="336" width="220" height="86" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="476" y="374" text-anchor="middle">Mô hình AI</text>
+  <text class="box-sub" x="476" y="398" text-anchor="middle">Tự tìm ra quy luật</text>
+
+  <line class="arrow" x1="586" y1="379" x2="656" y2="379" />
+  <polyline class="arrow" points="646,371 657,379 646,387" />
+
+  <rect x="662" y="336" width="228" height="86" rx="14" fill="#d1fae5" class="stroke-main" />
+  <text class="box-title" x="776" y="374" text-anchor="middle">Xử lý linh hoạt</text>
+  <text class="box-sub" x="776" y="398" text-anchor="middle">Hiểu cả tình huống mới</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

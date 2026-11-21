@@ -2,7 +2,7 @@
 
 # AI Dictionary
 
-**AI terms explained in plain language, for beginners, educators, coders and business people.**
+**AI terms explained in plain language, for beginners, coders and business people.**
 
 ---
 
@@ -19,9 +19,8 @@ Every term can be read at a different depth:
 | Level | For | Status |
 |---|---|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | Available |
-| **Educator** | Teachers and lecturers. Classroom examples, teaching angles, common student questions. | Coming |
 | **Coder** | Developers. How it works, code examples, common pitfalls. | Coming |
-| **Business** | Founders and managers. Value, cost, when to use it. | Coming |
+| **Business** | Founders and managers. Value, cost, when to use it. | Available |
 
 ## How to read
 
@@ -33,7 +32,7 @@ Every term can be read at a different depth:
 
 The **Beginner** level is free and open on GitHub.
 
-Want the complete edition (**Beginner + Educator + Coder + Business**)?
+Want the complete edition (**Beginner + Coder + Business**)?
 
 - **English:** Get the full book bundle (PDF/EPUB) on the [landing page](https://datsanta.com) <!-- TODO: cập nhật link landing page EN / Gumroad -->.
 - **Tiếng Việt:** Read both **Free** and **Pro** chapters directly at [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
@@ -55,6 +54,19 @@ Want the complete edition (**Beginner + Educator + Coder + Business**)?
 - [RAG](terms/rag.md)
 - [Fine-tuning](terms/fine-tuning.md)
 - [AI Agent](terms/ai-agent.md)
+
+**Section 2: AI for Business (Must-have for founders & managers)**
+
+- [AI ROI](terms/ai-roi.md)
+- [Human-in-the-Loop (HITL)](terms/human-in-the-loop.md)
+- [Build vs. Buy](terms/build-vs-buy.md)
+- [Data Privacy](terms/data-privacy.md)
+- [Shadow AI](terms/shadow-ai.md)
+- [AI Governance](terms/ai-governance.md)
+- [AI Workflow](terms/ai-workflow.md)
+- [Guardrails](terms/guardrails.md)
+- [Prompt Injection](terms/prompt-injection.md)
+- [Vendor Lock-in](terms/vendor-lock-in.md)
 
 ## Each term follows one template
 

@@ -13,7 +13,7 @@ Before writing or editing any dictionary term or documentation, **always read [`
 ## 2. Repository scope (Free vs. Pro)
 
 - This public repository hosts the **Free (Beginner)** content under `CC BY-NC-SA 4.0`.
-- **Pro levels** (`Educator`, `Coder`, `Business`) live on `datsanta.com/books/tu-dien-ai` (Vietnamese) and the English book bundle. Do **not** add Pro-only chapters to this public repository unless the user explicitly asks.
+- **Pro levels** (`Coder`, `Business`) live on `datsanta.com/books/tu-dien-ai` (Vietnamese) and the English book bundle. Do **not** add Pro-only chapters to this public repository unless the user explicitly asks.
 
 ---
 
@@ -27,7 +27,7 @@ ai-dictionary/
 ├── CONTRIBUTING.md      # Community contribution guide
 ├── LICENSE              # CC BY-NC-SA 4.0
 ├── assets/
-│   └── diagrams/        # Shared diagrams (<slug>.svg & <slug>.excalidraw)
+│   └── diagrams/        # EN diagrams (<slug>.svg) & VI diagrams (vi/<slug>.svg)
 ├── terms/               # English term files (kebab-case.md)
 │   └── <slug>.md
 └── vi/

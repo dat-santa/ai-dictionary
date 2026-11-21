@@ -2,7 +2,7 @@
 
 **Fine-tuning** là lấy một mô hình AI tổng quát rồi huấn luyện thêm trên bộ ví dụ riêng của bạn để biến nó thành chuyên gia. Cách này giúp AI giữ đúng giọng văn, định dạng hoặc nghiệp vụ đặc thù một cách ổn định.
 
-![Cách Fine-tuning hoạt động](../../assets/diagrams/fine-tuning.svg)
+![Cách Fine-tuning hoạt động](../../assets/diagrams/vi/fine-tuning.svg)
 
 ## Ví dụ đời thường
 

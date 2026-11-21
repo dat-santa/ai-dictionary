@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="So sánh Phụ thuộc nhà cung cấp và Thiết lập linh hoạt">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 20px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #334155; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">Vendor Lock-in (Phụ thuộc nhà cung cấp)</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Gắn chặt quá mức vào 1 hãng AI khiến việc đổi sang lựa chọn khác quá tốn kém.</text>
+
+  <rect x="70" y="145" width="380" height="225" rx="16" fill="#fee2e2" class="stroke-main" />
+  <text class="card-title" x="260" y="188" text-anchor="middle">Bị khóa chặt (Lock-in)</text>
+  <text class="box-sub" x="260" y="230" text-anchor="middle">✗ Mọi thứ chỉ chạy trên 1 hãng duy nhất</text>
+  <text class="box-sub" x="260" y="260" text-anchor="middle">✗ Khó xuất dữ liệu &amp; prompt ra ngoài</text>
+  <text class="box-sub" x="260" y="290" text-anchor="middle">✗ Chịu trận khi hãng tăng giá hoặc giảm chất lượng</text>
+
+  <rect x="510" y="145" width="380" height="225" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="700" y="188" text-anchor="middle">Thiết lập linh hoạt</text>
+  <text class="box-sub" x="700" y="230" text-anchor="middle">✓ Tự giữ dữ liệu &amp; kho prompt của mình</text>
+  <text class="box-sub" x="700" y="260" text-anchor="middle">✓ Đổi mô hình AI bất kỳ lúc nào</text>
+  <text class="box-sub" x="700" y="290" text-anchor="middle">✓ Chủ động đàm phán giá &amp; tốc độ</text>
+
+  <rect x="195" y="410" width="570" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="440" text-anchor="middle">Giữ quyền sở hữu dữ liệu &amp; prompt — coi mô hình AI như động cơ thay thế được</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

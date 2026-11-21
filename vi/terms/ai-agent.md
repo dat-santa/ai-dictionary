@@ -2,7 +2,7 @@
 
 **AI agent** là hệ thống AI không chỉ biết nhắn tin trả lời — nó có thể tự lập kế hoạch, sử dụng các công cụ bên ngoài và thực hiện chuỗi hành động để hoàn thành mục tiêu cho bạn.
 
-![Cách AI Agent hoạt động](../../assets/diagrams/ai-agent.svg)
+![Cách AI Agent hoạt động](../../assets/diagrams/vi/ai-agent.svg)
 
 ## Ví dụ đời thường
 

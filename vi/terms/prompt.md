@@ -2,7 +2,7 @@
 
 **Prompt** là câu lệnh, câu hỏi hoặc ngữ cảnh bạn nhập vào công cụ AI để nói cho nó biết bạn muốn gì. Prompt của bạn càng rõ ràng, câu trả lời của AI càng sát nhu cầu và dùng được ngay.
 
-![Prompt mơ hồ và Prompt rõ ràng](../../assets/diagrams/prompt.svg)
+![Prompt mơ hồ và Prompt rõ ràng](../../assets/diagrams/vi/prompt.svg)
 
 ## Ví dụ đời thường
 

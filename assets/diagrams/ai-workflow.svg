@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="AI Workflow integration">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">What is an AI Workflow?</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Connecting AI directly to your daily business apps so work flows automatically.</text>
+
+  <!-- Step 1 -->
+  <rect x="55" y="180" width="180" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="145" y="225" text-anchor="middle">1. Trigger</text>
+  <text class="box-sub" x="145" y="253" text-anchor="middle">New customer email</text>
+  <text class="box-sub" x="145" y="271" text-anchor="middle">or invoice arrives</text>
+
+  <line class="arrow" x1="235" y1="237" x2="278" y2="237" />
+  <polyline class="arrow" points="268,229 279,237 268,245" />
+
+  <!-- Step 2 -->
+  <rect x="284" y="180" width="185" height="115" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="376" y="225" text-anchor="middle">2. AI Step</text>
+  <text class="box-sub" x="376" y="253" text-anchor="middle">Reads, extracts info,</text>
+  <text class="box-sub" x="376" y="271" text-anchor="middle">&amp; drafts a reply</text>
+
+  <line class="arrow" x1="469" y1="237" x2="512" y2="237" />
+  <polyline class="arrow" points="502,229 513,237 502,245" />
+
+  <!-- Step 3 -->
+  <rect x="518" y="180" width="185" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="610" y="225" text-anchor="middle">3. CRM / Sheet</text>
+  <text class="box-sub" x="610" y="253" text-anchor="middle">Logs ticket &amp; updates</text>
+  <text class="box-sub" x="610" y="271" text-anchor="middle">spreadsheet row</text>
+
+  <line class="arrow" x1="703" y1="237" x2="746" y2="237" />
+  <polyline class="arrow" points="736,229 747,237 736,245" />
+
+  <!-- Step 4 -->
+  <rect x="752" y="180" width="153" height="115" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="828" y="225" text-anchor="middle">4. Notify</text>
+  <text class="box-sub" x="828" y="253" text-anchor="middle">Sends draft to</text>
+  <text class="box-sub" x="828" y="271" text-anchor="middle">team Slack</text>
+
+  <rect x="195" y="370" width="570" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="400" text-anchor="middle">No copy-pasting into chat — AI works inside your existing process</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

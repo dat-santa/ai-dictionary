@@ -15,12 +15,11 @@ This guide defines how every term in **AI Dictionary** is written — whether by
 
 ## Audience depth
 
-Every term can exist at up to four depths. Keep each level strictly focused on its reader:
+Every term can exist at up to three depths. Keep each level strictly focused on its reader:
 
 | Level | Reader | Focus | Avoid |
 |---|---|---|---|
 | **Beginner** *(Free / Public repo)* | Anyone new to AI | Everyday language, concrete analogy, zero code | Formulas, API names, architecture jargon |
-| **Educator** *(Pro)* | Teachers & lecturers | Classroom analogies, common student misconceptions, teaching angles | Overly technical implementation details |
 | **Coder** *(Pro)* | Developers | How it works under the hood, minimal runnable examples, real pitfalls | High-level marketing fluff |
 | **Business** *(Pro)* | Founders & managers | Practical value, cost/risk trade-offs, when to use vs. skip | Deep math or low-level code |
 
@@ -77,7 +76,7 @@ Keep a Beginner entry short: ideally **120–250 words** total.
 
 Diagrams make abstract AI concepts click in 3 seconds. Keep every diagram across the dictionary visually consistent:
 
-- **Format:** Vector SVG stored in `assets/diagrams/<slug>.svg` (or `.excalidraw.svg` exported from Excalidraw with **Embed scene** enabled), paired with editable source `assets/diagrams/<slug>.excalidraw` when needed.
+- **Format:** Vector SVG stored in `assets/diagrams/<slug>.svg` for English and `assets/diagrams/vi/<slug>.svg` for Vietnamese (or `.excalidraw.svg` exported from Excalidraw with **Embed scene** enabled), paired with editable source `assets/diagrams/<slug>.excalidraw` when needed.
 - **Canvas & Dark-mode safety:** `16:9` aspect ratio (`960 × 540` or `1200 × 675`), always with a solid light background (`#ffffff`) and subtle border (`#e2e8f0`) so diagrams stay readable on both GitHub Light Mode and Dark Mode.
 - **Color palette (max 3–4 colors per diagram):**
   - Text & borders: Slate `#1e293b` (secondary labels `#475569` / `#64748b`)
@@ -86,5 +85,5 @@ Diagrams make abstract AI concepts click in 3 seconds. Keep every diagram across
   - Output / Key takeaway: Soft Green `#dcfce7` / `#d1fae5` (accent `#065f46`)
   - Warning / Highlight: Soft Red `#fee2e2`
 - **One idea per diagram:** Show only **1 core mechanism or analogy** with **4–6 boxes max**. Avoid walls of text.
-- **Bilingual reuse:** Prefer short universal labels (e.g., `Prompt → LLM → Output`, `Token 1`, `Token 2`) so a single diagram works cleanly for both English (`terms/`) and Vietnamese (`vi/terms/`). Only create a `assets/diagrams/vi/<slug>.svg` variant when Vietnamese labels are essential.
+- **Bilingual localization:** Create dedicated Vietnamese diagrams in `assets/diagrams/vi/<slug>.svg` whenever a diagram contains explanatory labels or sentences, keeping established English AI terms (e.g., *Token, LLM, RAG, Prompt*) intact per the Vietnamese rules above.
 - **Footer signature:** Subtle corner credit `AI Dictionary — datsanta.com` in muted slate (`#94a3b8`).

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Quy trình AI Workflow tự động">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="64" text-anchor="middle">AI Workflow là gì?</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">Nối AI thẳng vào phần mềm công ty để công việc tự chạy nối tiếp nhau.</text>
+
+  <rect x="55" y="180" width="180" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="145" y="225" text-anchor="middle">1. Kích hoạt</text>
+  <text class="box-sub" x="145" y="253" text-anchor="middle">Có email khách mới</text>
+  <text class="box-sub" x="145" y="271" text-anchor="middle">hoặc hóa đơn gửi tới</text>
+
+  <line class="arrow" x1="235" y1="237" x2="278" y2="237" />
+  <polyline class="arrow" points="268,229 279,237 268,245" />
+
+  <rect x="284" y="180" width="185" height="115" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="376" y="225" text-anchor="middle">2. AI xử lý</text>
+  <text class="box-sub" x="376" y="253" text-anchor="middle">Đọc hiểu, tách thông tin</text>
+  <text class="box-sub" x="376" y="271" text-anchor="middle">&amp; soạn sẵn câu trả lời</text>
+
+  <line class="arrow" x1="469" y1="237" x2="512" y2="237" />
+  <polyline class="arrow" points="502,229 513,237 502,245" />
+
+  <rect x="518" y="180" width="185" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="610" y="225" text-anchor="middle">3. CRM / Sheet</text>
+  <text class="box-sub" x="610" y="253" text-anchor="middle">Ghi nhận phiếu &amp; cập</text>
+  <text class="box-sub" x="610" y="271" text-anchor="middle">nhật dòng bảng tính</text>
+
+  <line class="arrow" x1="703" y1="237" x2="746" y2="237" />
+  <polyline class="arrow" points="736,229 747,237 736,245" />
+
+  <rect x="752" y="180" width="153" height="115" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="828" y="225" text-anchor="middle">4. Báo tin</text>
+  <text class="box-sub" x="828" y="253" text-anchor="middle">Gửi bản nháp lên</text>
+  <text class="box-sub" x="828" y="271" text-anchor="middle">Slack cho đội ngũ</text>
+
+  <rect x="195" y="370" width="570" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="400" text-anchor="middle">Không cần copy-paste thủ công — AI chạy ngầm trong quy trình</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

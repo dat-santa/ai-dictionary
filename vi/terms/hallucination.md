@@ -2,7 +2,7 @@
 
 **Hallucination** là hiện tượng AI tự bịa ra thông tin sai sự thật — như trích dẫn giả, sai ngày tháng hoặc đường link không tồn tại — nhưng vẫn trả lời với giọng điệu cực kỳ tự tin.
 
-![Hiện tượng AI Hallucination](../../assets/diagrams/hallucination.svg)
+![Hiện tượng AI Hallucination](../../assets/diagrams/vi/hallucination.svg)
 
 ## Ví dụ đời thường
 

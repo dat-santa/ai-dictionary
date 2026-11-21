@@ -2,7 +2,7 @@
 
 **LLM** là mô hình AI được huấn luyện trên lượng văn bản khổng lồ để hiểu và viết ngôn ngữ tự nhiên như con người. Về bản chất, nó hoạt động bằng cách đoán từ tiếp theo hợp lý nhất — từng mảnh một — để ghép thành câu trả lời hoàn chỉnh.
 
-![Cách LLM hoạt động](../../assets/diagrams/llm.svg)
+![Cách LLM hoạt động](../../assets/diagrams/vi/llm.svg)
 
 ## Ví dụ đời thường
 

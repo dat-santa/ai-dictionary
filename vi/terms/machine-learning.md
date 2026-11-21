@@ -2,7 +2,7 @@
 
 **Machine learning** là cách dạy máy tính bằng cách cho nó xem hàng nghìn ví dụ thay vì viết sẵn từng quy tắc. Máy tính sẽ tự tìm ra quy luật ẩn bên trong để dự đoán cho những dữ liệu mới.
 
-![Cách Machine Learning hoạt động](../../assets/diagrams/machine-learning.svg)
+![Cách Machine Learning hoạt động](../../assets/diagrams/vi/machine-learning.svg)
 
 ## Ví dụ đời thường
 
