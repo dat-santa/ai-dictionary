@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Latency vs Throughput in LLM serving">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Latency vs. Throughput</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Latency = how fast 1 user gets an answer. Throughput = how many tokens the server serves across all users.</text>
+
+  <!-- Left: Latency -->
+  <rect x="55" y="120" width="405" height="270" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="card-title" x="257" y="156" text-anchor="middle">Latency (1 User Experience)</text>
+  <rect x="78" y="176" width="359" height="72" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="mono" x="257" y="204" text-anchor="middle">TTFT (Time To First Token): 0.35s</text>
+  <text class="box-sub" x="257" y="228" text-anchor="middle">How quickly the first word appears</text>
+
+  <rect x="78" y="262" width="359" height="62" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="mono" x="257" y="288" text-anchor="middle">TPOT / Speed: 75 tokens/sec</text>
+  <text class="box-sub" x="257" y="310" text-anchor="middle">How smoothly the rest streams out</text>
+
+  <text class="box-sub" x="257" y="362" text-anchor="middle" font-weight="700">Matters most for: Live chat, voice AI, IDE autocomplete</text>
+
+  <!-- Right: Throughput -->
+  <rect x="500" y="120" width="405" height="270" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="702" y="156" text-anchor="middle">Throughput (Total Server Capacity)</text>
+  <rect x="523" y="176" width="359" height="72" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="702" y="204" text-anchor="middle">100 Concurrent Users Batched</text>
+  <text class="box-sub" x="702" y="228" text-anchor="middle">Each user: 42 tok/s  →  Total: 4,200 tok/s</text>
+
+  <rect x="523" y="262" width="359" height="62" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="702" y="288" text-anchor="middle">Continuous Batching (vLLM / TGI)</text>
+  <text class="box-sub" x="702" y="310" text-anchor="middle">Keeps GPU cores busy → lowers cost/token</text>
+
+  <text class="box-sub" x="702" y="362" text-anchor="middle" font-weight="700">Matters most for: Bulk indexing, evals, overnight jobs</text>
+
+  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Classic trade-off: Larger batches boost throughput &amp; lower cost, but slightly raise per-user latency</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Temperature parameter in LLM token sampling">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Temperature: Controlling Randomness</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Prompt: "The capital of France is..." — How Temperature reshapes next-token probabilities.</text>
+
+  <!-- Card 1: T = 0.0 -->
+  <rect x="45" y="115" width="275" height="275" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="card-title" x="182" y="152" text-anchor="middle">Temperature = 0.0</text>
+  <text class="box-sub" x="182" y="174" text-anchor="middle">Focused &amp; Deterministic</text>
+
+  <text class="mono" x="65" y="218">Paris</text>
+  <rect x="130" y="204" width="150" height="18" rx="4" fill="#2563eb" />
+  <text class="box-sub" x="286" y="218">99%</text>
+
+  <text class="mono" x="65" y="252">Lyon</text>
+  <rect x="130" y="238" width="4" height="18" rx="2" fill="#94a3b8" />
+  <text class="box-sub" x="142" y="252">1%</text>
+
+  <text class="mono" x="65" y="286">pizza</text>
+  <rect x="130" y="272" width="1" height="18" rx="1" fill="#94a3b8" />
+  <text class="box-sub" x="142" y="286">0%</text>
+
+  <text class="box-sub" x="182" y="340" text-anchor="middle" font-weight="700">Best for: Code, SQL, JSON,</text>
+  <text class="box-sub" x="182" y="360" text-anchor="middle">data extraction, math</text>
+
+  <!-- Card 2: T = 0.7 -->
+  <rect x="342" y="115" width="275" height="275" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="480" y="152" text-anchor="middle">Temperature = 0.7</text>
+  <text class="box-sub" x="480" y="174" text-anchor="middle">Balanced &amp; Natural</text>
+
+  <text class="mono" x="362" y="218">Paris</text>
+  <rect x="427" y="204" width="115" height="18" rx="4" fill="#10b981" />
+  <text class="box-sub" x="548" y="218">76%</text>
+
+  <text class="mono" x="362" y="252">Lyon</text>
+  <rect x="427" y="238" width="32" height="18" rx="4" fill="#34d399" />
+  <text class="box-sub" x="466" y="252">18%</text>
+
+  <text class="mono" x="362" y="286">known</text>
+  <rect x="427" y="272" width="12" height="18" rx="3" fill="#6ee7b7" />
+  <text class="box-sub" x="446" y="286">6%</text>
+
+  <text class="box-sub" x="480" y="340" text-anchor="middle" font-weight="700">Best for: General chat,</text>
+  <text class="box-sub" x="480" y="360" text-anchor="middle">emails, copywriting</text>
+
+  <!-- Card 3: T = 1.5 -->
+  <rect x="640" y="115" width="275" height="275" rx="16" fill="#fee2e2" class="stroke-main" />
+  <text class="card-title" x="777" y="152" text-anchor="middle">Temperature = 1.5</text>
+  <text class="box-sub" x="777" y="174" text-anchor="middle">Wild &amp; Unpredictable</text>
+
+  <text class="mono" x="660" y="218">Paris</text>
+  <rect x="725" y="204" width="60" height="18" rx="4" fill="#ef4444" />
+  <text class="box-sub" x="792" y="218">40%</text>
+
+  <text class="mono" x="660" y="252">Lyon</text>
+  <rect x="725" y="238" width="48" height="18" rx="4" fill="#f87171" />
+  <text class="box-sub" x="780" y="252">32%</text>
+
+  <text class="mono" x="660" y="286">pizza</text>
+  <rect x="725" y="272" width="42" height="18" rx="4" fill="#fca5a5" />
+  <text class="box-sub" x="774" y="286">28%</text>
+
+  <text class="box-sub" x="777" y="340" text-anchor="middle" font-weight="700">Best for: Brainstorming</text>
+  <text class="box-sub" x="777" y="360" text-anchor="middle">(risk of nonsense output)</text>
+
+  <rect x="135" y="420" width="690" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Note: Temperature = 0 does NOT guarantee 100% identical outputs across GPU batches</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

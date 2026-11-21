@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="RLHF Reinforcement Learning from Human Feedback">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">RLHF: Aligning Models to Human Preferences</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Turns a raw text-completing base model into a helpful, honest, and safe assistant.</text>
+
+  <!-- Stage 1 -->
+  <rect x="45" y="140" width="245" height="215" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="167" y="176" text-anchor="middle">1. SFT (Imitation)</text>
+  <text class="box-sub" x="167" y="206" text-anchor="middle">Base LLM learns to follow</text>
+  <text class="box-sub" x="167" y="226" text-anchor="middle">instructions using curated</text>
+  <text class="box-sub" x="167" y="246" text-anchor="middle">Q&amp;A examples.</text>
+  <rect x="68" y="272" width="199" height="58" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-sub" x="167" y="297" text-anchor="middle" font-weight="700">Raw autocomplete →</text>
+  <text class="box-sub" x="167" y="317" text-anchor="middle">Instruction follower</text>
+
+  <line class="arrow" x1="290" y1="247" x2="335" y2="247" />
+  <polyline class="arrow" points="325,239 336,247 325,255" />
+
+  <!-- Stage 2 -->
+  <rect x="340" y="140" width="265" height="215" rx="16" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="472" y="176" text-anchor="middle">2. Human Ranking</text>
+  <text class="box-sub" x="472" y="206" text-anchor="middle">Humans compare two replies</text>
+  <text class="box-sub" x="472" y="226" text-anchor="middle">to the same prompt:</text>
+  <rect x="362" y="244" width="221" height="42" rx="8" fill="#d1fae5" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-sub" x="472" y="270" text-anchor="middle" font-weight="700">Reply A: Helpful &amp; clear ✓</text>
+  <rect x="362" y="294" width="221" height="42" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5" />
+  <text class="box-sub" x="472" y="320" text-anchor="middle">Reply B: Rude or wrong ✗</text>
+
+  <line class="arrow" x1="605" y1="247" x2="650" y2="247" />
+  <polyline class="arrow" points="640,239 651,247 640,255" />
+
+  <!-- Stage 3 -->
+  <rect x="655" y="140" width="260" height="215" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="785" y="176" text-anchor="middle">3. Reward Optimization</text>
+  <text class="box-sub" x="785" y="206" text-anchor="middle">Trains a Reward Model (or uses</text>
+  <text class="box-sub" x="785" y="226" text-anchor="middle">DPO directly) to push the LLM</text>
+  <text class="box-sub" x="785" y="246" text-anchor="middle">toward preferred replies.</text>
+  <rect x="678" y="272" width="214" height="58" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-sub" x="785" y="297" text-anchor="middle" font-weight="700">Aligned AI Assistant</text>
+  <text class="box-sub" x="785" y="317" text-anchor="middle">(PPO / DPO / GRPO)</text>
+
+  <rect x="145" y="405" width="670" height="50" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="435" text-anchor="middle">Why it matters: Ranking "A is better than B" is much easier than writing ideal answers</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

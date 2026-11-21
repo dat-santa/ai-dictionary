@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Bộ nhớ ngắn hạn và dài hạn của Agent">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Agent Memory: Trí nhớ ngắn hạn vs. dài hạn</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">LLM mặc định không tự nhớ gì qua các request — lập trình viên phải gắn thêm kho lưu trữ ngoài.</text>
+
+  <rect x="55" y="120" width="380" height="265" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="card-title" x="245" y="156" text-anchor="middle">Trí nhớ ngắn hạn (RAM)</text>
+  <text class="box-sub" x="245" y="180" text-anchor="middle">Phiên chat hiện tại / Context Window</text>
+
+  <rect x="80" y="200" width="330" height="52" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-title" x="245" y="223" text-anchor="middle">Tin nhắn gần đây</text>
+  <text class="box-sub" x="245" y="242" text-anchor="middle">Lượt hỏi đáp + kết quả gọi tool</text>
+
+  <rect x="80" y="264" width="330" height="52" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-title" x="245" y="287" text-anchor="middle">Giấy nháp / Trạng thái tạm</text>
+  <text class="box-sub" x="245" y="306" text-anchor="middle">Kế hoạch &amp; biến hiện tại (Redis / RAM)</text>
+
+  <text class="box-sub" x="245" y="352" text-anchor="middle" font-weight="700">Bị xóa hoặc cắt bớt khi kết thúc phiên</text>
+
+  <line class="arrow" x1="435" y1="225" x2="520" y2="225" />
+  <polyline class="arrow" points="510,217 521,225 510,233" />
+  <text class="box-sub" x="477" y="214" text-anchor="middle" font-weight="700">Lưu</text>
+
+  <line class="arrow" x1="520" y1="285" x2="435" y2="285" />
+  <polyline class="arrow" points="445,277 434,285 445,293" />
+  <text class="box-sub" x="477" y="274" text-anchor="middle" font-weight="700">Gọi lại</text>
+
+  <rect x="525" y="120" width="380" height="265" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="715" y="156" text-anchor="middle">Trí nhớ dài hạn (Ổ cứng / DB)</text>
+  <text class="box-sub" x="715" y="180" text-anchor="middle">Lưu xuyên suốt nhiều tuần &amp; nhiều luồng</text>
+
+  <rect x="550" y="200" width="330" height="52" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="715" y="223" text-anchor="middle">Trí nhớ ngữ nghĩa (Hồ sơ user)</text>
+  <text class="box-sub" x="715" y="242" text-anchor="middle">"User thích dùng TypeScript &amp; code gọn"</text>
+
+  <rect x="550" y="264" width="330" height="52" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="715" y="287" text-anchor="middle">Trí nhớ sự kiện (Lịch sử việc cũ)</text>
+  <text class="box-sub" x="715" y="306" text-anchor="middle">Vector DB lưu các ticket đã xử lý trước đó</text>
+
+  <text class="box-sub" x="715" y="352" text-anchor="middle" font-weight="700">Tìm lấy khi cần và bơm vào prompt</text>
+
+  <rect x="145" y="415" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="444" text-anchor="middle">Điểm cốt lõi: LLM không tự nhớ gì giữa hai API call — backend của bạn cấp trí nhớ cho nó</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

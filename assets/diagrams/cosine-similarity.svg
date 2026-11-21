@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Cosine Similarity measuring angle between vectors">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Cosine Similarity: Comparing Direction, Not Length</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Measures the angle between two embedding vectors (from -1 opposite, 0 unrelated, to +1 identical).</text>
+
+  <!-- Left: Vector Angle Graph -->
+  <rect x="55" y="118" width="420" height="275" rx="16" fill="#f8fafc" class="stroke-main" />
+  <!-- Axes -->
+  <line x1="115" y1="350" x2="435" y2="350" stroke="#94a3b8" stroke-width="1.8" />
+  <line x1="115" y1="350" x2="115" y2="145" stroke="#94a3b8" stroke-width="1.8" />
+
+  <!-- Vector A (reset password) -->
+  <line x1="115" y1="350" x2="290" y2="165" stroke="#2563eb" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="290" cy="165" r="5" fill="#2563eb" />
+  <text class="box-sub" x="295" y="158" fill="#1d4ed8" font-weight="700">A: "reset password"</text>
+
+  <!-- Vector B (forgot login - small angle, longer line) -->
+  <line x1="115" y1="350" x2="365" y2="215" stroke="#10b981" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="365" cy="215" r="5" fill="#10b981" />
+  <text class="box-sub" x="345" y="238" fill="#065f46" font-weight="700">B: "forgot login"</text>
+
+  <!-- Angle arc A-B -->
+  <path d="M 195 266 Q 218 278 225 290" fill="none" stroke="#10b981" stroke-width="2" />
+  <text class="mono" x="232" y="282" fill="#065f46">14°</text>
+
+  <!-- Vector C (refund policy - wide angle) -->
+  <line x1="115" y1="350" x2="405" y2="325" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="405" cy="325" r="5" fill="#ef4444" />
+  <text class="box-sub" x="355" y="314" fill="#991b1b" font-weight="700">C: "refund policy"</text>
+
+  <!-- Right: Scores -->
+  <rect x="505" y="118" width="400" height="128" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="705" y="152" text-anchor="middle">A &amp; B: Small Angle (14°)</text>
+  <text class="mono" x="705" y="182" text-anchor="middle" fill="#065f46">cosine(A, B) = 0.97  (High match!)</text>
+  <text class="box-sub" x="705" y="212" text-anchor="middle">Even if B is a 500-word article and A is 2 words,</text>
+  <text class="box-sub" x="705" y="230" text-anchor="middle">they point in almost the same direction.</text>
+
+  <rect x="505" y="265" width="400" height="128" rx="14" fill="#fee2e2" class="stroke-main" />
+  <text class="box-title" x="705" y="299" text-anchor="middle">A &amp; C: Wide Angle (78°)</text>
+  <text class="mono" x="705" y="329" text-anchor="middle" fill="#991b1b">cosine(A, C) = 0.21  (Unrelated)</text>
+  <text class="box-sub" x="705" y="359" text-anchor="middle">Different topics sit nearly perpendicular (90° = 0).</text>
+
+  <rect x="155" y="420" width="650" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Why coders use Cosine: ignores document length differences and compares pure meaning</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

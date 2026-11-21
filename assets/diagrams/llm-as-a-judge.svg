@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="LLM as a Judge grading workflow">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">LLM-as-a-Judge: Automated Quality Grading</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Uses a strong LLM + a strict scoring rubric to grade thousands of AI outputs when regex isn't enough.</text>
+
+  <!-- Left Inputs -->
+  <rect x="55" y="132" width="260" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="185" y="166" text-anchor="middle">1. Candidate Output</text>
+  <text class="box-sub" x="185" y="194" text-anchor="middle">User question + Reference docs</text>
+  <text class="box-sub" x="185" y="214" text-anchor="middle">+ Reply from fast/cheap model</text>
+
+  <rect x="55" y="268" width="260" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="185" y="302" text-anchor="middle">2. Strict Rubric</text>
+  <text class="box-sub" x="185" y="330" text-anchor="middle">• Grounded in reference? (Pass/Fail)</text>
+  <text class="box-sub" x="185" y="350" text-anchor="middle">• Tone polite &amp; under 100 words?</text>
+
+  <line class="arrow" x1="315" y1="190" x2="380" y2="245" />
+  <line class="arrow" x1="315" y1="325" x2="380" y2="270" />
+
+  <!-- Center Judge -->
+  <rect x="385" y="175" width="195" height="165" rx="16" fill="#ede9fe" stroke="#6366f1" stroke-width="2.6" />
+  <text class="box-title" x="482" y="220" text-anchor="middle">Judge LLM</text>
+  <text class="box-sub" x="482" y="248" text-anchor="middle">(Stronger model,</text>
+  <text class="box-sub" x="482" y="268" text-anchor="middle">Temp = 0.0)</text>
+  <text class="box-sub" x="482" y="304" text-anchor="middle" font-weight="700">Reason first, then score</text>
+
+  <line class="arrow" x1="580" y1="257" x2="635" y2="257" />
+  <polyline class="arrow" points="625,249 636,257 625,265" />
+
+  <!-- Right Structured Grade -->
+  <rect x="640" y="155" width="265" height="205" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="772" y="190" text-anchor="middle">Structured Verdict</text>
+  <rect x="658" y="208" width="229" height="130" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="672" y="232">{</text>
+  <text class="mono" x="672" y="254">  "reason": "Cites policy p.4",</text>
+  <text class="mono" x="672" y="276">  "hallucinated": false,</text>
+  <text class="mono" x="672" y="298">  "score": 5</text>
+  <text class="mono" x="672" y="320">}</text>
+
+  <rect x="145" y="410" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="439" text-anchor="middle">Best practice: Calibrate your Judge LLM against 30–50 human-graded examples first</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="ReAct Pattern Thought Action Observation loop">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">ReAct Pattern: Reason + Act Loop</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Agents alternate between thinking (Thought), calling a tool (Action), and reading results (Observation).</text>
+
+  <!-- Task -->
+  <rect x="45" y="175" width="150" height="120" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="120" y="218" text-anchor="middle">Goal</text>
+  <text class="box-sub" x="120" y="246" text-anchor="middle">"Did order #92</text>
+  <text class="box-sub" x="120" y="266" text-anchor="middle">arrive yet?"</text>
+
+  <line class="arrow" x1="195" y1="235" x2="235" y2="235" />
+  <polyline class="arrow" points="225,227 236,235 225,243" />
+
+  <!-- Thought -->
+  <rect x="240" y="160" width="165" height="145" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="322" y="196" text-anchor="middle">1. Thought</text>
+  <text class="box-sub" x="322" y="226" text-anchor="middle">"I need the</text>
+  <text class="box-sub" x="322" y="246" text-anchor="middle">tracking status</text>
+  <text class="box-sub" x="322" y="266" text-anchor="middle">for order #92."</text>
+
+  <line class="arrow" x1="405" y1="235" x2="435" y2="235" />
+  <polyline class="arrow" points="425,227 436,235 425,243" />
+
+  <!-- Action -->
+  <rect x="440" y="160" width="165" height="145" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="522" y="196" text-anchor="middle">2. Action</text>
+  <text class="mono" x="522" y="234" text-anchor="middle">get_order(</text>
+  <text class="mono" x="522" y="254" text-anchor="middle">  id=92</text>
+  <text class="mono" x="522" y="274" text-anchor="middle">)</text>
+
+  <line class="arrow" x1="605" y1="235" x2="635" y2="235" />
+  <polyline class="arrow" points="625,227 636,235 625,243" />
+
+  <!-- Observation -->
+  <rect x="640" y="160" width="165" height="145" rx="14" fill="#f1f5f9" class="stroke-main" />
+  <text class="box-title" x="722" y="196" text-anchor="middle">3. Observation</text>
+  <text class="mono" x="722" y="234" text-anchor="middle">{"status":</text>
+  <text class="mono" x="722" y="254" text-anchor="middle"> "Delivered",</text>
+  <text class="mono" x="722" y="274" text-anchor="middle"> "at": "10:14"}</text>
+
+  <!-- Loop back arrow -->
+  <path class="arrow" d="M 722 305 L 722 350 L 322 350 L 322 309" />
+  <polyline class="arrow" points="314,319 322,308 330,319" />
+  <text class="box-sub" x="522" y="342" text-anchor="middle" font-weight="700">Repeat loop if more steps needed (max_steps cap!)</text>
+
+  <!-- Final Answer -->
+  <line class="arrow" x1="805" y1="235" x2="832" y2="235" />
+  <polyline class="arrow" points="822,227 833,235 822,243" />
+  <rect x="836" y="175" width="82" height="120" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="877" y="226" text-anchor="middle">Done</text>
+  <text class="box-sub" x="877" y="254" text-anchor="middle">Reply</text>
+
+  <rect x="145" y="405" width="670" height="50" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="435" text-anchor="middle">Always set a max_iterations limit so an agent never loops forever on a broken tool</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

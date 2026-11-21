@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Lấy mẫu Top-p">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Top-p Sampling (Nucleus Sampling)</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Prompt: "Tôi uống một ly..." — Chỉ giữ nhóm từ đầu tiên có tổng xác suất đạt p (vd: 0.90).</text>
+
+  <rect x="65" y="120" width="525" height="275" rx="14" fill="#f8fafc" class="stroke-main" />
+  <text class="box-title" x="327" y="152" text-anchor="middle">Danh sách ứng viên (Ngưỡng cắt Top-p = 0.90)</text>
+
+  <text class="mono" x="90" y="192">"cà phê"</text>
+  <rect x="195" y="176" width="215" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="420" y="192" font-weight="700">45%  (cộng dồn: 45%)</text>
+
+  <text class="mono" x="90" y="228">"trà"</text>
+  <rect x="195" y="212" width="145" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="350" y="228" font-weight="700">30%  (cộng dồn: 75%)</text>
+
+  <text class="mono" x="90" y="264">"nước"</text>
+  <rect x="195" y="248" width="75" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="280" y="264" font-weight="700">15%  (đạt 90% ✓)</text>
+
+  <line x1="85" y1="286" x2="570" y2="286" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 4" />
+  <text x="565" y="280" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#dc2626">Ngưỡng Top-p = 0.90 (Cắt bỏ phần đuôi)</text>
+
+  <text class="mono" x="90" y="318" fill="#94a3b8">"nước ép"</text>
+  <rect x="195" y="302" width="35" height="22" rx="5" fill="#cbd5e1" />
+  <text class="box-sub" x="240" y="318" fill="#94a3b8">7%  (bị loại)</text>
+
+  <text class="mono" x="90" y="354" fill="#94a3b8">"dung nham"</text>
+  <rect x="195" y="338" width="8" height="22" rx="3" fill="#cbd5e1" />
+  <text class="box-sub" x="215" y="354" fill="#94a3b8">0.1% (bị loại)</text>
+
+  <rect x="615" y="120" width="280" height="275" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="755" y="160" text-anchor="middle">Co giãn thông minh</text>
+  <text class="box-sub" x="755" y="198" text-anchor="middle">• Câu trả lời chắc chắn ("2+2="):</text>
+  <text class="box-sub" x="755" y="218" text-anchor="middle">Tự thu gọn còn đúng 1 token</text>
+  <text class="box-sub" x="755" y="262" text-anchor="middle">• Câu mở ("Ngày xửa ngày xưa"):</text>
+  <text class="box-sub" x="755" y="282" text-anchor="middle">Tự mở rộng ra 10+ lựa chọn</text>
+  <text class="box-sub" x="755" y="328" text-anchor="middle" font-weight="700">Khác Top-k (cố định số lượng),</text>
+  <text class="box-sub" x="755" y="348" text-anchor="middle" font-weight="700">Top-p thích ứng theo độ tự tin</text>
+
+  <rect x="155" y="420" width="650" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Mẹo: Chỉ nên chỉnh Temperature HOẶC Top-p — tránh chỉnh gắt cả hai cùng lúc</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

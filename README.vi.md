@@ -19,7 +19,7 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 | Cấp độ | Dành cho | Trạng thái |
 |---|---|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | Đã có |
-| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | Sắp ra mắt |
+| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | Đã có |
 | **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | Đã có |
 
 ## Cách đọc
@@ -65,6 +65,39 @@ Cuốn từ điển trên [datsanta.com/books/tu-dien-ai](https://datsanta.com/b
 - [Guardrails](vi/terms/guardrails.md)
 - [Prompt Injection](vi/terms/prompt-injection.md)
 - [Vendor Lock-in](vi/terms/vendor-lock-in.md)
+
+**Phần 3: AI cho Lập trình viên (Nền tảng cần biết cho Coder)**
+
+- [Embeddings](vi/terms/embeddings.md)
+- [Transformer](vi/terms/transformer.md)
+- [Attention Mechanism](vi/terms/attention-mechanism.md)
+- [Temperature](vi/terms/temperature.md)
+- [Top-p Sampling](vi/terms/top-p-sampling.md)
+- [Quantization](vi/terms/quantization.md)
+- [System Prompt](vi/terms/system-prompt.md)
+- [Few-shot Prompting](vi/terms/few-shot-prompting.md)
+- [Chain of Thought (CoT)](vi/terms/chain-of-thought.md)
+- [Structured Outputs](vi/terms/structured-outputs.md)
+- [Streaming (SSE)](vi/terms/streaming.md)
+- [Rate Limiting](vi/terms/rate-limiting.md)
+- [Vector Database](vi/terms/vector-database.md)
+- [Chunking](vi/terms/chunking.md)
+- [Cosine Similarity](vi/terms/cosine-similarity.md)
+- [Hybrid Search](vi/terms/hybrid-search.md)
+- [Reranking](vi/terms/reranking.md)
+- [Prompt Caching](vi/terms/prompt-caching.md)
+- [Function Calling (Tool Use)](vi/terms/function-calling.md)
+- [MCP (Model Context Protocol)](vi/terms/mcp.md)
+- [ReAct Pattern](vi/terms/react-pattern.md)
+- [Agent Memory](vi/terms/agent-memory.md)
+- [Orchestration](vi/terms/orchestration.md)
+- [Sandbox](vi/terms/sandbox.md)
+- [LoRA (Low-Rank Adaptation)](vi/terms/lora.md)
+- [RLHF](vi/terms/rlhf.md)
+- [Evals (Đánh giá tự động)](vi/terms/evals.md)
+- [LLM-as-a-Judge](vi/terms/llm-as-a-judge.md)
+- [Latency vs. Throughput](vi/terms/latency-vs-throughput.md)
+- [Inference](vi/terms/inference.md)
 
 ## Cấu trúc mỗi thuật ngữ
 

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Prompt Caching reusing prefix KV states">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .label { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Prompt Caching: Skip Re-reading Long Prefixes</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Reuses precomputed model memory (KV cache) for identical prompt prefixes across requests.</text>
+
+  <!-- Request 1: Cache Miss -->
+  <text class="label" x="65" y="138">Request 1 (Cache Write / Miss)</text>
+  <rect x="65" y="152" width="470" height="82" rx="12" fill="#fef3c7" class="stroke-main" />
+  <text class="label" x="300" y="185" text-anchor="middle">10,000-Token Static Prefix (System + Codebase + Docs)</text>
+  <text class="box-sub" x="300" y="210" text-anchor="middle">Computed from scratch &amp; saved to KV cache</text>
+
+  <rect x="545" y="152" width="165" height="82" rx="12" fill="#dbeafe" class="stroke-main" />
+  <text class="label" x="627" y="185" text-anchor="middle">Question 1</text>
+  <text class="box-sub" x="627" y="210" text-anchor="middle">50 new tokens</text>
+
+  <rect x="725" y="152" width="175" height="82" rx="12" fill="#f1f5f9" class="stroke-main" />
+  <text class="mono" x="812" y="186" text-anchor="middle">Latency: 1.8s</text>
+  <text class="box-sub" x="812" y="210" text-anchor="middle">Full input cost (1×)</text>
+
+  <!-- Request 2: Cache Hit -->
+  <text class="label" x="65" y="282">Request 2 (Cache Hit — Same Exact Prefix!)</text>
+  <rect x="65" y="296" width="470" height="82" rx="12" fill="#dcfce7" stroke="#10b981" stroke-width="2.5" />
+  <text class="label" x="300" y="329" text-anchor="middle" fill="#065f46">⚡ 10,000-Token Prefix — CACHE HIT</text>
+  <text class="box-sub" x="300" y="354" text-anchor="middle">Skipped recomputing! Loaded directly from GPU memory</text>
+
+  <rect x="545" y="296" width="165" height="82" rx="12" fill="#dbeafe" class="stroke-main" />
+  <text class="label" x="627" y="329" text-anchor="middle">Question 2</text>
+  <text class="box-sub" x="627" y="354" text-anchor="middle">Only new tokens run</text>
+
+  <rect x="725" y="296" width="175" height="82" rx="12" fill="#d1fae5" class="stroke-main" />
+  <text class="mono" x="812" y="330" text-anchor="middle" fill="#065f46">Latency: 0.3s</text>
+  <text class="box-sub" x="812" y="354" text-anchor="middle" fill="#065f46" font-weight="700">50–90% cheaper!</text>
+
+  <rect x="135" y="415" width="690" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="444" text-anchor="middle">Golden rule: Always place static instructions &amp; docs FIRST, dynamic timestamps/user inputs LAST</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

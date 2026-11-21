@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Chia nhỏ tài liệu Chunking cho RAG">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Chunking: Chia nhỏ tài liệu cho RAG</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Tài liệu dài được cắt thành từng đoạn nhỏ gối đầu 10–20% để câu văn ở ranh giới không bị đứt ý.</text>
+
+  <rect x="75" y="118" width="810" height="72" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="480" y="148" text-anchor="middle">File PDF 50 trang gốc (25.000 token — quá dài và nhiễu nếu gộp 1 vector)</text>
+  <text class="box-sub" x="480" y="172" text-anchor="middle">Trang 1 ... Mục 2 ... Chính sách hoàn tiền ... Ngoại lệ ... Trang 50</text>
+
+  <line class="arrow" x1="480" y1="190" x2="480" y2="226" />
+  <polyline class="arrow" points="472,216 480,227 488,216" />
+
+  <rect x="75" y="238" width="290" height="90" rx="12" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="200" y="270" text-anchor="middle">Chunk 1 (500 tok)</text>
+  <text class="box-sub" x="200" y="295" text-anchor="middle">Token 0 → 500</text>
+  <text class="box-sub" x="200" y="314" text-anchor="middle">"...điều khoản áp dụng"</text>
+
+  <rect x="335" y="238" width="290" height="90" rx="12" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="480" y="270" text-anchor="middle">Chunk 2 (500 tok)</text>
+  <text class="box-sub" x="480" y="295" text-anchor="middle">Token 420 → 920</text>
+  <text class="box-sub" x="480" y="314" text-anchor="middle">"...các trường hợp ngoại lệ"</text>
+
+  <rect x="595" y="238" width="290" height="90" rx="12" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="740" y="270" text-anchor="middle">Chunk 3 (500 tok)</text>
+  <text class="box-sub" x="740" y="295" text-anchor="middle">Token 840 → 1340</text>
+  <text class="box-sub" x="740" y="314" text-anchor="middle">"...cách gửi yêu cầu"</text>
+
+  <rect x="335" y="238" width="30" height="90" fill="#f59e0b" opacity="0.45" />
+  <rect x="595" y="238" width="30" height="90" fill="#f59e0b" opacity="0.45" />
+  <text class="mono" x="350" y="356" text-anchor="middle" fill="#b45309">Gối đầu 80 tok</text>
+  <text class="mono" x="610" y="356" text-anchor="middle" fill="#b45309">Gối đầu 80 tok</text>
+
+  <rect x="135" y="395" width="690" height="60" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="421" text-anchor="middle">Cắt quá nhỏ = mất ngữ cảnh   •   Cắt quá to = loãng ý nghĩa vector</text>
+  <text class="box-sub" x="480" y="442" text-anchor="middle">Khoảng đẹp nhất: 300–800 token mỗi chunk, ưu tiên cắt theo tiêu đề/đoạn văn</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

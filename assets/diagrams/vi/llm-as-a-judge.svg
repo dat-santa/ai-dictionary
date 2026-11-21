@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Dùng LLM-as-a-Judge chấm điểm tự động">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">LLM-as-a-Judge: Dùng AI làm giám khảo</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Dùng một LLM mạnh kèm bảng tiêu chí chặt chẽ để chấm hàng nghìn câu trả lời khi regex không kiểm tra nổi.</text>
+
+  <rect x="55" y="132" width="260" height="115" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="185" y="166" text-anchor="middle">1. Bài làm cần chấm</text>
+  <text class="box-sub" x="185" y="194" text-anchor="middle">Câu hỏi + Tài liệu gốc</text>
+  <text class="box-sub" x="185" y="214" text-anchor="middle">+ Câu trả lời của model nhanh/rẻ</text>
+
+  <rect x="55" y="268" width="260" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="185" y="302" text-anchor="middle">2. Thang chấm (Rubric)</text>
+  <text class="box-sub" x="185" y="330" text-anchor="middle">• Bám sát tài liệu gốc? (Đạt/Trượt)</text>
+  <text class="box-sub" x="185" y="350" text-anchor="middle">• Lịch sự &amp; dưới 100 chữ?</text>
+
+  <line class="arrow" x1="315" y1="190" x2="380" y2="245" />
+  <line class="arrow" x1="315" y1="325" x2="380" y2="270" />
+
+  <rect x="385" y="175" width="195" height="165" rx="16" fill="#ede9fe" stroke="#6366f1" stroke-width="2.6" />
+  <text class="box-title" x="482" y="220" text-anchor="middle">LLM Giám khảo</text>
+  <text class="box-sub" x="482" y="248" text-anchor="middle">(Model mạnh hơn,</text>
+  <text class="box-sub" x="482" y="268" text-anchor="middle">Temp = 0.0)</text>
+  <text class="box-sub" x="482" y="304" text-anchor="middle" font-weight="700">Giải thích trước, chấm sau</text>
+
+  <line class="arrow" x1="580" y1="257" x2="635" y2="257" />
+  <polyline class="arrow" points="625,249 636,257 625,265" />
+
+  <rect x="640" y="155" width="265" height="205" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="772" y="190" text-anchor="middle">Phiếu chấm JSON</text>
+  <rect x="658" y="208" width="229" height="130" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="672" y="232">{</text>
+  <text class="mono" x="672" y="254">  "reason": "Trích đúng tr.4",</text>
+  <text class="mono" x="672" y="276">  "hallucinated": false,</text>
+  <text class="mono" x="672" y="298">  "score": 5</text>
+  <text class="mono" x="672" y="320">}</text>
+
+  <rect x="145" y="410" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="439" text-anchor="middle">Kinh nghiệm: Hãy hiệu chỉnh LLM Giám khảo bằng 30–50 mẫu do người chấm trước</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

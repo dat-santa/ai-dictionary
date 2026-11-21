@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="System Prompt vs User Prompt message stack">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">System Prompt: The Hidden Rulebook</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Sent at the top of every API call to set role, rules, tone, and boundaries before user text.</text>
+
+  <!-- Left: API Payload Stack -->
+  <rect x="55" y="118" width="380" height="275" rx="16" fill="#f8fafc" class="stroke-main" />
+  <text class="box-title" x="245" y="148" text-anchor="middle">messages[] Payload Sent to API</text>
+
+  <rect x="75" y="165" width="340" height="96" rx="12" fill="#ede9fe" stroke="#6366f1" stroke-width="2.5" />
+  <text class="box-title" x="245" y="190" text-anchor="middle">role: "system"  (Hidden from user)</text>
+  <text class="mono" x="245" y="216" text-anchor="middle">"You are a terse SQL helper.</text>
+  <text class="mono" x="245" y="236" text-anchor="middle">Only output valid PostgreSQL."</text>
+
+  <rect x="75" y="274" width="340" height="50" rx="10" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="245" y="296" text-anchor="middle">role: "user"</text>
+  <text class="mono" x="245" y="315" text-anchor="middle">"Count active users this week"</text>
+
+  <rect x="75" y="334" width="340" height="44" rx="10" fill="#fef3c7" class="stroke-main" />
+  <text class="box-sub" x="245" y="361" text-anchor="middle">role: "assistant" (prior turns, optional)</text>
+
+  <line class="arrow" x1="435" y1="255" x2="495" y2="255" />
+  <polyline class="arrow" points="485,247 496,255 485,263" />
+
+  <!-- Middle: LLM -->
+  <rect x="500" y="195" width="125" height="120" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="562" y="250" text-anchor="middle">LLM</text>
+  <text class="box-sub" x="562" y="274" text-anchor="middle">Prioritizes</text>
+  <text class="box-sub" x="562" y="292" text-anchor="middle">system rules</text>
+
+  <line class="arrow" x1="625" y1="255" x2="675" y2="255" />
+  <polyline class="arrow" points="665,247 676,255 665,263" />
+
+  <!-- Right: Output -->
+  <rect x="680" y="165" width="225" height="180" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="792" y="200" text-anchor="middle">Clean Output</text>
+  <rect x="696" y="220" width="193" height="80" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="792" y="248" text-anchor="middle">SELECT COUNT(*)</text>
+  <text class="mono" x="792" y="268" text-anchor="middle">FROM users</text>
+  <text class="mono" x="792" y="288" text-anchor="middle">WHERE active = true;</text>
+  <text class="box-sub" x="792" y="328" text-anchor="middle">No chatty filler!</text>
+
+  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Pitfall: Never store secrets (API keys, passwords) in a System Prompt — users can extract them</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

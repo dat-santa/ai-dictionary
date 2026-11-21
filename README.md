@@ -19,7 +19,7 @@ Every term can be read at a different depth:
 | Level | For | Status |
 |---|---|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | Available |
-| **Coder** | Developers. How it works, code examples, common pitfalls. | Coming |
+| **Coder** | Developers. How it works, code examples, common pitfalls. | Available |
 | **Business** | Founders and managers. Value, cost, when to use it. | Available |
 
 ## How to read
@@ -67,6 +67,39 @@ Want the complete edition (**Beginner + Coder + Business**)?
 - [Guardrails](terms/guardrails.md)
 - [Prompt Injection](terms/prompt-injection.md)
 - [Vendor Lock-in](terms/vendor-lock-in.md)
+
+**Section 3: AI for Coders (Must-have for developers)**
+
+- [Embeddings](terms/embeddings.md)
+- [Transformer](terms/transformer.md)
+- [Attention Mechanism](terms/attention-mechanism.md)
+- [Temperature](terms/temperature.md)
+- [Top-p Sampling](terms/top-p-sampling.md)
+- [Quantization](terms/quantization.md)
+- [System Prompt](terms/system-prompt.md)
+- [Few-shot Prompting](terms/few-shot-prompting.md)
+- [Chain of Thought (CoT)](terms/chain-of-thought.md)
+- [Structured Outputs](terms/structured-outputs.md)
+- [Streaming (SSE)](terms/streaming.md)
+- [Rate Limiting](terms/rate-limiting.md)
+- [Vector Database](terms/vector-database.md)
+- [Chunking](terms/chunking.md)
+- [Cosine Similarity](terms/cosine-similarity.md)
+- [Hybrid Search](terms/hybrid-search.md)
+- [Reranking](terms/reranking.md)
+- [Prompt Caching](terms/prompt-caching.md)
+- [Function Calling (Tool Use)](terms/function-calling.md)
+- [MCP (Model Context Protocol)](terms/mcp.md)
+- [ReAct Pattern](terms/react-pattern.md)
+- [Agent Memory](terms/agent-memory.md)
+- [Orchestration](terms/orchestration.md)
+- [Sandbox](terms/sandbox.md)
+- [LoRA (Low-Rank Adaptation)](terms/lora.md)
+- [RLHF](terms/rlhf.md)
+- [Evals (Evaluations)](terms/evals.md)
+- [LLM-as-a-Judge](terms/llm-as-a-judge.md)
+- [Latency vs. Throughput](terms/latency-vs-throughput.md)
+- [Inference](terms/inference.md)
 
 ## Each term follows one template
 

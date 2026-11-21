@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Top-p Nucleus Sampling">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Top-p Sampling (Nucleus Sampling)</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Prompt: "I drink a cup of..." — Keeps only top tokens whose probabilities add up to p (e.g. 0.90).</text>
+
+  <!-- Ranked Probability List -->
+  <rect x="65" y="120" width="525" height="275" rx="14" fill="#f8fafc" class="stroke-main" />
+  <text class="box-title" x="327" y="152" text-anchor="middle">Sorted Candidate Tokens (Top-p = 0.90 cutoff)</text>
+
+  <text class="mono" x="90" y="192">"coffee"</text>
+  <rect x="195" y="176" width="225" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="430" y="192" font-weight="700">45%  (sum: 45%)</text>
+
+  <text class="mono" x="90" y="228">"tea"</text>
+  <rect x="195" y="212" width="150" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="355" y="228" font-weight="700">30%  (sum: 75%)</text>
+
+  <text class="mono" x="90" y="264">"water"</text>
+  <rect x="195" y="248" width="75" height="22" rx="5" fill="#10b981" />
+  <text class="box-sub" x="280" y="264" font-weight="700">15%  (sum: 90% ✓)</text>
+
+  <!-- Cutoff line -->
+  <line x1="85" y1="286" x2="570" y2="286" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 4" />
+  <text x="565" y="280" text-anchor="end" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#dc2626">Top-p = 0.90 Cutoff (Tail Removed)</text>
+
+  <text class="mono" x="90" y="318" fill="#94a3b8">"juice"</text>
+  <rect x="195" y="302" width="35" height="22" rx="5" fill="#cbd5e1" />
+  <text class="box-sub" x="240" y="318" fill="#94a3b8">7%  (dropped)</text>
+
+  <text class="mono" x="90" y="354" fill="#94a3b8">"lava"</text>
+  <rect x="195" y="338" width="8" height="22" rx="3" fill="#cbd5e1" />
+  <text class="box-sub" x="215" y="354" fill="#94a3b8">0.1% (dropped)</text>
+
+  <!-- Right Panel: Dynamic behavior -->
+  <rect x="615" y="120" width="280" height="275" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="755" y="160" text-anchor="middle">Why Dynamic Pool?</text>
+  <text class="box-sub" x="755" y="198" text-anchor="middle">• Sure answer ("2+2="):</text>
+  <text class="box-sub" x="755" y="218" text-anchor="middle">Pool shrinks to just 1 token</text>
+  <text class="box-sub" x="755" y="262" text-anchor="middle">• Open-ended ("Once upon"):</text>
+  <text class="box-sub" x="755" y="282" text-anchor="middle">Pool expands to 10+ tokens</text>
+  <text class="box-sub" x="755" y="328" text-anchor="middle" font-weight="700">Unlike Top-k (fixed count),</text>
+  <text class="box-sub" x="755" y="348" text-anchor="middle" font-weight="700">Top-p adapts to confidence</text>
+
+  <rect x="155" y="420" width="650" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Tip: Adjust either Temperature OR Top-p — avoid tuning both aggressively at once</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

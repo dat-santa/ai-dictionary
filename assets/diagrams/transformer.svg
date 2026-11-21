@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Transformer architecture overview">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Transformer Architecture (Decoder-Only LLM Flow)</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Processes all input tokens in parallel through stacked attention &amp; feed-forward layers.</text>
+
+  <!-- Step 1: Input Tokens -->
+  <rect x="45" y="145" width="160" height="190" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="125" y="180" text-anchor="middle">1. Input Tokens</text>
+  <rect x="65" y="200" width="120" height="32" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" />
+  <text class="box-sub" x="125" y="221" text-anchor="middle">"The" (pos 0)</text>
+  <rect x="65" y="242" width="120" height="32" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" />
+  <text class="box-sub" x="125" y="263" text-anchor="middle">"sky" (pos 1)</text>
+  <rect x="65" y="284" width="120" height="32" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5" />
+  <text class="box-sub" x="125" y="305" text-anchor="middle">"is" (pos 2)</text>
+
+  <line class="arrow" x1="205" y1="240" x2="245" y2="240" />
+  <polyline class="arrow" points="235,232 246,240 235,248" />
+
+  <!-- Step 2: Embeddings + Pos Encoding -->
+  <rect x="250" y="165" width="165" height="150" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="332" y="212" text-anchor="middle">2. Embeddings</text>
+  <text class="box-title" x="332" y="234" text-anchor="middle">+ Position</text>
+  <text class="box-sub" x="332" y="266" text-anchor="middle">Meaning vector +</text>
+  <text class="box-sub" x="332" y="286" text-anchor="middle">word order signal</text>
+
+  <line class="arrow" x1="415" y1="240" x2="455" y2="240" />
+  <polyline class="arrow" points="445,232 456,240 445,248" />
+
+  <!-- Step 3: Stacked Transformer Blocks -->
+  <rect x="460" y="122" width="235" height="236" rx="16" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="577" y="152" text-anchor="middle">3. Transformer Blocks (×N)</text>
+  <rect x="480" y="170" width="195" height="72" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.8" />
+  <text class="box-title" x="577" y="198" text-anchor="middle">Self-Attention</text>
+  <text class="box-sub" x="577" y="220" text-anchor="middle">Tokens share context</text>
+  <line class="arrow" x1="577" y1="242" x2="577" y2="262" />
+  <rect x="480" y="264" width="195" height="72" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.8" />
+  <text class="box-title" x="577" y="292" text-anchor="middle">Feed-Forward MLP</text>
+  <text class="box-sub" x="577" y="314" text-anchor="middle">Refines features per token</text>
+
+  <line class="arrow" x1="695" y1="240" x2="735" y2="240" />
+  <polyline class="arrow" points="725,232 736,240 725,248" />
+
+  <!-- Step 4: Output Probabilities -->
+  <rect x="740" y="150" width="175" height="180" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="827" y="185" text-anchor="middle">4. Next Token</text>
+  <text class="box-sub" x="827" y="207" text-anchor="middle">Softmax probabilities:</text>
+  <text class="mono" x="827" y="242" text-anchor="middle">"blue"    82%</text>
+  <text class="box-sub" x="827" y="268" text-anchor="middle">"clear"   11%</text>
+  <text class="box-sub" x="827" y="294" text-anchor="middle">"cloudy"   4%</text>
+
+  <rect x="135" y="405" width="690" height="52" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="436" text-anchor="middle">Key breakthrough: reads all words simultaneously on GPUs (unlike slow sequential RNNs)</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

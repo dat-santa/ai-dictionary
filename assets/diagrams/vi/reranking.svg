@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Tìm kiếm 2 vòng với Reranking">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Reranking: Lọc 2 vòng cho RAG</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Vòng 1 quét nhanh lấy Top 50, sau đó Reranker chấm kỹ lại để đẩy 5 đoạn chuẩn nhất lên đầu.</text>
+
+  <rect x="45" y="170" width="155" height="145" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="122" y="218" text-anchor="middle">1 triệu đoạn</text>
+  <text class="box-sub" x="122" y="246" text-anchor="middle">Toàn bộ kho</text>
+  <text class="box-sub" x="122" y="266" text-anchor="middle">tri thức</text>
+
+  <line class="arrow" x1="200" y1="242" x2="238" y2="242" />
+  <polyline class="arrow" points="228,234 239,242 228,250" />
+
+  <rect x="244" y="150" width="215" height="185" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="351" y="185" text-anchor="middle">Vòng 1: Tìm nhanh</text>
+  <text class="box-sub" x="351" y="210" text-anchor="middle">Bi-Encoder / Hybrid (~15ms)</text>
+  <rect x="264" y="228" width="175" height="86" rx="8" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5" />
+  <text class="mono" x="351" y="252" text-anchor="middle">Lấy Top 50 ứng viên</text>
+  <text class="box-sub" x="351" y="274" text-anchor="middle">Độ phủ cao, xếp hạng thô</text>
+  <text class="box-sub" x="351" y="294" text-anchor="middle">(Đoạn #14 có thể chuẩn nhất!)</text>
+
+  <line class="arrow" x1="459" y1="242" x2="497" y2="242" />
+  <polyline class="arrow" points="487,234 498,242 487,250" />
+
+  <rect x="503" y="150" width="225" height="185" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="615" y="185" text-anchor="middle">Vòng 2: Reranker</text>
+  <text class="box-sub" x="615" y="210" text-anchor="middle">Cross-Encoder (~120ms)</text>
+  <rect x="523" y="228" width="185" height="86" rx="8" fill="#ffffff" stroke="#6366f1" stroke-width="1.5" />
+  <text class="mono" x="615" y="252" text-anchor="middle">Chấm cặp (Hỏi, Đoạn)</text>
+  <text class="box-sub" x="615" y="274" text-anchor="middle">Đọc đối chiếu từng chữ</text>
+  <text class="box-sub" x="615" y="294" text-anchor="middle">Đẩy #14 lên Top #1 ✓</text>
+
+  <line class="arrow" x1="728" y1="242" x2="766" y2="242" />
+  <polyline class="arrow" points="756,234 767,242 756,250" />
+
+  <rect x="772" y="170" width="143" height="145" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="843" y="218" text-anchor="middle">Top 5 → LLM</text>
+  <text class="box-sub" x="843" y="248" text-anchor="middle">Ngữ cảnh gọn,</text>
+  <text class="box-sub" x="843" y="268" text-anchor="middle">độ chính xác cao</text>
+
+  <rect x="145" y="405" width="670" height="50" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="435" text-anchor="middle">Kết quả: RAG trả lời đúng hơn hẳn mà vẫn giữ prompt nhỏ và rẻ</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

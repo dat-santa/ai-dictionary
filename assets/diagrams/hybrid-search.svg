@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Hybrid Search combining BM25 and Vector Search">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Hybrid Search: Keywords + Semantics</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Combines exact keyword matching (BM25) with vector search using Reciprocal Rank Fusion (RRF).</text>
+
+  <!-- Query -->
+  <rect x="45" y="205" width="185" height="100" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="137" y="242" text-anchor="middle">User Query</text>
+  <text class="mono" x="137" y="270" text-anchor="middle">"Error E-402</text>
+  <text class="mono" x="137" y="288" text-anchor="middle">payment drop"</text>
+
+  <!-- Branch arrows -->
+  <line class="arrow" x1="230" y1="235" x2="285" y2="175" />
+  <line class="arrow" x1="230" y1="275" x2="285" y2="335" />
+
+  <!-- Branch 1: BM25 -->
+  <rect x="290" y="122" width="245" height="115" rx="14" fill="#fef3c7" class="stroke-main" />
+  <text class="box-title" x="412" y="156" text-anchor="middle">Keyword Search (BM25)</text>
+  <text class="box-sub" x="412" y="184" text-anchor="middle">Matches exact strings:</text>
+  <text class="mono" x="412" y="206" text-anchor="middle">"E-402"  ✓</text>
+  <text class="box-sub" x="412" y="226" text-anchor="middle">Great for SKUs, IDs, error codes</text>
+
+  <!-- Branch 2: Vector -->
+  <rect x="290" y="275" width="245" height="115" rx="14" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="412" y="309" text-anchor="middle">Vector Search (Dense)</text>
+  <text class="box-sub" x="412" y="337" text-anchor="middle">Matches related meaning:</text>
+  <text class="mono" x="412" y="359" text-anchor="middle">"checkout timeout"  ✓</text>
+  <text class="box-sub" x="412" y="379" text-anchor="middle">Great for synonyms &amp; concepts</text>
+
+  <!-- Merge arrows -->
+  <line class="arrow" x1="535" y1="175" x2="590" y2="235" />
+  <line class="arrow" x1="535" y1="335" x2="590" y2="275" />
+
+  <!-- RRF Merge -->
+  <rect x="595" y="195" width="145" height="120" rx="14" fill="#f1f5f9" class="stroke-main" />
+  <text class="box-title" x="667" y="240" text-anchor="middle">RRF Merge</text>
+  <text class="box-sub" x="667" y="266" text-anchor="middle">Fuses both</text>
+  <text class="box-sub" x="667" y="286" text-anchor="middle">ranked lists</text>
+
+  <line class="arrow" x1="740" y1="255" x2="775" y2="255" />
+  <polyline class="arrow" points="765,247 776,255 765,263" />
+
+  <!-- Output -->
+  <rect x="780" y="195" width="135" height="120" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="847" y="236" text-anchor="middle">Best Docs</text>
+  <text class="box-sub" x="847" y="264" text-anchor="middle">Exact code +</text>
+  <text class="box-sub" x="847" y="284" text-anchor="middle">right context</text>
+
+  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Production RAG default: vector-only search often misses part numbers and proper nouns</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Giai đoạn Training và Inference">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Training vs. Inference</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Training dạy mô hình một lần bằng cách sửa trọng số. Inference chạy bộ trọng số đóng băng đó cho người dùng thật.</text>
+
+  <rect x="55" y="125" width="330" height="255" rx="16" fill="#fef3c7" class="stroke-main" />
+  <text class="card-title" x="220" y="162" text-anchor="middle">Training (Huấn luyện — Làm ít lần)</text>
+  <rect x="78" y="182" width="284" height="72" rx="10" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5" />
+  <text class="box-title" x="220" y="208" text-anchor="middle">Cập nhật hàng tỷ trọng số</text>
+  <text class="box-sub" x="220" y="232" text-anchor="middle">Forward + Backward pass + Gradient</text>
+  <text class="box-sub" x="220" y="286" text-anchor="middle">• Mất nhiều tuần/tháng trên cụm GPU</text>
+  <text class="box-sub" x="220" y="310" text-anchor="middle">• Chi phí hàng triệu USD</text>
+  <text class="box-sub" x="220" y="334" text-anchor="middle">• Đầu ra: File trọng số cố định</text>
+
+  <line class="arrow" x1="385" y1="252" x2="435" y2="252" />
+  <polyline class="arrow" points="425,244 436,252 425,260" />
+
+  <rect x="440" y="125" width="465" height="255" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="672" y="162" text-anchor="middle">Inference (Suy luận — Mọi lần gọi API)</text>
+
+  <rect x="462" y="182" width="200" height="92" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="562" y="210" text-anchor="middle">1. Pha Prefill</text>
+  <text class="box-sub" x="562" y="234" text-anchor="middle">Đọc cả prompt đầu vào</text>
+  <text class="box-sub" x="562" y="254" text-anchor="middle">song song (nặng tính toán)</text>
+
+  <line class="arrow" x1="662" y1="228" x2="682" y2="228" />
+
+  <rect x="686" y="182" width="196" height="92" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="784" y="210" text-anchor="middle">2. Pha Decode</text>
+  <text class="box-sub" x="784" y="234" text-anchor="middle">Sinh từng token một</text>
+  <text class="box-sub" x="784" y="254" text-anchor="middle">(nghẽn ở băng thông RAM)</text>
+
+  <text class="box-sub" x="672" y="308" text-anchor="middle" font-weight="700">• Trọng số 🔒 giữ nguyên (mô hình không học thêm)</text>
+  <text class="box-sub" x="672" y="332" text-anchor="middle">• Chạy trong vài mili-giây; chiếm phần lớn hóa đơn AI dài hạn</text>
+
+  <rect x="145" y="415" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="444" text-anchor="middle">Bộ công cụ tối ưu: Quantization + Prompt Caching + Continuous Batching</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Structured Outputs ép chuẩn JSON Schema">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Structured Outputs: Ép chuẩn JSON Schema</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Khóa chọn token ở tầng giải mã để đảm bảo 100% đầu ra là JSON hợp lệ đúng kiểu dữ liệu.</text>
+
+  <rect x="55" y="120" width="405" height="270" rx="16" fill="#fee2e2" class="stroke-main" />
+  <text class="card-title" x="257" y="154" text-anchor="middle">Dặn bằng lời ("Trả về JSON nhé")</text>
+  <rect x="75" y="176" width="365" height="118" rx="10" fill="#ffffff" stroke="#ef4444" stroke-width="1.5" />
+  <text class="mono" x="90" y="204">Chắc chắn rồi! Đây là dữ liệu user:</text>
+  <text class="mono" x="90" y="226">```json</text>
+  <text class="mono" x="90" y="248">{ "name": "Alice", "age": "28" }</text>
+  <text class="mono" x="90" y="270">```  Hy vọng giúp ích cho bạn!</text>
+
+  <rect x="75" y="308" width="365" height="62" rx="10" fill="#fff1f2" stroke="#fca5a5" stroke-width="1.5" />
+  <text class="box-sub" x="90" y="334" fill="#991b1b" font-weight="700">✗ JSON.parse() văng lỗi vì chữ bọc ngoài</text>
+  <text class="box-sub" x="90" y="354" fill="#991b1b">✗ "age" bị trả về dạng chuỗi thay vì số</text>
+
+  <rect x="500" y="120" width="405" height="270" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="702" y="154" text-anchor="middle">Structured Outputs (Ép Schema)</text>
+  <rect x="520" y="176" width="365" height="72" rx="10" fill="#ede9fe" stroke="#6366f1" stroke-width="1.5" />
+  <text class="mono" x="535" y="202" font-weight="700">Schema (Zod / JSON Schema):</text>
+  <text class="mono" x="535" y="226">{ name: string, age: integer }</text>
+
+  <rect x="520" y="262" width="365" height="108" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="535" y="290">{"name": "Alice", "age": 28}</text>
+  <text class="box-sub" x="535" y="324" fill="#065f46" font-weight="700">✓ 100% JSON chuẩn, không lời thừa</text>
+  <text class="box-sub" x="535" y="346" fill="#065f46" font-weight="700">✓ Đúng tên trường &amp; kiểu dữ liệu</text>
+
+  <rect x="145" y="420" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="449" text-anchor="middle">Bắt buộc khi gọi API, ghi vào database, render UI card &amp; chạy pipeline</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

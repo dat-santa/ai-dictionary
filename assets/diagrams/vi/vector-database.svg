@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Cơ sở dữ liệu Vector Database">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; fill: #1e293b; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Vector Database: Tìm kiếm ngữ nghĩa siêu nhanh</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">Lưu trữ embeddings + metadata, dùng chỉ mục ANN (như HNSW) để tìm trong hàng triệu vector chỉ vài ms.</text>
+
+  <rect x="45" y="145" width="195" height="190" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="142" y="182" text-anchor="middle">1. Truy vấn + Bộ lọc</text>
+  <rect x="62" y="202" width="161" height="52" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="mono" x="142" y="224" text-anchor="middle">q_vec: [0.41, -0.2...]</text>
+  <text class="box-sub" x="142" y="244" text-anchor="middle">Câu hỏi đã embed</text>
+  <rect x="62" y="266" width="161" height="48" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="mono" x="142" y="287" text-anchor="middle">WHERE org="acme"</text>
+  <text class="box-sub" x="142" y="305" text-anchor="middle">Lọc theo metadata</text>
+
+  <line class="arrow" x1="240" y1="240" x2="285" y2="240" />
+  <polyline class="arrow" points="275,232 286,240 275,248" />
+
+  <rect x="290" y="125" width="335" height="240" rx="16" fill="#ede9fe" class="stroke-main" />
+  <text class="box-title" x="457" y="158" text-anchor="middle">2. Vector DB (Chỉ mục đồ thị HNSW)</text>
+
+  <rect x="310" y="176" width="295" height="62" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.5" />
+  <text class="mono" x="324" y="198" font-weight="700">id: doc_42 | org: "acme"</text>
+  <text class="mono" x="324" y="216">vec: [0.42, -0.19, ...]  điểm: 0.94</text>
+  <text class="box-sub" x="324" y="232">text: "Hoàn tiền trong vòng 30 ngày..."</text>
+
+  <rect x="310" y="248" width="295" height="52" rx="10" fill="#ffffff" stroke="#6366f1" stroke-width="1.5" />
+  <text class="mono" x="324" y="270" font-weight="700">id: doc_89 | org: "acme"</text>
+  <text class="mono" x="324" y="288">vec: [0.35, -0.11, ...]  điểm: 0.87</text>
+
+  <text class="box-sub" x="457" y="342" text-anchor="middle" font-weight="700">Bỏ qua quét toàn bộ → nhảy cóc trên đồ thị (~8ms)</text>
+
+  <line class="arrow" x1="625" y1="240" x2="670" y2="240" />
+  <polyline class="arrow" points="660,232 671,240 660,248" />
+
+  <rect x="675" y="150" width="240" height="185" rx="14" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="795" y="185" text-anchor="middle">3. Kết quả Top-K</text>
+  <text class="box-sub" x="795" y="218" text-anchor="middle">Trả về k=5 đoạn gần nhất</text>
+  <text class="box-sub" x="795" y="238" text-anchor="middle">kèm điểm &amp; ID gốc</text>
+  <rect x="695" y="260" width="200" height="54" rx="8" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="mono" x="795" y="283" text-anchor="middle">1. doc_42 (0.94)</text>
+  <text class="mono" x="795" y="302" text-anchor="middle">2. doc_89 (0.87)</text>
+
+  <rect x="135" y="405" width="690" height="50" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="435" text-anchor="middle">Phổ biến: pgvector (Postgres), Qdrant, Pinecone, Milvus, Weaviate, Chroma</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">Từ điển AI — datsanta.com</text>
+</svg>

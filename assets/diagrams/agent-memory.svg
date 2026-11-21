@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Agent Memory short-term vs long-term">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .card-title { font-family: system-ui, -apple-system, sans-serif; font-size: 19px; font-weight: 700; fill: #1e293b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Agent Memory: Short-Term vs. Long-Term</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">LLMs are stateless by default — developers add external storage to remember across sessions.</text>
+
+  <!-- Left: Short-term Memory -->
+  <rect x="55" y="120" width="380" height="265" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="card-title" x="245" y="156" text-anchor="middle">Short-Term Memory (RAM)</text>
+  <text class="box-sub" x="245" y="180" text-anchor="middle">Current session / Context Window</text>
+
+  <rect x="80" y="200" width="330" height="52" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-title" x="245" y="223" text-anchor="middle">Recent Chat Messages</text>
+  <text class="box-sub" x="245" y="242" text-anchor="middle">User turns + tool observations</text>
+
+  <rect x="80" y="264" width="330" height="52" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-title" x="245" y="287" text-anchor="middle">Scratchpad / Working State</text>
+  <text class="box-sub" x="245" y="306" text-anchor="middle">Current plan &amp; variables (Redis / RAM)</text>
+
+  <text class="box-sub" x="245" y="352" text-anchor="middle" font-weight="700">Cleared or trimmed when chat ends</text>
+
+  <!-- Sync arrows -->
+  <line class="arrow" x1="435" y1="225" x2="520" y2="225" />
+  <polyline class="arrow" points="510,217 521,225 510,233" />
+  <text class="box-sub" x="477" y="214" text-anchor="middle" font-weight="700">Save</text>
+
+  <line class="arrow" x1="520" y1="285" x2="435" y2="285" />
+  <polyline class="arrow" points="445,277 434,285 445,293" />
+  <text class="box-sub" x="477" y="274" text-anchor="middle" font-weight="700">Recall</text>
+
+  <!-- Right: Long-term Memory -->
+  <rect x="525" y="120" width="380" height="265" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="card-title" x="715" y="156" text-anchor="middle">Long-Term Memory (Disk / DB)</text>
+  <text class="box-sub" x="715" y="180" text-anchor="middle">Persists across weeks &amp; threads</text>
+
+  <rect x="550" y="200" width="330" height="52" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="715" y="223" text-anchor="middle">Semantic Facts (User Profile)</text>
+  <text class="box-sub" x="715" y="242" text-anchor="middle">"User prefers TypeScript &amp; concise code"</text>
+
+  <rect x="550" y="264" width="330" height="52" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-title" x="715" y="287" text-anchor="middle">Episodic Logs (Past Tasks)</text>
+  <text class="box-sub" x="715" y="306" text-anchor="middle">Vector DB of prior solved tickets</text>
+
+  <text class="box-sub" x="715" y="352" text-anchor="middle" font-weight="700">Fetched on demand &amp; injected into prompt</text>
+
+  <rect x="145" y="415" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="444" text-anchor="middle">Key insight: An LLM has no built-in memory between API calls — your backend supplies it</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>

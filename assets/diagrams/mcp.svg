@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Model Context Protocol MCP USB-C standard">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", system-ui, -apple-system, sans-serif; font-size: 27px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; fill: #64748b; }
+      .box-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #1e293b; }
+      .box-sub { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #475569; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; font-weight: 700; fill: #065f46; }
+      .badge { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">MCP (Model Context Protocol): USB-C for AI</text>
+  <text class="subtitle" x="480" y="82" text-anchor="middle">One open standard connects any AI client to any external tool, database, or API without custom glue code.</text>
+
+  <!-- Left: MCP Hosts / Clients -->
+  <rect x="55" y="130" width="210" height="250" rx="16" fill="#dbeafe" class="stroke-main" />
+  <text class="box-title" x="160" y="165" text-anchor="middle">AI Apps (MCP Hosts)</text>
+
+  <rect x="75" y="188" width="170" height="46" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-sub" x="160" y="216" text-anchor="middle" font-weight="700">Claude / IDE Agent</text>
+
+  <rect x="75" y="248" width="170" height="46" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-sub" x="160" y="276" text-anchor="middle" font-weight="700">Your Custom Chatbot</text>
+
+  <rect x="75" y="308" width="170" height="46" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5" />
+  <text class="box-sub" x="160" y="336" text-anchor="middle" font-weight="700">CLI / Desktop Client</text>
+
+  <!-- Lines to MCP Bus -->
+  <line class="arrow" x1="265" y1="211" x2="365" y2="255" />
+  <line class="arrow" x1="265" y1="271" x2="365" y2="255" />
+  <line class="arrow" x1="265" y1="331" x2="365" y2="255" />
+
+  <!-- Center: MCP Protocol -->
+  <rect x="370" y="175" width="220" height="160" rx="16" fill="#ede9fe" stroke="#6366f1" stroke-width="2.8" />
+  <text class="box-title" x="480" y="215" text-anchor="middle">MCP Standard</text>
+  <text class="mono" x="480" y="244" text-anchor="middle">JSON-RPC 2.0</text>
+  <text class="box-sub" x="480" y="274" text-anchor="middle">• Tools (actions)</text>
+  <text class="box-sub" x="480" y="294" text-anchor="middle">• Resources (files/data)</text>
+  <text class="box-sub" x="480" y="314" text-anchor="middle">• Prompts (templates)</text>
+
+  <!-- Lines to Servers -->
+  <line class="arrow" x1="590" y1="255" x2="690" y2="178" />
+  <line class="arrow" x1="590" y1="255" x2="690" y2="245" />
+  <line class="arrow" x1="590" y1="255" x2="690" y2="312" />
+
+  <!-- Right: MCP Servers -->
+  <rect x="695" y="130" width="210" height="250" rx="16" fill="#dcfce7" class="stroke-main" />
+  <text class="box-title" x="800" y="165" text-anchor="middle">MCP Servers</text>
+
+  <rect x="715" y="185" width="170" height="46" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-sub" x="800" y="213" text-anchor="middle" font-weight="700">GitHub / Git</text>
+
+  <rect x="715" y="245" width="170" height="46" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-sub" x="800" y="273" text-anchor="middle" font-weight="700">Postgres / BigQuery</text>
+
+  <rect x="715" y="305" width="170" height="46" rx="10" fill="#ffffff" stroke="#10b981" stroke-width="1.5" />
+  <text class="box-sub" x="800" y="333" text-anchor="middle" font-weight="700">Slack / Notion / Files</text>
+
+  <rect x="145" y="410" width="670" height="48" rx="24" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge" x="480" y="439" text-anchor="middle">Build 1 MCP server once → works across every MCP-compatible AI app (no N×M rewrites)</text>
+
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>
