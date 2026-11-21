@@ -43,6 +43,7 @@ Muốn tìm hiểu sâu hơn với sách, khóa học và lộ trình thực hà
 - [AI](vi/terms/ai.md)
 - [LLM](vi/terms/llm.md)
 - [Generative AI](vi/terms/generative-ai.md)
+- [Token](vi/terms/token.md)
 
 ## Cấu trúc mỗi thuật ngữ
 

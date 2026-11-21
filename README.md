@@ -47,6 +47,7 @@ Want the complete edition (**Beginner + Educator + Coder + Business**)?
 - [AI](terms/ai.md)
 - [LLM](terms/llm.md)
 - [Generative AI](terms/generative-ai.md)
+- [Token](terms/token.md)
 
 ## Each term follows one template
 

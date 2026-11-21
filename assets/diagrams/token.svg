@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="How AI splits text into tokens">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .title { font-family: "Virgil", "Segoe Print", "Comic Sans MS", system-ui, -apple-system, sans-serif; font-size: 28px; font-weight: 700; fill: #1e293b; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 16px; fill: #64748b; }
+      .label { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 600; fill: #475569; letter-spacing: 0.04em; text-transform: uppercase; }
+      .box-text { font-family: "Virgil", "Segoe Print", "Comic Sans MS", system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 600; fill: #1e293b; }
+      .token-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 22px; font-weight: 700; fill: #1e293b; }
+      .small-note { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; }
+      .badge-text { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #065f46; }
+      .footer { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #94a3b8; }
+      .stroke-main { stroke: #1e293b; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .arrow { stroke: #475569; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background (safe for GitHub Light & Dark Mode) -->
+  <rect class="bg" x="0" y="0" width="960" height="540" rx="16" />
+  <rect x="12" y="12" width="936" height="516" rx="12" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text class="title" x="480" y="64" text-anchor="middle">How AI Reads Text: Tokens</text>
+  <text class="subtitle" x="480" y="92" text-anchor="middle">AI does not read letter by letter — it splits text into small pieces called tokens.</text>
+
+  <!-- Step 1: Human Text -->
+  <text class="label" x="480" y="142" text-anchor="middle">1. What you type (1 word)</text>
+  <rect x="290" y="156" width="380" height="68" rx="14" fill="#dbeafe" class="stroke-main" />
+  <text class="box-text" x="480" y="198" text-anchor="middle">"Unbelievable!"</text>
+
+  <!-- Arrow Down 1 -->
+  <line class="arrow" x1="480" y1="224" x2="480" y2="274" />
+  <polyline class="arrow" points="471,264 480,275 489,264" />
+  <rect x="500" y="236" width="108" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" />
+  <text class="small-note" x="554" y="255" text-anchor="middle">Tokenizer</text>
+
+  <!-- Step 2: Split into Tokens -->
+  <text class="label" x="480" y="302" text-anchor="middle">2. What the AI actually sees (4 tokens)</text>
+
+  <!-- Token 1 -->
+  <rect x="145" y="320" width="130" height="72" rx="12" fill="#ede9fe" class="stroke-main" />
+  <text class="token-text" x="210" y="363" text-anchor="middle">Un</text>
+  <text class="small-note" x="210" y="414" text-anchor="middle">Token 1</text>
+
+  <!-- Plus 1 -->
+  <text class="subtitle" x="297" y="362" text-anchor="middle">+</text>
+
+  <!-- Token 2 -->
+  <rect x="320" y="320" width="160" height="72" rx="12" fill="#fef3c7" class="stroke-main" />
+  <text class="token-text" x="400" y="363" text-anchor="middle">believ</text>
+  <text class="small-note" x="400" y="414" text-anchor="middle">Token 2</text>
+
+  <!-- Plus 2 -->
+  <text class="subtitle" x="502" y="362" text-anchor="middle">+</text>
+
+  <!-- Token 3 -->
+  <rect x="525" y="320" width="150" height="72" rx="12" fill="#dcfce7" class="stroke-main" />
+  <text class="token-text" x="600" y="363" text-anchor="middle">able</text>
+  <text class="small-note" x="600" y="414" text-anchor="middle">Token 3</text>
+
+  <!-- Plus 3 -->
+  <text class="subtitle" x="697" y="362" text-anchor="middle">+</text>
+
+  <!-- Token 4 -->
+  <rect x="720" y="320" width="95" height="72" rx="12" fill="#fee2e2" class="stroke-main" />
+  <text class="token-text" x="767" y="363" text-anchor="middle">!</text>
+  <text class="small-note" x="767" y="414" text-anchor="middle">Token 4</text>
+
+  <!-- Summary Pill -->
+  <rect x="235" y="446" width="490" height="42" rx="21" fill="#d1fae5" stroke="#10b981" stroke-width="1.8" />
+  <text class="badge-text" x="480" y="472" text-anchor="middle">Short word ("cat") = 1 token   •   Long word = 2–4 tokens</text>
+
+  <!-- Footer -->
+  <text class="footer" x="928" y="514" text-anchor="end">AI Dictionary — datsanta.com</text>
+</svg>
