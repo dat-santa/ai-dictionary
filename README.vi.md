@@ -1,8 +1,18 @@
-[English](README.md) | **Tiếng Việt**
+<div align="center">
 
 # Từ điển AI
 
 **Giải thích thuật ngữ AI bằng ngôn ngữ đời thường, dành cho người mới, lập trình viên và người làm kinh doanh.**
+
+[![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-đang_xem-2563eb?style=for-the-badge)](README.vi.md)
+[![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
+[![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
+
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-81-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-162_SVG-6366f1?style=flat-square)
+![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
+
+</div>
 
 ---
 
@@ -16,11 +26,12 @@ Cuốn từ điển này bắt đầu từ con số 0 và đi sâu tới mức b
 
 Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 
-| Cấp độ | Dành cho | Trạng thái |
-|---|---|---|
-| **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | Đã có |
-| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | Đã có |
-| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | Đã có |
+| Cấp độ | Dành cho | Số từ | Trạng thái |
+|---|---|---:|---|
+| **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 41 | Đã có |
+| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 10 | Đã có |
+| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 30 | Đã có |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 162 sơ đồ SVG** | **81** | |
 
 ## Cách đọc
 

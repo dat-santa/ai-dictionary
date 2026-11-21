@@ -1,8 +1,18 @@
-**English** | [Tiếng Việt](README.vi.md)
+<div align="center">
 
 # AI Dictionary
 
 **AI terms explained in plain language, for beginners, coders and business people.**
+
+[![English](https://img.shields.io/badge/🇬🇧_English-active-2563eb?style=for-the-badge)](README.md)
+[![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
+[![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
+
+![Total Terms](https://img.shields.io/badge/Terms-81-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-162_SVGs-6366f1?style=flat-square)
+![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
+
+</div>
 
 ---
 
@@ -16,11 +26,12 @@ This dictionary starts from zero and goes as deep as you need. Each term is expl
 
 Every term can be read at a different depth:
 
-| Level | For | Status |
-|---|---|---|
-| **Beginner** | Anyone new to AI. Everyday language, no code. | Available |
-| **Coder** | Developers. How it works, code examples, common pitfalls. | Available |
-| **Business** | Founders and managers. Value, cost, when to use it. | Available |
+| Level | For | Terms | Status |
+|---|---|---:|---|
+| **Beginner** | Anyone new to AI. Everyday language, no code. | 41 | Available |
+| **Business** | Founders and managers. Value, cost, when to use it. | 10 | Available |
+| **Coder** | Developers. How it works, code examples, common pitfalls. | 30 | Available |
+| **Total** | **Bilingual (EN + VI) with 162 SVG diagrams** | **81** | |
 
 ## How to read
 
