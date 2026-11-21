@@ -19,9 +19,9 @@ Every term can exist at up to three depths. Keep each level strictly focused on 
 
 | Level | Reader | Focus | Avoid |
 |---|---|---|---|
-| **Beginner** *(Free / Public repo)* | Anyone new to AI | Everyday language, concrete analogy, zero code | Formulas, API names, architecture jargon |
-| **Coder** *(Pro)* | Developers | How it works under the hood, minimal runnable examples, real pitfalls | High-level marketing fluff |
-| **Business** *(Pro)* | Founders & managers | Practical value, cost/risk trade-offs, when to use vs. skip | Deep math or low-level code |
+| **Beginner** | Anyone new to AI | Everyday language, concrete analogy, zero code | Formulas, API names, architecture jargon |
+| **Business** | Founders & managers | Practical value, cost/risk trade-offs, when to use vs. skip | Deep math or low-level code |
+| **Coder** | Developers | How it works under the hood, architecture details, real pitfalls | High-level marketing fluff |
 
 ---
 

@@ -41,12 +41,10 @@ Every term can be read at a different depth:
 
 ## Free & Pro edition
 
-The **Beginner** level is free and open on GitHub.
-
-Want the complete edition (**Beginner + Coder + Business**)?
-
-- **English:** Get the full book bundle (PDF/EPUB) on the [landing page](https://datsanta.com) <!-- TODO: cập nhật link landing page EN / Gumroad -->.
-- **Tiếng Việt:** Read both **Free** and **Pro** chapters directly at [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
+- **Free (GitHub & Web):** All dictionary terms across **Beginner, Business, and Coder** — plain definitions, real-world examples, and static SVG diagrams are free and open for everyone.
+- **Pro (Interactive LMS & Bundle):** Go deeper with **interactive animations**, **multiple-choice quizzes** with progress tracking, practical code/checklists, and offline PDF/EPUB editions:
+  - **Tiếng Việt:** Learn interactively at [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
+  - **English:** Get the full edition on the [landing page](https://datsanta.com) <!-- TODO: cập nhật link landing page EN / Gumroad -->.
 
 ## Table of contents
 

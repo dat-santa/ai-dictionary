@@ -41,10 +41,8 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 
 ## Bản Free & Bản Pro
 
-Cuốn từ điển trên [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai) được chia sẵn thành các chương **Free** và **Pro**:
-
-- **Chương Free (Beginner):** Mở miễn phí cho cộng đồng — đọc trực tiếp trên web hoặc trên GitHub.
-- **Chương Pro (Coder, Business):** Đi sâu theo từng vai trò (kỹ thuật, kinh doanh), mở khóa và đọc trọn bộ tại [datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai).
+- **Bản Free (GitHub & Web):** Toàn bộ nội dung tra cứu cho **cả 3 đối tượng (Beginner, Business, Coder)** — định nghĩa ngắn gọn, ví dụ thực tế và sơ đồ SVG tĩnh đều mở miễn phí cho cộng đồng.
+- **Bản Pro ([datsanta.com/books/tu-dien-ai](https://datsanta.com/books/tu-dien-ai)):** Nâng cấp trải nghiệm học tương tác với **animation trực quan**, **quiz trắc nghiệm** kiểm tra kiến thức theo tiến độ, tài liệu thực hành đi kèm và bản đóng gói đọc offline.
 
 ## Mục lục
 

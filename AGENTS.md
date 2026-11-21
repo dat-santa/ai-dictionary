@@ -12,8 +12,8 @@ Before writing or editing any dictionary term or documentation, **always read [`
 
 ## 2. Repository scope (Free vs. Pro)
 
-- This public repository hosts the **Free (Beginner)** content under `CC BY-NC-SA 4.0`.
-- **Pro levels** (`Coder`, `Business`) live on `datsanta.com/books/tu-dien-ai` (Vietnamese) and the English book bundle. Do **not** add Pro-only chapters to this public repository unless the user explicitly asks.
+- This public repository hosts the **Free reference dictionary** for **all three audiences** (`Beginner`, `Business`, `Coder`) — plain definitions, real-world examples, and static SVG diagrams under `CC BY-NC-SA 4.0`.
+- **Pro features** (interactive animations, multiple-choice quizzes with LMS progress tracking, practical templates/code labs, and offline PDF/EPUB bundles) live on `datsanta.com/books/tu-dien-ai` (Vietnamese) and the English book bundle. Do **not** add Pro-only interactive modules or paid-only assets to this public repository unless the user explicitly asks.
 
 ---
 
