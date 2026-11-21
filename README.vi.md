@@ -61,4 +61,6 @@ Tác giả: [Dat Santa](https://datsanta.com) — Phát triển cùng AI (Founde
 
 Doanh nghiệp cần tư vấn hoặc triển khai giải pháp chuyển đổi AI? Tham khảo tại [HiAI](https://hiai.vn).
 
-<!-- License: chọn sau khi chốt ranh giới miễn phí / trả phí -->
+## Bản quyền
+
+Nội dung miễn phí trong kho lưu trữ này được phát hành theo giấy phép [CC BY-NC-SA 4.0](LICENSE) — tự do đọc, chia sẻ và chỉnh sửa cho mục đích phi thương mại kèm ghi nguồn [Dat Santa](https://datsanta.com).

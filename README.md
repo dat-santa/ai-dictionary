@@ -65,4 +65,6 @@ Created by [Dat Santa](https://datsanta.com) — books, courses, and practical A
 
 Looking for AI transformation solutions for your business? See [Hiai](https://hiai.vn).
 
-<!-- License: chọn sau khi chốt ranh giới miễn phí / trả phí -->
+## License
+
+The free content in this repository is licensed under [CC BY-NC-SA 4.0](LICENSE) — free to read, share, and adapt for non-commercial use with attribution to [Dat Santa](https://datsanta.com).
