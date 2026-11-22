@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Các tầng rủi ro trong EU AI Act</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">Quy định pháp lý càng chặt khi mức độ ảnh hưởng đến con người càng cao</text>
+
+  <rect x="72" y="134" width="392" height="148" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="268" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#7f1d1d">Không thể chấp nhận (Cấm)</text>
+  <line x1="104" y1="196" x2="432" y2="196" stroke="#ef4444" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Chấm điểm công dân, thao túng</text>
+  <text x="268" y="254" text-anchor="middle" font-size="14" fill="#1e293b">Bị cấm hoàn toàn tại EU</text>
+  <rect x="496" y="134" width="392" height="148" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="692" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#78350f">Rủi ro Cao (Siết chặt)</text>
+  <line x1="528" y1="196" x2="856" y2="196" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Tuyển dụng, tín dụng, y tế</text>
+  <text x="692" y="254" text-anchor="middle" font-size="14" fill="#1e293b">Bắt buộc kiểm định, lưu log, giám sát</text>
+  <rect x="72" y="306" width="392" height="148" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="268" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">Rủi ro Minh bạch</text>
+  <line x1="104" y1="368" x2="432" y2="368" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="400" text-anchor="middle" font-size="14" fill="#1e293b">Chatbot, ảnh/video tổng hợp</text>
+  <text x="268" y="426" text-anchor="middle" font-size="14" fill="#1e293b">Phải thông báo rõ có dùng AI</text>
+  <rect x="496" y="306" width="392" height="148" rx="14" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="692" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d">Rủi ro Tối thiểu (Tự do)</text>
+  <line x1="528" y1="368" x2="856" y2="368" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="400" text-anchor="middle" font-size="14" fill="#1e293b">Lọc thư rác, soát chính tả</text>
+  <text x="692" y="426" text-anchor="middle" font-size="14" fill="#1e293b">Không áp thêm ràng buộc pháp lý</text>
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">Từ điển AI — datsanta.com</text>
+</svg>

@@ -8,8 +8,8 @@
 [![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
 [![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-100-0f172a?style=flat-square)
-![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-200_SVG-6366f1?style=flat-square)
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-140-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-280_SVG-6366f1?style=flat-square)
 ![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -29,9 +29,9 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 | Cấp độ | Dành cho | Số từ | Trạng thái |
 |---|---|---:|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 60 | Đã có |
-| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 10 | Đã có |
+| **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 50 | Đã có |
 | **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 30 | Đã có |
-| **Tổng cộng** | **Song ngữ (EN + VI) kèm 200 sơ đồ SVG** | **100** | |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 280 sơ đồ SVG** | **140** | |
 
 ## Cách đọc
 
@@ -123,6 +123,46 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - [Guardrails](vi/terms/guardrails.md)
 - [Prompt Injection](vi/terms/prompt-injection.md)
 - [Vendor Lock-in](vi/terms/vendor-lock-in.md)
+- [AI Strategy (Chiến lược AI)](vi/terms/ai-strategy.md)
+- [Proof of Concept (PoC)](vi/terms/proof-of-concept.md)
+- [AI Pilot (Thử nghiệm AI)](vi/terms/ai-pilot.md)
+- [TCO (Tổng chi phí sở hữu)](vi/terms/tco.md)
+- [SLA (Cam kết mức dịch vụ)](vi/terms/sla.md)
+- [Change Management (Quản trị sự thay đổi)](vi/terms/change-management.md)
+- [AI Maturity (Mức độ trưởng thành AI)](vi/terms/ai-maturity.md)
+- [Make vs Partner (Tự làm hay Hợp tác)](vi/terms/make-vs-partner.md)
+- [AI Readiness (Mức độ sẵn sàng AI)](vi/terms/ai-readiness.md)
+- [Use Case Prioritization (Ưu tiên bài toán AI)](vi/terms/use-case-prioritization.md)
+- [AI Adoption (Mức độ ứng dụng AI)](vi/terms/ai-adoption.md)
+- [AI Enablement (Trang bị năng lực AI)](vi/terms/ai-enablement.md)
+- [Cost per Task (Chi phí trên mỗi tác vụ)](vi/terms/cost-per-task.md)
+- [Token Budget (Ngân sách Token)](vi/terms/token-budget.md)
+- [AI KPI (Chỉ số đo lường AI)](vi/terms/ai-kpi.md)
+- [Productivity J-Curve (Đường cong chữ J về năng suất)](vi/terms/productivity-j-curve.md)
+- [Process Mapping (Vẽ bản đồ quy trình)](vi/terms/process-mapping.md)
+- [Bottleneck Analysis (Phân tích điểm nghẽn)](vi/terms/bottleneck-analysis.md)
+- [Escalation Path (Luồng chuyển tiếp xử lý)](vi/terms/escalation-path.md)
+- [Service Tiering (Phân tầng dịch vụ)](vi/terms/service-tiering.md)
+- [Data Silo (Ốc đảo dữ liệu)](vi/terms/data-silo.md)
+- [Data Quality (Chất lượng dữ liệu)](vi/terms/data-quality.md)
+- [Data Governance (Quản trị dữ liệu)](vi/terms/data-governance.md)
+- [PII (Thông tin định danh cá nhân)](vi/terms/pii.md)
+- [Compliance (Tuân thủ quy định)](vi/terms/compliance.md)
+- [EU AI Act (Đạo luật AI châu Âu)](vi/terms/eu-ai-act.md)
+- [IP Risk (Rủi ro Sở hữu trí tuệ)](vi/terms/ip-risk.md)
+- [Model Risk Management (Quản trị rủi ro Model)](vi/terms/model-risk-management.md)
+- [Shadow IT / Shadow AI (Dùng AI tự phát ngoài kiểm soát)](vi/terms/shadow-it.md)
+- [Audit Trail (Nhật ký kiểm toán)](vi/terms/audit-trail.md)
+- [Data Residency (Lưu trữ dữ liệu theo vùng)](vi/terms/data-residency.md)
+- [Zero Data Retention (Không lưu giữ dữ liệu)](vi/terms/zero-data-retention.md)
+- [Enterprise Agreement (Hợp đồng Doanh nghiệp)](vi/terms/enterprise-agreement.md)
+- [AI Center of Excellence (Trung tâm Điều phối AI)](vi/terms/ai-center-of-excellence.md)
+- [AI Champion (Hạt nhân AI nội bộ)](vi/terms/ai-champion.md)
+- [Buy-In (Sự đồng thuận & ủng hộ)](vi/terms/buy-in.md)
+- [AI Literacy Training (Đào tạo hiểu biết AI phổ thông)](vi/terms/ai-literacy-training.md)
+- [Customer Trust (Niềm tin khách hàng)](vi/terms/customer-trust.md)
+- [AI Disclosure (Công khai sử dụng AI)](vi/terms/ai-disclosure.md)
+- [Post-Deployment Monitoring (Giám sát sau triển khai)](vi/terms/post-deployment-monitoring.md)
 
 **Phần 3: AI cho Lập trình viên (Nền tảng cần biết cho Coder)**
 

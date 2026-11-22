@@ -8,8 +8,8 @@
 [![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
 [![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Total Terms](https://img.shields.io/badge/Terms-100-0f172a?style=flat-square)
-![Diagrams](https://img.shields.io/badge/Diagrams-200_SVGs-6366f1?style=flat-square)
+![Total Terms](https://img.shields.io/badge/Terms-140-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-280_SVGs-6366f1?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -29,9 +29,9 @@ Every term can be read at a different depth:
 | Level | For | Terms | Status |
 |---|---|---:|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | 60 | Available |
-| **Business** | Founders and managers. Value, cost, when to use it. | 10 | Available |
+| **Business** | Founders and managers. Value, cost, when to use it. | 50 | Available |
 | **Coder** | Developers. How it works, code examples, common pitfalls. | 30 | Available |
-| **Total** | **Bilingual (EN + VI) with 200 SVG diagrams** | **100** | |
+| **Total** | **Bilingual (EN + VI) with 280 SVG diagrams** | **140** | |
 
 ## How to read
 
@@ -125,6 +125,46 @@ Every term can be read at a different depth:
 - [Guardrails](terms/guardrails.md)
 - [Prompt Injection](terms/prompt-injection.md)
 - [Vendor Lock-in](terms/vendor-lock-in.md)
+- [AI Strategy](terms/ai-strategy.md)
+- [Proof of Concept (PoC)](terms/proof-of-concept.md)
+- [AI Pilot](terms/ai-pilot.md)
+- [TCO (Total Cost of Ownership)](terms/tco.md)
+- [SLA (Service Level Agreement)](terms/sla.md)
+- [Change Management](terms/change-management.md)
+- [AI Maturity](terms/ai-maturity.md)
+- [Make vs Partner](terms/make-vs-partner.md)
+- [AI Readiness](terms/ai-readiness.md)
+- [Use Case Prioritization](terms/use-case-prioritization.md)
+- [AI Adoption](terms/ai-adoption.md)
+- [AI Enablement](terms/ai-enablement.md)
+- [Cost per Task](terms/cost-per-task.md)
+- [Token Budget](terms/token-budget.md)
+- [AI KPI](terms/ai-kpi.md)
+- [Productivity J-Curve](terms/productivity-j-curve.md)
+- [Process Mapping](terms/process-mapping.md)
+- [Bottleneck Analysis](terms/bottleneck-analysis.md)
+- [Escalation Path](terms/escalation-path.md)
+- [Service Tiering](terms/service-tiering.md)
+- [Data Silo](terms/data-silo.md)
+- [Data Quality](terms/data-quality.md)
+- [Data Governance](terms/data-governance.md)
+- [PII (Personally Identifiable Information)](terms/pii.md)
+- [Compliance](terms/compliance.md)
+- [EU AI Act](terms/eu-ai-act.md)
+- [IP Risk](terms/ip-risk.md)
+- [Model Risk Management](terms/model-risk-management.md)
+- [Shadow IT (Shadow AI)](terms/shadow-it.md)
+- [Audit Trail](terms/audit-trail.md)
+- [Data Residency](terms/data-residency.md)
+- [Zero Data Retention](terms/zero-data-retention.md)
+- [Enterprise Agreement](terms/enterprise-agreement.md)
+- [AI Center of Excellence (CoE)](terms/ai-center-of-excellence.md)
+- [AI Champion](terms/ai-champion.md)
+- [Buy-In](terms/buy-in.md)
+- [AI Literacy Training](terms/ai-literacy-training.md)
+- [Customer Trust](terms/customer-trust.md)
+- [AI Disclosure](terms/ai-disclosure.md)
+- [Post-Deployment Monitoring](terms/post-deployment-monitoring.md)
 
 **Section 3: AI for Coders (Must-have for developers)**
 
