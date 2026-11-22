@@ -8,8 +8,8 @@
 [![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
 [![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Total Terms](https://img.shields.io/badge/Terms-201-0f172a?style=flat-square)
-![Diagrams](https://img.shields.io/badge/Diagrams-402_SVGs-6366f1?style=flat-square)
+![Total Terms](https://img.shields.io/badge/Terms-202-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-404_SVGs-6366f1?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Every term can be read at a different depth:
 |---|---|---:|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | 60 | Available |
 | **Business** | Founders and managers. Value, cost, when to use it. | 50 | Available |
-| **Coder** | Developers. How it works, code examples, common pitfalls. | 91 | Available |
-| **Total** | **Bilingual (EN + VI) with 402 SVG diagrams** | **201** | |
+| **Coder** | Developers. How it works, code examples, common pitfalls. | 92 | Available |
+| **Total** | **Bilingual (EN + VI) with 404 SVG diagrams** | **202** | |
 
 ## How to read
 
@@ -259,6 +259,7 @@ Every term can be read at a different depth:
 - [Token Counting](terms/token-counting.md)
 - [Needle-in-a-Haystack Test](terms/needle-in-a-haystack.md)
 - [Effort (Reasoning Effort)](terms/effort.md)
+- [Harness (Agent Harness)](terms/harness.md)
 
 ## Each term follows one template
 

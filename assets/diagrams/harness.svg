@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Same Model, Different Harnesses</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">The model only takes text in and outputs text — the harness turns it into a chat app or coding agent</text>
+
+  <rect x="64" y="136" width="392" height="300" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="188" y="156" width="144" height="28" rx="14" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="260" y="175" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">CHAT HARNESS</text>
+  <text x="260" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">e.g. Claude.ai / ChatGPT</text>
+  <line x1="96" y1="242" x2="424" y2="242" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="260" y="280" text-anchor="middle" font-size="14.5" fill="#1e293b">Conversational system prompt</text>
+  <text x="260" y="316" text-anchor="middle" font-size="14.5" fill="#1e293b">Web search &amp; file upload tools</text>
+  <text x="260" y="352" text-anchor="middle" font-size="14.5" fill="#1e293b">Chat history &amp; artifact preview</text>
+  <text x="260" y="388" text-anchor="middle" font-size="14.5" fill="#1e293b">No local disk or terminal access</text>
+
+  <rect x="504" y="136" width="392" height="300" rx="14" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <rect x="628" y="156" width="144" height="28" rx="14" fill="#ffffff" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="700" y="175" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">CODING HARNESS</text>
+  <text x="700" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">e.g. Claude Code / Cursor</text>
+  <line x1="536" y1="242" x2="864" y2="242" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="700" y="280" text-anchor="middle" font-size="14.5" fill="#1e293b">Filesystem, git &amp; bash tools</text>
+  <text x="700" y="316" text-anchor="middle" font-size="14.5" fill="#1e293b">AGENTS.md, hooks &amp; permissions</text>
+  <text x="700" y="352" text-anchor="middle" font-size="14.5" fill="#1e293b">Auto context compaction &amp; loop</text>
+  <text x="700" y="388" text-anchor="middle" font-size="14.5" fill="#1e293b">Edits repos &amp; runs tests directly</text>
+
+  <circle cx="480" cy="286" r="24" fill="#0f172a"/>
+  <text x="480" y="291" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">SAME</text>
+
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">AI Dictionary — datsanta.com</text>
+</svg>
