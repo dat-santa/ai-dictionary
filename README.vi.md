@@ -8,8 +8,8 @@
 [![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
 [![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-81-0f172a?style=flat-square)
-![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-162_SVG-6366f1?style=flat-square)
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-100-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-200_SVG-6366f1?style=flat-square)
 ![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -28,10 +28,10 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 
 | Cấp độ | Dành cho | Số từ | Trạng thái |
 |---|---|---:|---|
-| **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 41 | Đã có |
+| **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 60 | Đã có |
 | **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 10 | Đã có |
 | **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 30 | Đã có |
-| **Tổng cộng** | **Song ngữ (EN + VI) kèm 162 sơ đồ SVG** | **81** | |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 200 sơ đồ SVG** | **100** | |
 
 ## Cách đọc
 
@@ -91,6 +91,25 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - [Benchmark (Bài kiểm tra chuẩn)](vi/terms/benchmark.md)
 - [AGI (Trí tuệ nhân tạo tổng quát)](vi/terms/agi.md)
 - [AI Literacy (Năng lực hiểu biết AI)](vi/terms/ai-literacy.md)
+- [Text-to-Video (Chuyển chữ thành video)](vi/terms/text-to-video.md)
+- [Voice Cloning (Nhân bản giọng nói)](vi/terms/voice-cloning.md)
+- [Deep Research (Nghiên cứu sâu)](vi/terms/deep-research.md)
+- [Vibe Coding](vi/terms/vibe-coding.md)
+- [Custom Assistant (Trợ lý AI tùy chỉnh)](vi/terms/custom-assistant.md)
+- [AI Slop (Nội dung rác AI)](vi/terms/ai-slop.md)
+- [AI Copyright (Bản quyền AI)](vi/terms/ai-copyright.md)
+- [Synthetic Data (Dữ liệu tổng hợp)](vi/terms/synthetic-data.md)
+- [Turing Test (Phép thử Turing)](vi/terms/turing-test.md)
+- [Algorithm (Thuật toán)](vi/terms/algorithm.md)
+- [Automation (Tự động hóa)](vi/terms/automation.md)
+- [Personalization (Cá nhân hóa)](vi/terms/personalization.md)
+- [Sentiment Analysis (Phân tích cảm xúc)](vi/terms/sentiment-analysis.md)
+- [OCR (Nhận dạng ký tự quang học)](vi/terms/ocr.md)
+- [Recommendation System (Hệ thống gợi ý)](vi/terms/recommendation-system.md)
+- [Autonomous Vehicle (Xe tự hành)](vi/terms/autonomous-vehicle.md)
+- [Smart Assistant (Trợ lý thông minh)](vi/terms/smart-assistant.md)
+- [Digital Twin (Bản sao số)](vi/terms/digital-twin.md)
+- [Responsible AI (AI có trách nhiệm)](vi/terms/responsible-ai.md)
 
 **Phần 2: AI cho Kinh doanh (Nền tảng cần biết cho Business)**
 

@@ -8,8 +8,8 @@
 [![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
 [![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Total Terms](https://img.shields.io/badge/Terms-81-0f172a?style=flat-square)
-![Diagrams](https://img.shields.io/badge/Diagrams-162_SVGs-6366f1?style=flat-square)
+![Total Terms](https://img.shields.io/badge/Terms-100-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-200_SVGs-6366f1?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -28,10 +28,10 @@ Every term can be read at a different depth:
 
 | Level | For | Terms | Status |
 |---|---|---:|---|
-| **Beginner** | Anyone new to AI. Everyday language, no code. | 41 | Available |
+| **Beginner** | Anyone new to AI. Everyday language, no code. | 60 | Available |
 | **Business** | Founders and managers. Value, cost, when to use it. | 10 | Available |
 | **Coder** | Developers. How it works, code examples, common pitfalls. | 30 | Available |
-| **Total** | **Bilingual (EN + VI) with 162 SVG diagrams** | **81** | |
+| **Total** | **Bilingual (EN + VI) with 200 SVG diagrams** | **100** | |
 
 ## How to read
 
@@ -93,6 +93,25 @@ Every term can be read at a different depth:
 - [Benchmark](terms/benchmark.md)
 - [AGI](terms/agi.md)
 - [AI Literacy](terms/ai-literacy.md)
+- [Text-to-Video](terms/text-to-video.md)
+- [Voice Cloning](terms/voice-cloning.md)
+- [Deep Research](terms/deep-research.md)
+- [Vibe Coding](terms/vibe-coding.md)
+- [Custom Assistant](terms/custom-assistant.md)
+- [AI Slop](terms/ai-slop.md)
+- [AI Copyright](terms/ai-copyright.md)
+- [Synthetic Data](terms/synthetic-data.md)
+- [Turing Test](terms/turing-test.md)
+- [Algorithm](terms/algorithm.md)
+- [Automation](terms/automation.md)
+- [Personalization](terms/personalization.md)
+- [Sentiment Analysis](terms/sentiment-analysis.md)
+- [OCR (Optical Character Recognition)](terms/ocr.md)
+- [Recommendation System](terms/recommendation-system.md)
+- [Autonomous Vehicle](terms/autonomous-vehicle.md)
+- [Smart Assistant](terms/smart-assistant.md)
+- [Digital Twin](terms/digital-twin.md)
+- [Responsible AI](terms/responsible-ai.md)
 
 **Section 2: AI for Business (Must-have for founders & managers)**
 
