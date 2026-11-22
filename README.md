@@ -8,8 +8,8 @@
 [![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
 [![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Total Terms](https://img.shields.io/badge/Terms-202-0f172a?style=flat-square)
-![Diagrams](https://img.shields.io/badge/Diagrams-404_SVGs-6366f1?style=flat-square)
+![Total Terms](https://img.shields.io/badge/Terms-222-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-444_SVGs-6366f1?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Every term can be read at a different depth:
 |---|---|---:|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | 60 | Available |
 | **Business** | Founders and managers. Value, cost, when to use it. | 50 | Available |
-| **Coder** | Developers. How it works, code examples, common pitfalls. | 92 | Available |
-| **Total** | **Bilingual (EN + VI) with 404 SVG diagrams** | **202** | |
+| **Coder** | Developers. How it works, code examples, common pitfalls. | 112 | Available |
+| **Total** | **Bilingual (EN + VI) with 444 SVG diagrams** | **222** | |
 
 ## How to read
 
@@ -260,6 +260,26 @@ Every term can be read at a different depth:
 - [Needle-in-a-Haystack Test](terms/needle-in-a-haystack.md)
 - [Effort (Reasoning Effort)](terms/effort.md)
 - [Harness (Agent Harness)](terms/harness.md)
+- [Compaction (Context Compaction)](terms/compaction.md)
+- [Smart Zone](terms/smart-zone.md)
+- [Progressive Disclosure](terms/progressive-disclosure.md)
+- [AGENTS.md](terms/agents-md.md)
+- [Skill (Agent Skill)](terms/skill.md)
+- [Subagent](terms/subagent.md)
+- [AFK Agent (Away From Keyboard)](terms/afk-agent.md)
+- [Spec (AI Coding Specification)](terms/spec.md)
+- [Grilling (Requirements Interview)](terms/grilling.md)
+- [Handoff Artifact](terms/handoff-artifact.md)
+- [Dark Factory (Software Factory)](terms/dark-factory.md)
+- [Automated Code Review](terms/automated-review.md)
+- [Sycophancy](terms/sycophancy.md)
+- [Non-Determinism](terms/non-determinism.md)
+- [Parametric Knowledge](terms/parametric-knowledge.md)
+- [AX (Agent Experience)](terms/ax.md)
+- [Permission Mode](terms/permission-mode.md)
+- [Input vs. Output Tokens](terms/input-vs-output-tokens.md)
+- [Stateless vs. Stateful](terms/stateless-vs-stateful.md)
+- [Next-Token Prediction](terms/next-token-prediction.md)
 
 ## Each term follows one template
 

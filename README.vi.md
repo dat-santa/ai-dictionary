@@ -8,8 +8,8 @@
 [![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
 [![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-202-0f172a?style=flat-square)
-![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-404_SVG-6366f1?style=flat-square)
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-222-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-444_SVG-6366f1?style=flat-square)
 ![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 |---|---|---:|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 60 | Đã có |
 | **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 50 | Đã có |
-| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 92 | Đã có |
-| **Tổng cộng** | **Song ngữ (EN + VI) kèm 404 sơ đồ SVG** | **202** | |
+| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 112 | Đã có |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 444 sơ đồ SVG** | **222** | |
 
 ## Cách đọc
 
@@ -258,6 +258,26 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - [Needle-in-a-Haystack Test (Thử nghiệm Tìm kim đáy bể)](vi/terms/needle-in-a-haystack.md)
 - [Effort (Mức độ nỗ lực suy luận)](vi/terms/effort.md)
 - [Harness (Lớp khung vận hành Agent)](vi/terms/harness.md)
+- [Compaction (Nén ngữ cảnh)](vi/terms/compaction.md)
+- [Smart Zone (Vùng thông minh của ngữ cảnh)](vi/terms/smart-zone.md)
+- [Progressive Disclosure (Nạp ngữ cảnh theo tầng)](vi/terms/progressive-disclosure.md)
+- [AGENTS.md](vi/terms/agents-md.md)
+- [Skill (Kỹ năng mở rộng cho Agent)](vi/terms/skill.md)
+- [Subagent (Agent con chuyên trách)](vi/terms/subagent.md)
+- [AFK Agent (Agent chạy tự động không cần giám sát)](vi/terms/afk-agent.md)
+- [Spec (Bản đặc tả kỹ thuật cho AI)](vi/terms/spec.md)
+- [Grilling (Phỏng vấn làm rõ yêu cầu)](vi/terms/grilling.md)
+- [Handoff Artifact (Tài liệu bàn giao phiên)](vi/terms/handoff-artifact.md)
+- [Dark Factory (Nhà máy phần mềm tự động)](vi/terms/dark-factory.md)
+- [Automated Code Review (Review code tự động)](vi/terms/automated-review.md)
+- [Sycophancy (Thói nịnh hót của AI)](vi/terms/sycophancy.md)
+- [Non-Determinism (Tính bất định)](vi/terms/non-determinism.md)
+- [Parametric Knowledge (Tri thức trong trọng số)](vi/terms/parametric-knowledge.md)
+- [AX (Trải nghiệm cho Agent — Agent Experience)](vi/terms/ax.md)
+- [Permission Mode (Chế độ phân quyền Agent)](vi/terms/permission-mode.md)
+- [Input vs. Output Tokens (Token đầu vào & đầu ra)](vi/terms/input-vs-output-tokens.md)
+- [Stateless vs. Stateful (Phi trạng thái & Có trạng thái)](vi/terms/stateless-vs-stateful.md)
+- [Next-Token Prediction (Dự đoán Token tiếp theo)](vi/terms/next-token-prediction.md)
 
 ## Cấu trúc mỗi thuật ngữ
 
