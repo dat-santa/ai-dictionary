@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Máy trạng thái (State Machine)</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">Các nút xử lý và đường chuyển tiếp tường minh giúp kiểm soát luồng chạy agent</text>
+
+  <rect x="64" y="140" width="256" height="280" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="136" y="160" width="112" height="26" rx="13" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="192" y="177" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">NÚT: XỬ LÝ</text>
+  <text x="192" y="224" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">LLM chạy trong khung kiểm soát</text>
+  <line x1="92" y1="246" x2="292" y2="246" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="192" y="284" text-anchor="middle" font-size="14" fill="#1e293b">Đọc đối tượng trạng thái chung</text>
+  <text x="192" y="314" text-anchor="middle" font-size="14" fill="#1e293b">Viết bản vá code mới</text>
+  <text x="192" y="344" text-anchor="middle" font-size="14" font-weight="600" fill="#1e3a8a">Chuyển sang nút -&gt; Chạy test</text>
+  <line x1="326" y1="280" x2="340" y2="280" stroke="#64748b" stroke-width="2.5"/>
+  <polygon points="346,280 336,274 336,286" fill="#64748b"/>
+  <rect x="352" y="140" width="256" height="280" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="424" y="160" width="112" height="26" rx="13" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="480" y="177" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">CẠNH: RẼ NHÁNH</text>
+  <text x="480" y="224" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">Điều hướng tất định</text>
+  <line x1="380" y1="246" x2="580" y2="246" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="480" y="284" text-anchor="middle" font-size="14" fill="#1e293b">Test đạt -&gt; Tới nút Kết thúc</text>
+  <text x="480" y="314" text-anchor="middle" font-size="14" fill="#1e293b">Lỗi &amp; số lần thử &lt; 3 -&gt; Sửa lại</text>
+  <text x="480" y="344" text-anchor="middle" font-size="14" font-weight="600" fill="#78350f">Thử &gt;= 3 -&gt; Chuyển người kiểm tra</text>
+  <line x1="614" y1="280" x2="628" y2="280" stroke="#64748b" stroke-width="2.5"/>
+  <polygon points="634,280 624,274 624,286" fill="#64748b"/>
+  <rect x="640" y="140" width="256" height="280" rx="14" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <rect x="712" y="160" width="112" height="26" rx="13" fill="#ffffff" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="768" y="177" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">VẬN HÀNH AN TOÀN</text>
+  <text x="768" y="224" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">Kiểm soát tốt trên Production</text>
+  <line x1="668" y1="246" x2="868" y2="246" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="768" y="284" text-anchor="middle" font-size="14" fill="#1e293b">Không bao giờ lặp vô hạn đốt tiền</text>
+  <text x="768" y="314" text-anchor="middle" font-size="14" fill="#1e293b">Dễ viết unit test cho từng nút</text>
+  <text x="768" y="344" text-anchor="middle" font-size="14" font-weight="600" fill="#14532d">Theo dõi và gỡ lỗi trực quan</text>
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">Từ điển AI — datsanta.com</text>
+</svg>

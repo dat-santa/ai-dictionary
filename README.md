@@ -8,8 +8,8 @@
 [![Tiếng Việt](https://img.shields.io/badge/🇻🇳_Tiếng_Việt-read-64748b?style=for-the-badge)](README.vi.md)
 [![Web Reader](https://img.shields.io/badge/📖_Read_on_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Total Terms](https://img.shields.io/badge/Terms-140-0f172a?style=flat-square)
-![Diagrams](https://img.shields.io/badge/Diagrams-280_SVGs-6366f1?style=flat-square)
+![Total Terms](https://img.shields.io/badge/Terms-200-0f172a?style=flat-square)
+![Diagrams](https://img.shields.io/badge/Diagrams-400_SVGs-6366f1?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Every term can be read at a different depth:
 |---|---|---:|---|
 | **Beginner** | Anyone new to AI. Everyday language, no code. | 60 | Available |
 | **Business** | Founders and managers. Value, cost, when to use it. | 50 | Available |
-| **Coder** | Developers. How it works, code examples, common pitfalls. | 30 | Available |
-| **Total** | **Bilingual (EN + VI) with 280 SVG diagrams** | **140** | |
+| **Coder** | Developers. How it works, code examples, common pitfalls. | 90 | Available |
+| **Total** | **Bilingual (EN + VI) with 400 SVG diagrams** | **200** | |
 
 ## How to read
 
@@ -198,6 +198,66 @@ Every term can be read at a different depth:
 - [LLM-as-a-Judge](terms/llm-as-a-judge.md)
 - [Latency vs. Throughput](terms/latency-vs-throughput.md)
 - [Inference](terms/inference.md)
+- [Tokenization](terms/tokenization.md)
+- [KV Cache (Key-Value Cache)](terms/kv-cache.md)
+- [Prefill and Decode](terms/prefill-and-decode.md)
+- [TTFT (Time to First Token)](terms/ttft.md)
+- [TPS (Tokens per Second)](terms/tps.md)
+- [Top-k Sampling](terms/top-k-sampling.md)
+- [Beam Search](terms/beam-search.md)
+- [Stop Sequence](terms/stop-sequence.md)
+- [Logits](terms/logits.md)
+- [Softmax](terms/softmax.md)
+- [Positional Encoding](terms/positional-encoding.md)
+- [Mixture of Experts (MoE)](terms/mixture-of-experts.md)
+- [FlashAttention](terms/flash-attention.md)
+- [Context Rot](terms/context-rot.md)
+- [Speculative Decoding](terms/speculative-decoding.md)
+- [Knowledge Distillation](terms/distillation.md)
+- [QLoRA (Quantized LoRA)](terms/qlora.md)
+- [DPO (Direct Preference Optimization)](terms/dpo.md)
+- [Gradient Checkpointing](terms/gradient-checkpointing.md)
+- [Catastrophic Forgetting](terms/catastrophic-forgetting.md)
+- [BM25](terms/bm25.md)
+- [HNSW (Hierarchical Navigable Small World)](terms/hnsw.md)
+- [Semantic Caching](terms/semantic-caching.md)
+- [Metadata Filtering](terms/metadata-filtering.md)
+- [Query Rewriting](terms/query-rewriting.md)
+- [HyDE (Hypothetical Document Embeddings)](terms/hyde.md)
+- [GraphRAG](terms/graph-rag.md)
+- [Agentic RAG](terms/agentic-rag.md)
+- [Contextual Retrieval](terms/contextual-retrieval.md)
+- [JSON Schema](terms/json-schema.md)
+- [Grammar-Constrained Decoding](terms/grammar-constrained-decoding.md)
+- [A2A Protocol (Agent-to-Agent Protocol)](terms/a2a-protocol.md)
+- [Multi-Agent System](terms/multi-agent-system.md)
+- [Agent Handoff](terms/handoff.md)
+- [State Machine (Agent Graph)](terms/state-machine.md)
+- [Checkpointing](terms/checkpointing.md)
+- [Reflection Pattern](terms/reflection-pattern.md)
+- [Planning Pattern](terms/planning-pattern.md)
+- [Computer Use](terms/computer-use.md)
+- [Code Interpreter](terms/code-interpreter.md)
+- [vLLM (PagedAttention)](terms/vllm.md)
+- [Continuous Batching](terms/continuous-batching.md)
+- [Tensor Parallelism](terms/tensor-parallelism.md)
+- [VRAM (Video RAM)](terms/vram.md)
+- [GGUF Format](terms/gguf.md)
+- [Ollama (Local Model Runner)](terms/ollama.md)
+- [AI Gateway](terms/ai-gateway.md)
+- [Model Routing](terms/model-routing.md)
+- [Fallback Chain](terms/fallback-chain.md)
+- [Circuit Breaker](terms/circuit-breaker.md)
+- [Idempotency (in Tool Calls)](terms/idempotency.md)
+- [Golden Dataset](terms/golden-dataset.md)
+- [AI Regression Testing](terms/regression-testing.md)
+- [Red Teaming](terms/red-teaming.md)
+- [Prompt Guard](terms/prompt-guard.md)
+- [Indirect Prompt Injection](terms/indirect-prompt-injection.md)
+- [PII Redaction](terms/pii-redaction.md)
+- [AI Observability (Tracing)](terms/observability.md)
+- [Token Counting](terms/token-counting.md)
+- [Needle-in-a-Haystack Test](terms/needle-in-a-haystack.md)
 
 ## Each term follows one template
 

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">BM25 (Từ khóa) và Vector Search</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">Kết hợp khớp từ khóa chính xác với tìm kiếm ngữ nghĩa tạo ra Hybrid Search</text>
+
+  <rect x="64" y="136" width="392" height="300" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="188" y="156" width="144" height="28" rx="14" fill="#ffffff" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="260" y="175" text-anchor="middle" font-size="13" font-weight="700" fill="#78350f">BM25 (TỪ KHÓA)</text>
+  <text x="260" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Khớp chính xác mã &amp; từ hiếm</text>
+  <line x1="96" y1="242" x2="424" y2="242" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="260" y="280" text-anchor="middle" font-size="14.5" fill="#1e293b">Bắt trúng ngay mã &#x27;SKU-88412&#x27;</text>
+  <text x="260" y="316" text-anchor="middle" font-size="14.5" fill="#1e293b">Ưu tiên từ khóa hiếm trong kho</text>
+  <text x="260" y="352" text-anchor="middle" font-size="14.5" fill="#1e293b">Chống spam lặp từ khóa</text>
+  <text x="260" y="388" text-anchor="middle" font-size="14.5" fill="#1e293b">Bỏ sót từ đồng nghĩa hoàn toàn</text>
+  <rect x="504" y="136" width="392" height="300" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="628" y="156" width="144" height="28" rx="14" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="700" y="175" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">VECTOR (NGỮ NGHĨA)</text>
+  <text x="700" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Hiểu ý nghĩa &amp; từ đồng nghĩa</text>
+  <line x1="536" y1="242" x2="864" y2="242" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="700" y="280" text-anchor="middle" font-size="14.5" fill="#1e293b">Khớp được ý và cách diễn đạt khác</text>
+  <text x="700" y="316" text-anchor="middle" font-size="14.5" fill="#1e293b">Tìm &#x27;hoàn tiền&#x27; khi gõ &#x27;trả hàng&#x27;</text>
+  <text x="700" y="352" text-anchor="middle" font-size="14.5" fill="#1e293b">Dễ nhầm giữa các mã số gần giống</text>
+  <text x="700" y="388" text-anchor="middle" font-size="14.5" fill="#1e293b">Ghép cả hai -&gt; Hybrid Search</text>
+  <circle cx="480" cy="286" r="22" fill="#0f172a"/>
+  <text x="480" y="291" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">VS</text>
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">Từ điển AI — datsanta.com</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Vai trò của GPU VRAM với LLM</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">Hai thông số phần cứng quyết định model nào chạy được và tốc độ nhanh tới đâu</text>
+
+  <rect x="72" y="134" width="392" height="148" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="268" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">Dung lượng VRAM (GB)</text>
+  <line x1="104" y1="196" x2="432" y2="196" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Phải chứa đủ trọng số + KV cache</text>
+  <text x="268" y="254" text-anchor="middle" font-size="14" fill="#1e293b">70B FP16 ≈ 140 GB; 4-bit ≈ 40 GB</text>
+  <rect x="496" y="134" width="392" height="148" rx="14" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="692" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d">Băng thông VRAM (TB/s)</text>
+  <line x1="528" y1="196" x2="856" y2="196" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Quyết định tốc độ chạy chữ TPS</text>
+  <text x="692" y="254" text-anchor="middle" font-size="14" fill="#1e293b">Mỗi token phải đọc lại toàn bộ trọng số</text>
+  <rect x="72" y="306" width="392" height="148" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="268" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#78350f">Lỗi tràn bộ nhớ (OOM)</text>
+  <line x1="104" y1="368" x2="432" y2="368" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="400" text-anchor="middle" font-size="14" fill="#1e293b">Sập khi ngữ cảnh hoặc batch tăng vọt</text>
+  <text x="268" y="426" text-anchor="middle" font-size="14" fill="#1e293b">Khắc phục bằng nén 4-bit hoặc vLLM</text>
+  <rect x="496" y="306" width="392" height="148" rx="14" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="692" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#4c1d95">SRAM và HBM</text>
+  <line x1="528" y1="368" x2="856" y2="368" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="400" text-anchor="middle" font-size="14" fill="#1e293b">SRAM siêu nhanh vs HBM dung lượng lớn</text>
+  <text x="692" y="426" text-anchor="middle" font-size="14" fill="#1e293b">FlashAttention tối ưu dùng lại SRAM</text>
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">Từ điển AI — datsanta.com</text>
+</svg>

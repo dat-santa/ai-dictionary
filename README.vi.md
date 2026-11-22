@@ -8,8 +8,8 @@
 [![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
 [![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-140-0f172a?style=flat-square)
-![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-280_SVG-6366f1?style=flat-square)
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-200-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-400_SVG-6366f1?style=flat-square)
 ![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 |---|---|---:|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 60 | Đã có |
 | **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 50 | Đã có |
-| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 30 | Đã có |
-| **Tổng cộng** | **Song ngữ (EN + VI) kèm 280 sơ đồ SVG** | **140** | |
+| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 90 | Đã có |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 400 sơ đồ SVG** | **200** | |
 
 ## Cách đọc
 
@@ -196,6 +196,66 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - [LLM-as-a-Judge](vi/terms/llm-as-a-judge.md)
 - [Latency vs. Throughput](vi/terms/latency-vs-throughput.md)
 - [Inference](vi/terms/inference.md)
+- [Tokenization (Tách token)](vi/terms/tokenization.md)
+- [KV Cache (Bộ nhớ đệm Key-Value)](vi/terms/kv-cache.md)
+- [Prefill and Decode (Nạp ngữ cảnh & Giải mã)](vi/terms/prefill-and-decode.md)
+- [TTFT (Thời gian tới Token đầu tiên)](vi/terms/ttft.md)
+- [TPS (Số Token mỗi giây)](vi/terms/tps.md)
+- [Top-k Sampling (Lấy mẫu Top-k)](vi/terms/top-k-sampling.md)
+- [Beam Search (Tìm kiếm chùm)](vi/terms/beam-search.md)
+- [Stop Sequence (Chuỗi dừng)](vi/terms/stop-sequence.md)
+- [Logits (Điểm thô đầu ra)](vi/terms/logits.md)
+- [Softmax (Hàm chuẩn hóa xác suất)](vi/terms/softmax.md)
+- [Positional Encoding (Mã hóa vị trí)](vi/terms/positional-encoding.md)
+- [Mixture of Experts (MoE — Hỗn hợp Chuyên gia)](vi/terms/mixture-of-experts.md)
+- [FlashAttention](vi/terms/flash-attention.md)
+- [Context Rot (Suy giảm ngữ cảnh)](vi/terms/context-rot.md)
+- [Speculative Decoding (Giải mã suy đoán)](vi/terms/speculative-decoding.md)
+- [Knowledge Distillation (Chưng cất tri thức)](vi/terms/distillation.md)
+- [QLoRA (LoRA Lượng tử hóa)](vi/terms/qlora.md)
+- [DPO (Tối ưu hóa Ưu tiên Trực tiếp)](vi/terms/dpo.md)
+- [Gradient Checkpointing (Lưu điểm kiểm tra Gradient)](vi/terms/gradient-checkpointing.md)
+- [Catastrophic Forgetting (Quên thảm họa)](vi/terms/catastrophic-forgetting.md)
+- [BM25 (Tìm kiếm từ khóa chuẩn)](vi/terms/bm25.md)
+- [HNSW (Chỉ mục đồ thị nhiều tầng)](vi/terms/hnsw.md)
+- [Semantic Caching (Bộ nhớ đệm ngữ nghĩa)](vi/terms/semantic-caching.md)
+- [Metadata Filtering (Lọc theo siêu dữ liệu)](vi/terms/metadata-filtering.md)
+- [Query Rewriting (Viết lại truy vấn)](vi/terms/query-rewriting.md)
+- [HyDE (Vector tài liệu giả định)](vi/terms/hyde.md)
+- [GraphRAG (RAG kết hợp Đồ thị tri thức)](vi/terms/graph-rag.md)
+- [Agentic RAG (RAG chủ động nhiều bước)](vi/terms/agentic-rag.md)
+- [Contextual Retrieval (Truy xuất kèm ngữ cảnh gốc)](vi/terms/contextual-retrieval.md)
+- [JSON Schema (Lược đồ cấu trúc JSON)](vi/terms/json-schema.md)
+- [Grammar-Constrained Decoding (Giải mã ràng buộc ngữ pháp)](vi/terms/grammar-constrained-decoding.md)
+- [A2A Protocol (Giao thức Agent-to-Agent)](vi/terms/a2a-protocol.md)
+- [Multi-Agent System (Hệ thống đa Agent)](vi/terms/multi-agent-system.md)
+- [Agent Handoff (Bàn giao giữa các Agent)](vi/terms/handoff.md)
+- [State Machine (Máy trạng thái cho Agent)](vi/terms/state-machine.md)
+- [Checkpointing (Lưu điểm phục hồi trạng thái)](vi/terms/checkpointing.md)
+- [Reflection Pattern (Mẫu tự phản biện & sửa lỗi)](vi/terms/reflection-pattern.md)
+- [Planning Pattern (Mẫu lập kế hoạch trước)](vi/terms/planning-pattern.md)
+- [Computer Use (Điều khiển giao diện máy tính)](vi/terms/computer-use.md)
+- [Code Interpreter (Trình thông dịch Code an toàn)](vi/terms/code-interpreter.md)
+- [vLLM (PagedAttention)](vi/terms/vllm.md)
+- [Continuous Batching (Gom lô liên tục)](vi/terms/continuous-batching.md)
+- [Tensor Parallelism (Song song hóa Tensor)](vi/terms/tensor-parallelism.md)
+- [VRAM (Bộ nhớ GPU)](vi/terms/vram.md)
+- [GGUF Format (Định dạng tệp GGUF)](vi/terms/gguf.md)
+- [Ollama (Trình chạy Model nội bộ)](vi/terms/ollama.md)
+- [AI Gateway (Cổng điều phối AI)](vi/terms/ai-gateway.md)
+- [Model Routing (Định tuyến Model)](vi/terms/model-routing.md)
+- [Fallback Chain (Chuỗi dự phòng)](vi/terms/fallback-chain.md)
+- [Circuit Breaker (Cầu dao ngắt mạch)](vi/terms/circuit-breaker.md)
+- [Idempotency (Tính bất biến khi gọi lại công cụ)](vi/terms/idempotency.md)
+- [Golden Dataset (Bộ dữ liệu chuẩn vàng)](vi/terms/golden-dataset.md)
+- [AI Regression Testing (Kiểm thử hồi quy AI)](vi/terms/regression-testing.md)
+- [Red Teaming (Diễn tập tấn công AI)](vi/terms/red-teaming.md)
+- [Prompt Guard (Lá chắn kiểm duyệt Prompt)](vi/terms/prompt-guard.md)
+- [Indirect Prompt Injection (Tiêm lệnh gián tiếp)](vi/terms/indirect-prompt-injection.md)
+- [PII Redaction (Che lọc thông tin cá nhân)](vi/terms/pii-redaction.md)
+- [AI Observability (Giám sát & Truy vết AI)](vi/terms/observability.md)
+- [Token Counting (Đếm trước số Token)](vi/terms/token-counting.md)
+- [Needle-in-a-Haystack Test (Thử nghiệm Tìm kim đáy bể)](vi/terms/needle-in-a-haystack.md)
 
 ## Cấu trúc mỗi thuật ngữ
 
