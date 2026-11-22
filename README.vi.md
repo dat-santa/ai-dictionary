@@ -8,8 +8,8 @@
 [![English](https://img.shields.io/badge/🇬🇧_English-read-64748b?style=for-the-badge)](README.md)
 [![Web Reader](https://img.shields.io/badge/📖_Đọc_trên_Web-datsanta.com-10b981?style=for-the-badge)](https://datsanta.com/books/tu-dien-ai)
 
-![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-200-0f172a?style=flat-square)
-![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-400_SVG-6366f1?style=flat-square)
+![Tổng số từ](https://img.shields.io/badge/Thuật_ngữ-201-0f172a?style=flat-square)
+![Hình minh họa](https://img.shields.io/badge/Sơ_đồ-402_SVG-6366f1?style=flat-square)
 ![Bản quyền](https://img.shields.io/badge/Bản_quyền-CC_BY--NC--SA_4.0-059669?style=flat-square)
 
 </div>
@@ -30,8 +30,8 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 |---|---|---:|---|
 | **Beginner (Người mới)** | Bất kỳ ai mới tìm hiểu AI. Ngôn ngữ đời thường, không code. | 60 | Đã có |
 | **Business (Kinh doanh)** | Founder và quản lý. Giá trị, chi phí, khi nào nên áp dụng. | 50 | Đã có |
-| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 90 | Đã có |
-| **Tổng cộng** | **Song ngữ (EN + VI) kèm 400 sơ đồ SVG** | **200** | |
+| **Coder (Lập trình viên)** | Developer. Cách hoạt động, ví dụ code, lỗi thường gặp. | 91 | Đã có |
+| **Tổng cộng** | **Song ngữ (EN + VI) kèm 402 sơ đồ SVG** | **201** | |
 
 ## Cách đọc
 
@@ -256,6 +256,7 @@ Mỗi thuật ngữ có thể đọc ở nhiều độ sâu khác nhau:
 - [AI Observability (Giám sát & Truy vết AI)](vi/terms/observability.md)
 - [Token Counting (Đếm trước số Token)](vi/terms/token-counting.md)
 - [Needle-in-a-Haystack Test (Thử nghiệm Tìm kim đáy bể)](vi/terms/needle-in-a-haystack.md)
+- [Effort (Mức độ nỗ lực suy luận)](vi/terms/effort.md)
 
 ## Cấu trúc mỗi thuật ngữ
 

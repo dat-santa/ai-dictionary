@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="508" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="480" y="64" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Effort (Reasoning Effort Ladder)</text>
+  <text x="480" y="94" text-anchor="middle" font-size="15" fill="#475569">Match reasoning depth to each task — hidden thinking tokens still cost time and output billing</text>
+
+  <rect x="72" y="134" width="392" height="148" rx="14" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+  <text x="268" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d">LOW — Fast &amp; Cheap</text>
+  <line x1="104" y1="196" x2="432" y2="196" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Mechanical edits, renames &amp; lookups</text>
+  <text x="268" y="254" text-anchor="middle" font-size="14" fill="#1e293b">Minimal wait, lowest token bill</text>
+
+  <rect x="496" y="134" width="392" height="148" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="692" y="178" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">MEDIUM — Everyday Default</text>
+  <line x1="528" y1="196" x2="856" y2="196" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="228" text-anchor="middle" font-size="14" fill="#1e293b">Routine coding, features &amp; summaries</text>
+  <text x="692" y="254" text-anchor="middle" font-size="14" fill="#1e293b">Balanced speed, accuracy &amp; cost</text>
+
+  <rect x="72" y="306" width="392" height="148" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="268" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#78350f">HIGH — Deep Reasoning</text>
+  <line x1="104" y1="368" x2="432" y2="368" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="268" y="400" text-anchor="middle" font-size="14" fill="#1e293b">Tricky bugs, architecture &amp; plans</text>
+  <text x="268" y="426" text-anchor="middle" font-size="14" fill="#1e293b">Longer TTFT, fewer shallow mistakes</text>
+
+  <rect x="496" y="306" width="392" height="148" rx="14" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="692" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#4c1d95">MAX — Hardest Problems</text>
+  <line x1="528" y1="368" x2="856" y2="368" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="692" y="400" text-anchor="middle" font-size="14" fill="#1e293b">High-stakes concurrency &amp; math</text>
+  <text x="692" y="426" text-anchor="middle" font-size="14" fill="#1e293b">Slowest &amp; priciest — turn down after</text>
+
+  <text x="480" y="502" text-anchor="middle" font-size="13" fill="#94a3b8">AI Dictionary — datsanta.com</text>
+</svg>
